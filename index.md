@@ -7,7 +7,7 @@ I am based near Miltown Malbay in Co. Clare
 
 If you need to contact me please feel free to reach out :
 
-[Emmanuel Stone](mailto:info@emmanuelstone.com)
+[emmanuel.stone@gmail.com](mailto:info@emmanuelstone.com)
 
 085 7043723
 
