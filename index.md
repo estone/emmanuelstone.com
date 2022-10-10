@@ -14,3 +14,6 @@ If you need to contact me please feel free to reach out :
 info@emmanuelstone.com
 
 085 7043723
+
+![Alt text](eatbench.jpeg?raw=true "Emmanuel at his messy workbench")
+
