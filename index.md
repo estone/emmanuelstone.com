@@ -1,6 +1,6 @@
 ---
-title: Emmanuel Stone
+title: Emmanuel Stone - Luthier
 ---
-Emmanuel Stone
+Emmanuel Stone's website
 ====================
 There's nothing here right now.
