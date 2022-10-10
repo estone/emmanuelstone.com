@@ -1,7 +1,3 @@
----
-title: Handmade guitars, from Ireland
----
-
 My name is Emmanuel, and I like to build acoustic guitars, ukuleles and that sort of thing.
 I was trained in traditional lutherie techniques by Geza Burghardt in Vancouver, Canada. 
 
