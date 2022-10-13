@@ -13,6 +13,8 @@ If you need to contact me please feel free to reach out :
 
 ![Emmanuel at his messy workbench](images/Eatbench.jpeg?raw=true "Emmanuel at his messy workbench")
 
+![Guitar photo](images/m.jpg?raw=true)
+![Guitar photo](images/p.jpg?raw=true)
 ![Guitar photo](images/a.jpg?raw=true)
 ![Guitar photo](images/b.jpg?raw=true)
 ![Guitar photo](images/c.jpg?raw=true)
@@ -23,10 +25,7 @@ If you need to contact me please feel free to reach out :
 ![Guitar photo](images/h.jpg?raw=true)
 ![Guitar photo](images/i.jpg?raw=true)
 ![Guitar photo](images/j.jpg?raw=true)
-![Guitar photo](images/k.jpg?raw=true)
 ![Guitar photo](images/l.jpg?raw=true)
-![Guitar photo](images/m.jpg?raw=true)
 ![Guitar photo](images/n.jpg?raw=true)
 ![Guitar photo](images/o.jpg?raw=true)
-![Guitar photo](images/p.jpg?raw=true)
 ![Guitar photo](images/q.jpg?raw=true)
