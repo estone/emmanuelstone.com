@@ -25,4 +25,3 @@ If you need to contact me please feel free to reach out :
 ![Guitar photo](images/i.jpg?raw=true)
 ![Guitar photo](images/j.jpg?raw=true)
 ![Guitar photo](images/l.jpg?raw=true)
-![Guitar photo](images/n.jpg?raw=true)
