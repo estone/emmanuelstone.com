@@ -18,7 +18,6 @@ If you need to contact me please feel free to reach out :
 ![Guitar photo](images/a.jpg?raw=true)
 ![Guitar photo](images/b.jpg?raw=true)
 ![Guitar photo](images/c.jpg?raw=true)
-![Guitar photo](images/d.jpg?raw=true)
 ![Guitar photo](images/e.jpg?raw=true)
 ![Guitar photo](images/f.jpg?raw=true)
 ![Guitar photo](images/g.jpg?raw=true)
@@ -27,5 +26,3 @@ If you need to contact me please feel free to reach out :
 ![Guitar photo](images/j.jpg?raw=true)
 ![Guitar photo](images/l.jpg?raw=true)
 ![Guitar photo](images/n.jpg?raw=true)
-![Guitar photo](images/o.jpg?raw=true)
-![Guitar photo](images/q.jpg?raw=true)
