@@ -26,7 +26,7 @@ If you need to contact me please feel free to reach out :
 ![Guitar photo](images/j.jpg?raw=true)
 ![Guitar photo](images/l.jpg?raw=true)
 <style>
-  .footer {
+  .site-footer {
     display: none;
   }
 </style>
