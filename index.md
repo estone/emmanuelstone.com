@@ -10,7 +10,7 @@ If you need to contact me please feel free to reach out :
 
 [Instagram](https://www.instagram.com/emmanuel.stone.guitars/)
 
-[info@emmanuelstone.com](mailto:info@emmanuelstone.com)
+[emmanuel.stone@gmail.com](mailto:emmanuel.stone@gmail.com)
 
 085 7043723
 
