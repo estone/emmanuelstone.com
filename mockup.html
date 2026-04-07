@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emmanuel Stone — Luthier, Co. Clare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #f5ede0;
+    --cream-light: #faf6f0;
+    --walnut: #2a1a0e;
+    --walnut-mid: #4a2e18;
+    --forest: #2a3d22;
+    --gold: #9a7030;
+    --gold-light: #c4993f;
+    --warm-gray: #8a7a6a;
+    --border: rgba(42,26,14,0.15);
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Jost', sans-serif;
+    background: var(--cream-light);
+    color: var(--walnut);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  /* ─── NAV ─── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 3rem;
+    height: 64px;
+    background: rgba(245,237,224,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    color: var(--walnut);
+  }
+  .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+  .nav-links a {
+    font-size: 0.78rem;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--walnut-mid);
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--gold); }
+
+  /* ─── HERO ─── */
+  .hero {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    display: flex; align-items: flex-end;
+    padding-bottom: 6rem;
+    overflow: hidden;
+  }
+  .hero-bg {
+    position: absolute; inset: 0;
+    background-image: url('https://www.emmanuelstone.com/images/Eatbench.jpeg');
+    background-size: cover;
+    background-position: center 30%;
+    transform: scale(1.03);
+  }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(20,10,4,0.85) 0%, rgba(20,10,4,0.3) 55%, rgba(20,10,4,0.1) 100%);
+  }
+  .hero-content {
+    position: relative; z-index: 1;
+    padding: 0 4rem;
+    max-width: 780px;
+  }
+  .hero-eyebrow {
+    font-size: 0.72rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    margin-bottom: 1.2rem;
+  }
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(3.5rem, 7vw, 5.5rem);
+    font-weight: 300;
+    line-height: 1.05;
+    color: #f5ede0;
+    letter-spacing: -0.01em;
+    margin-bottom: 1.5rem;
+  }
+  .hero h1 em { font-style: italic; font-weight: 300; }
+  .hero-sub {
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: rgba(245,237,224,0.75);
+    letter-spacing: 0.04em;
+    margin-bottom: 2.5rem;
+    max-width: 480px;
+    line-height: 1.9;
+  }
+  .btn {
+    display: inline-block;
+    padding: 0.85rem 2.2rem;
+    font-family: 'Jost', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid var(--gold-light);
+    color: var(--gold-light);
+    transition: background 0.25s, color 0.25s;
+  }
+  .btn:hover { background: var(--gold-light); color: var(--walnut); }
+  .btn-solid {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: var(--cream-light);
+  }
+  .btn-solid:hover { background: var(--gold-light); border-color: var(--gold-light); color: var(--walnut); }
+
+  /* ─── SECTION BASICS ─── */
+  section { padding: 6rem 4rem; }
+  .section-inner { max-width: 1100px; margin: 0 auto; }
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1rem;
+  }
+  .section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--walnut);
+    margin-bottom: 2rem;
+  }
+  .divider {
+    width: 40px; height: 1px;
+    background: var(--gold);
+    margin-bottom: 2.5rem;
+  }
+
+  /* ─── ABOUT ─── */
+  #about { background: var(--cream-light); }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+  }
+  .about-img {
+    position: relative;
+  }
+  .about-img img {
+    width: 100%;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+  }
+  .about-img::after {
+    content: '';
+    position: absolute;
+    top: 1.2rem; left: 1.2rem;
+    right: -1.2rem; bottom: -1.2rem;
+    border: 1px solid var(--gold);
+    z-index: -1;
+  }
+  .about-text p {
+    color: var(--walnut-mid);
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 1.4rem;
+  }
+  .about-text p strong {
+    font-weight: 500;
+    color: var(--walnut);
+  }
+  .about-contact {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+  }
+  .about-contact p {
+    font-size: 0.88rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.4rem !important;
+  }
+  .about-contact a { color: var(--gold); text-decoration: none; }
+  .about-contact a:hover { text-decoration: underline; }
+
+  /* ─── GALLERY ─── */
+  #gallery { background: var(--walnut); padding: 6rem 4rem; }
+  #gallery .section-title { color: var(--cream); }
+  #gallery .section-label { color: var(--gold-light); }
+  #gallery .divider { background: var(--gold-light); }
+  .gallery-grid {
+    columns: 4;
+    column-gap: 0.8rem;
+  }
+  .gallery-grid img {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.8rem;
+    object-fit: cover;
+    transition: opacity 0.3s;
+  }
+  .gallery-grid img:hover { opacity: 0.8; }
+
+  /* ─── SERVICES ─── */
+  #services { background: var(--cream); }
+  .services-intro {
+    font-size: 1.05rem;
+    color: var(--walnut-mid);
+    max-width: 640px;
+    margin-bottom: 3.5rem;
+    line-height: 1.9;
+  }
+  .price-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .price-card {
+    border: 1px solid var(--border);
+    padding: 2rem;
+    background: var(--cream-light);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .price-card:hover {
+    border-color: var(--gold);
+    box-shadow: 0 4px 24px rgba(154,112,48,0.1);
+  }
+  .price-card-label {
+    font-size: 0.68rem;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.6rem;
+  }
+  .price-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--walnut);
+    margin-bottom: 0.5rem;
+  }
+  .price-card .price {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--walnut);
+    margin-bottom: 1rem;
+  }
+  .price-card .price span {
+    font-size: 1rem;
+    color: var(--warm-gray);
+  }
+  .price-card ul {
+    list-style: none;
+    font-size: 0.88rem;
+    color: var(--walnut-mid);
+    line-height: 2;
+  }
+  .price-card ul li::before {
+    content: '—';
+    color: var(--gold);
+    margin-right: 0.6em;
+  }
+  .price-card.featured {
+    border-color: var(--gold);
+    background: var(--walnut);
+  }
+  .price-card.featured .price-card-label { color: var(--gold-light); }
+  .price-card.featured h3 { color: var(--cream); }
+  .price-card.featured .price { color: var(--cream); }
+  .price-card.featured .price span { color: rgba(245,237,224,0.55); }
+  .price-card.featured ul { color: rgba(245,237,224,0.75); }
+  .price-card.featured ul li::before { color: var(--gold-light); }
+  .price-extras {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .extras-card {
+    border: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    background: var(--cream-light);
+  }
+  .extras-card h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--walnut);
+    margin-bottom: 0.8rem;
+  }
+  .extras-card table {
+    width: 100%;
+    font-size: 0.88rem;
+    color: var(--walnut-mid);
+    border-collapse: collapse;
+  }
+  .extras-card table tr { border-bottom: 1px solid var(--border); }
+  .extras-card table tr:last-child { border-bottom: none; }
+  .extras-card table td { padding: 0.5rem 0; }
+  .extras-card table td:last-child { text-align: right; font-weight: 500; color: var(--walnut); }
+  .price-note {
+    font-size: 0.83rem;
+    color: var(--warm-gray);
+    margin-top: 2rem;
+    padding: 1.2rem 1.5rem;
+    border-left: 3px solid var(--gold);
+    background: rgba(154,112,48,0.05);
+    line-height: 1.8;
+  }
+
+  /* ─── BOOKING / CONTACT ─── */
+  #contact { background: var(--cream-light); }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    gap: 5rem;
+  }
+  .contact-info p {
+    font-size: 0.95rem;
+    color: var(--walnut-mid);
+    line-height: 1.9;
+    margin-bottom: 1.8rem;
+  }
+  .contact-detail {
+    margin-bottom: 1rem;
+  }
+  .contact-detail .label {
+    font-size: 0.68rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+  .contact-detail a, .contact-detail span {
+    font-size: 0.95rem;
+    color: var(--walnut);
+    text-decoration: none;
+  }
+  .contact-detail a:hover { color: var(--gold); }
+  .booking-form {
+    background: var(--cream);
+    border: 1px solid var(--border);
+    padding: 2.5rem;
+  }
+  .form-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--walnut);
+    margin-bottom: 0.5rem;
+  }
+  .form-sub {
+    font-size: 0.85rem;
+    color: var(--warm-gray);
+    margin-bottom: 2rem;
+  }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .form-group { margin-bottom: 1rem; }
+  .form-group label {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--warm-gray);
+    margin-bottom: 0.4rem;
+  }
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--cream-light);
+    border: 1px solid var(--border);
+    font-family: 'Jost', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--walnut);
+    outline: none;
+    transition: border-color 0.2s;
+    appearance: none;
+  }
+  .form-group input:focus,
+  .form-group textarea:focus,
+  .form-group select:focus { border-color: var(--gold); }
+  .form-group textarea { resize: vertical; min-height: 100px; }
+  .form-submit { margin-top: 1.5rem; }
+  .form-submit .btn-solid { width: 100%; text-align: center; cursor: pointer; font-family: 'Jost', sans-serif; border: none; }
+
+  /* ─── FOOTER ─── */
+  footer {
+    background: var(--walnut);
+    color: rgba(245,237,224,0.55);
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.82rem;
+    letter-spacing: 0.05em;
+  }
+  footer .footer-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--cream);
+    letter-spacing: 0.08em;
+  }
+  footer a { color: rgba(245,237,224,0.55); text-decoration: none; }
+  footer a:hover { color: var(--gold-light); }
+  .footer-links { display: flex; gap: 2rem; }
+
+  @media (max-width: 900px) {
+    nav { padding: 0 1.5rem; }
+    .nav-links { gap: 1.5rem; }
+    section { padding: 4rem 1.5rem; }
+    .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
+    .price-grid { grid-template-columns: 1fr; }
+    .price-extras { grid-template-columns: 1fr; }
+    .gallery-grid { columns: 2; }
+    footer { flex-direction: column; gap: 1.5rem; text-align: center; }
+    .hero-content { padding: 0 1.5rem; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#hero">Emmanuel Stone</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Book</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Luthier — Miltown Malbay, Co. Clare</p>
+    <h1>Instruments <em>built<br>to last</em> a lifetime.</h1>
+    <p class="hero-sub">Handcrafted acoustic guitars, ukuleles and repairs made one at a time, using traditional lutherie techniques and french polish.</p>
+    <a href="#contact" class="btn">Book a Consultation</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-img">
+        <img src="https://www.emmanuelstone.com/images/Eatbench.jpeg" alt="Emmanuel at his workbench">
+      </div>
+      <div class="about-text">
+        <p class="section-label">The Maker</p>
+        <h2 class="section-title">Built the old-fashioned way.</h2>
+        <div class="divider"></div>
+        <p>My name is Emmanuel, and I build <strong>acoustic guitars, ukuleles, and related instruments</strong> from my workshop near Miltown Malbay in County Clare.</p>
+        <p>I was trained in traditional lutherie techniques by <strong>Geza Burghardt in Vancouver, Canada</strong>, and have carried those methods back to Ireland. Every instrument leaves the bench having been made one at a time, with hand tools, patience, and french polish.</p>
+        <p>I also offer a range of <strong>repair and setup services</strong>, bringing your instrument back to its best with the same attention to craft.</p>
+        <div class="about-contact">
+          <div class="contact-detail">
+            <span class="label">Instagram</span>
+            <a href="https://www.instagram.com/emmanuel.stone.guitars/" target="_blank">@emmanuel.stone.guitars</a>
+          </div>
+          <div class="contact-detail">
+            <span class="label">Email</span>
+            <a href="mailto:info@emmanuelstone.com">info@emmanuelstone.com</a>
+          </div>
+          <div class="contact-detail">
+            <span class="label">Phone</span>
+            <span>085 7043723</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-inner">
+    <p class="section-label">Recent Work</p>
+    <h2 class="section-title">From the workshop.</h2>
+    <div class="divider"></div>
+    <div class="gallery-grid">
+      <img src="https://www.emmanuelstone.com/images/m.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/b.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/a.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/e.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/p.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/f.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/g.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/h.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/i.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/j.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/l.jpg" alt="Guitar">
+      <img src="https://www.emmanuelstone.com/images/c.jpg" alt="Guitar">
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES & PRICES -->
+<section id="services">
+  <div class="section-inner">
+    <p class="section-label">Services &amp; Pricing</p>
+    <h2 class="section-title">Setups, repairs &amp; builds.</h2>
+    <div class="divider"></div>
+    <p class="services-intro">All prices are indicative. Every instrument is individual, and I give a personal quote once I've seen it in person. Feel free to get in touch before booking if you're unsure.</p>
+
+    <div class="price-grid">
+      <div class="price-card">
+        <p class="price-card-label">Setup</p>
+        <h3>Full Setup</h3>
+        <p class="price">€80 <span>and up</span></p>
+        <ul>
+          <li>Full inspection &amp; setup recorded</li>
+          <li>Clean &amp; condition fingerboard</li>
+          <li>Fret polish</li>
+          <li>Truss rod, action &amp; intonation</li>
+          <li>Nut slot filing</li>
+          <li>Clean &amp; test electronics</li>
+          <li>Restring (strings €10 extra)</li>
+        </ul>
+      </div>
+
+      <div class="price-card featured">
+        <p class="price-card-label">Setup — Recommended</p>
+        <h3>Deluxe Setup</h3>
+        <p class="price">€180 <span>and up</span></p>
+        <ul>
+          <li>Everything in the Full Setup</li>
+          <li>Fret level with precision beams</li>
+          <li>Recrown with diamond files</li>
+          <li>Mirror-polish finish</li>
+          <li>Lower action without buzzing</li>
+          <li>Improved intonation throughout</li>
+          <li>Frets restored like new</li>
+        </ul>
+      </div>
+
+      <div class="price-card">
+        <p class="price-card-label">Custom Build</p>
+        <h3>Commission</h3>
+        <p class="price">POA</p>
+        <ul>
+          <li>Acoustic guitars &amp; ukuleles</li>
+          <li>Traditional lutherie methods</li>
+          <li>Hand tools &amp; french polish</li>
+          <li>One at a time — your instrument</li>
+          <li>Built around your needs</li>
+          <li>Contact to discuss</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="price-extras">
+      <div class="extras-card">
+        <h4>Setup Supplements</h4>
+        <table>
+          <tr><td>Neck removal for truss rod</td><td>+€10</td></tr>
+          <tr><td>Locking tremolo bridge</td><td>+€20</td></tr>
+          <tr><td>12-string guitar</td><td>+€20</td></tr>
+          <tr><td>Mandolin setup</td><td>from €80</td></tr>
+          <tr><td>Ukulele setup</td><td>from €80</td></tr>
+          <tr><td>Banjo setup</td><td>from €90</td></tr>
+        </table>
+      </div>
+      <div class="extras-card">
+        <h4>Other Repairs</h4>
+        <table>
+          <tr><td>Saddle &amp; nut work</td><td>POA</td></tr>
+          <tr><td>Refrets (full)</td><td>POA</td></tr>
+          <tr><td>Structural repairs</td><td>POA</td></tr>
+          <tr><td>Finish touch-ups</td><td>POA</td></tr>
+          <tr><td>Machine head fitting</td><td>POA</td></tr>
+          <tr><td>General repair / other</td><td>POA</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <p class="price-note">Strings are required for all setups. I stock common acoustic and electric gauges at €10 per pack. If you have a preference, bring your own or let me know in advance so I can source them. If the instrument is heavily soiled, additional charges may apply. You will always be contacted before any charge beyond the quoted rate.</p>
+  </div>
+</section>
+
+<!-- CONTACT / BOOK -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="section-label">Get in Touch</p>
+        <h2 class="section-title">Book your instrument in.</h2>
+        <div class="divider"></div>
+        <p>Whether you're looking for a setup, a repair, or want to discuss a commission, get in touch and we'll find a time that suits.</p>
+        <div class="contact-detail">
+          <span class="label">Location</span>
+          <span>Near Miltown Malbay, Co. Clare</span>
+        </div>
+        <div class="contact-detail" style="margin-top:1rem;">
+          <span class="label">Phone</span>
+          <a href="tel:0857043723">085 7043723</a>
+        </div>
+        <div class="contact-detail" style="margin-top:1rem;">
+          <span class="label">Email</span>
+          <a href="mailto:info@emmanuelstone.com">info@emmanuelstone.com</a>
+        </div>
+        <div class="contact-detail" style="margin-top:1rem;">
+          <span class="label">Instagram</span>
+          <a href="https://www.instagram.com/emmanuel.stone.guitars/" target="_blank">@emmanuel.stone.guitars</a>
+        </div>
+      </div>
+
+      <div class="booking-form">
+        <p class="form-title">Booking Request</p>
+        <p class="form-sub">Fill in your details and I'll get back to you within a couple of days.</p>
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="Seán">
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Murphy">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="sean@example.com">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" placeholder="085 000 0000">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Required</label>
+            <select id="service">
+              <option value="">Select a service…</option>
+              <option>Full Setup</option>
+              <option>Deluxe Setup (with fret level)</option>
+              <option>Repair — please describe below</option>
+              <option>Commission / Custom Build</option>
+              <option>Not sure — happy to discuss</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="instrument">Instrument &amp; Condition</label>
+            <textarea id="instrument" placeholder="e.g. 1970s Martin D-28, needs setup and has a crack in the top…"></textarea>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn btn-solid">Send Booking Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p class="footer-logo">Emmanuel Stone</p>
+  <p>© 2025 · Miltown Malbay, Co. Clare, Ireland</p>
+  <div class="footer-links">
+    <a href="https://www.instagram.com/emmanuel.stone.guitars/" target="_blank">Instagram</a>
+    <a href="mailto:info@emmanuelstone.com">Email</a>
+    <a href="tel:0857043723">085 7043723</a>
+  </div>
+</footer>
+
+</body>
+</html>
