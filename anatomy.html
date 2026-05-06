@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream: #F5F0E8;
+      --ink: #1A1714;
+      --ink-muted: #6B6560;
+      --accent: #C9442A;
+      --accent-light: #F5E8E5;
+      --green: #2A6B3C;
+      --green-light: #E5F0E8;
+      --card-bg: #FDFAF5;
+      --border: #E2DBD0;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 0 3rem;
+    }
+
+    header {
+      width: 100%;
+      max-width: 480px;
+      padding: 2rem 1.5rem 1rem;
+    }
+
+    .quiz-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.75rem;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+
+    .quiz-subtitle {
+      font-size: 0.85rem;
+      color: var(--ink-muted);
+      margin-top: 0.35rem;
+      font-weight: 500;
+    }
+
+    .progress-wrap {
+      width: 100%;
+      max-width: 480px;
+      padding: 0 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .progress-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--ink-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.5rem;
+    }
+
+    .progress-bar-bg {
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 2px;
+      transition: width 0.4s ease;
+    }
+
+    .card-area {
+      width: 100%;
+      max-width: 480px;
+      padding: 0 1.5rem;
+    }
+
+    .question-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.75rem 1.5rem 1.25rem;
+      margin-bottom: 1rem;
+      animation: slideUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .question-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.9rem;
+    }
+
+    .question-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      line-height: 1.45;
+    }
+
+    .options-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .option-btn {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--ink);
+      cursor: pointer;
+      text-align: left;
+      width: 100%;
+      transition: background 0.15s, border-color 0.15s, transform 0.1s;
+      position: relative;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .option-btn:active { transform: scale(0.985); }
+
+    .option-btn:hover:not(:disabled) {
+      background: #EDE8DE;
+      border-color: #C8BFB0;
+    }
+
+    .option-letter {
+      width: 28px;
+      height: 28px;
+      min-width: 28px;
+      border-radius: 50%;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+    }
+
+    .option-btn.correct {
+      background: var(--green-light);
+      border-color: var(--green);
+    }
+
+    .option-btn.correct .option-letter {
+      background: var(--green);
+      border-color: var(--green);
+      color: white;
+    }
+
+    .option-btn.wrong {
+      background: var(--accent-light);
+      border-color: var(--accent);
+    }
+
+    .option-btn.wrong .option-letter {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+    }
+
+    .option-btn.dimmed {
+      opacity: 0.45;
+    }
+
+    .option-btn:disabled { cursor: default; }
+
+    .feedback-bar {
+      border-radius: 12px;
+      padding: 0.85rem 1.25rem;
+      font-size: 0.88rem;
+      font-weight: 500;
+      display: none;
+      align-items: center;
+      gap: 0.6rem;
+      margin-top: 0.5rem;
+      animation: fadeIn 0.25s ease both;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .feedback-bar.show { display: flex; }
+    .feedback-bar.correct-fb { background: var(--green-light); color: var(--green); }
+    .feedback-bar.wrong-fb   { background: var(--accent-light); color: var(--accent); }
+
+    .feedback-icon { font-size: 1.1rem; }
+
+    .next-btn {
+      display: none;
+      width: 100%;
+      max-width: 480px;
+      margin: 1.25rem 1.5rem 0;
+      width: calc(100% - 3rem);
+      max-width: calc(480px - 3rem);
+      padding: 1rem;
+      background: var(--ink);
+      color: var(--cream);
+      border: none;
+      border-radius: 12px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      letter-spacing: 0.01em;
+      transition: background 0.15s, transform 0.1s;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .next-btn:active { transform: scale(0.985); }
+    .next-btn:hover { background: #2E2B27; }
+    .next-btn.show { display: block; animation: fadeIn 0.3s ease both; }
+
+    /* Results screen */
+    .results-screen {
+      display: none;
+      width: 100%;
+      max-width: 480px;
+      padding: 0 1.5rem;
+      animation: slideUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+
+    .results-screen.show { display: block; }
+
+    .results-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      margin-bottom: 1.25rem;
+    }
+
+    .results-emoji { font-size: 3rem; margin-bottom: 1rem; }
+
+    .results-score {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      line-height: 1;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.4rem;
+    }
+
+    .results-label {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--ink-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .results-detail {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+
+    .results-stat {
+      background: var(--cream);
+      border-radius: 10px;
+      padding: 0.85rem;
+    }
+
+    .results-stat-num {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+
+    .results-stat-num.green { color: var(--green); }
+    .results-stat-num.red   { color: var(--accent); }
+
+    .results-stat-label {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--ink-muted);
+      margin-top: 0.25rem;
+    }
+
+    .restart-btn {
+      width: 100%;
+      padding: 1rem;
+      background: var(--ink);
+      color: var(--cream);
+      border: none;
+      border-radius: 12px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .restart-btn:hover { background: #2E2B27; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="quiz-title">General Knowledge</div>
+    <div class="quiz-subtitle" id="subtitle">Test your knowledge — 8 questions</div>
+  </header>
+
+  <!-- Quiz UI -->
+  <div id="quiz-ui" style="width:100%; display:flex; flex-direction:column; align-items:center;">
+    <div class="progress-wrap">
+      <div class="progress-meta">
+        <span id="q-counter">Question 1 of 8</span>
+        <span id="q-score">Score: 0</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+
+    <div class="card-area">
+      <div class="question-card" id="question-card">
+        <div class="question-label" id="q-label">Question 1</div>
+        <div class="question-text" id="q-text"></div>
+      </div>
+
+      <div class="options-list" id="options-list"></div>
+
+      <div class="feedback-bar" id="feedback-bar">
+        <span class="feedback-icon" id="feedback-icon"></span>
+        <span id="feedback-text"></span>
+      </div>
+    </div>
+
+    <button class="next-btn" id="next-btn">Next question →</button>
+  </div>
+
+  <!-- Results Screen -->
+  <div class="results-screen" id="results-screen">
+    <div class="results-card">
+      <div class="results-emoji" id="results-emoji"></div>
+      <div class="results-score" id="results-score"></div>
+      <div class="results-label" id="results-label"></div>
+      <div class="results-detail">
+        <div class="results-stat">
+          <div class="results-stat-num green" id="res-correct"></div>
+          <div class="results-stat-label">Correct</div>
+        </div>
+        <div class="results-stat">
+          <div class="results-stat-num red" id="res-wrong"></div>
+          <div class="results-stat-label">Incorrect</div>
+        </div>
+      </div>
+    </div>
+    <button class="restart-btn" onclick="restartQuiz()">Try again ↺</button>
+  </div>
+
+  <script>
+    // ─────────────────────────────────────────────
+    // QUESTIONS — edit this array to customise your quiz
+    // Each question needs: q (question text), options (array of 4), answer (index 0–3)
+    // ─────────────────────────────────────────────
+    const QUESTIONS = [
+      {
+        q: "What is the capital city of Australia?",
+        options: ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+        answer: 2
+      },
+      {
+        q: "How many bones are in the adult human body?",
+        options: ["206", "186", "246", "215"],
+        answer: 0
+      },
+      {
+        q: "Which planet in our solar system has the most moons?",
+        options: ["Jupiter", "Saturn", "Uranus", "Neptune"],
+        answer: 1
+      },
+      {
+        q: "In what year did the Berlin Wall fall?",
+        options: ["1987", "1991", "1989", "1993"],
+        answer: 2
+      },
+      {
+        q: "What element does the chemical symbol 'Au' represent?",
+        options: ["Silver", "Copper", "Aluminium", "Gold"],
+        answer: 3
+      },
+      {
+        q: "Who wrote the novel '1984'?",
+        options: ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Arthur Koestler"],
+        answer: 1
+      },
+      {
+        q: "What is the largest ocean on Earth?",
+        options: ["Atlantic", "Indian", "Arctic", "Pacific"],
+        answer: 3
+      },
+      {
+        q: "How many sides does a heptagon have?",
+        options: ["Five", "Six", "Seven", "Eight"],
+        answer: 2
+      }
+    ];
+
+    // ─────────────────────────────────────────────
+    // State
+    // ─────────────────────────────────────────────
+    let current = 0;
+    let score = 0;
+    let answered = false;
+    const LETTERS = ['A', 'B', 'C', 'D'];
+
+    function loadQuestion() {
+      answered = false;
+      const total = QUESTIONS.length;
+      const q = QUESTIONS[current];
+
+      document.getElementById('q-label').textContent = `Question ${current + 1}`;
+      document.getElementById('q-text').textContent = q.q;
+      document.getElementById('q-counter').textContent = `Question ${current + 1} of ${total}`;
+      document.getElementById('q-score').textContent = `Score: ${score}`;
+      document.getElementById('progress-fill').style.width = `${(current / total) * 100}%`;
+
+      // Re-trigger animation
+      const card = document.getElementById('question-card');
+      card.style.animation = 'none';
+      card.offsetHeight;
+      card.style.animation = '';
+
+      const list = document.getElementById('options-list');
+      list.innerHTML = '';
+
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerHTML = `<span class="option-letter">${LETTERS[i]}</span> ${opt}`;
+        btn.onclick = () => handleAnswer(i);
+        list.appendChild(btn);
+      });
+
+      const fb = document.getElementById('feedback-bar');
+      fb.className = 'feedback-bar';
+
+      const nb = document.getElementById('next-btn');
+      nb.className = 'next-btn';
+      nb.textContent = current < QUESTIONS.length - 1 ? 'Next question →' : 'See results →';
+    }
+
+    function handleAnswer(chosen) {
+      if (answered) return;
+      answered = true;
+
+      const q = QUESTIONS[current];
+      const btns = document.querySelectorAll('.option-btn');
+      const correct = chosen === q.answer;
+
+      if (correct) score++;
+
+      btns.forEach((btn, i) => {
+        btn.disabled = true;
+        if (i === q.answer) {
+          btn.classList.add('correct');
+        } else if (i === chosen && !correct) {
+          btn.classList.add('wrong');
+        } else {
+          btn.classList.add('dimmed');
+        }
+      });
+
+      const fb = document.getElementById('feedback-bar');
+      const fi = document.getElementById('feedback-icon');
+      const ft = document.getElementById('feedback-text');
+
+      if (correct) {
+        fb.className = 'feedback-bar correct-fb show';
+        fi.textContent = '✓';
+        ft.textContent = 'Correct! Well done.';
+      } else {
+        fb.className = 'feedback-bar wrong-fb show';
+        fi.textContent = '✕';
+        ft.textContent = `Not quite — the answer is "${q.options[q.answer]}".`;
+      }
+
+      document.getElementById('q-score').textContent = `Score: ${score}`;
+      document.getElementById('next-btn').className = 'next-btn show';
+    }
+
+    function nextQuestion() {
+      current++;
+      if (current >= QUESTIONS.length) {
+        showResults();
+      } else {
+        loadQuestion();
+      }
+    }
+
+    function showResults() {
+      document.getElementById('quiz-ui').style.display = 'none';
+      document.getElementById('next-btn').style.display = 'none';
+
+      const total = QUESTIONS.length;
+      const pct = Math.round((score / total) * 100);
+      const wrong = total - score;
+
+      let emoji, label;
+      if (pct === 100)       { emoji = '🏆'; label = 'Perfect score! Exceptional.'; }
+      else if (pct >= 75)    { emoji = '🎉'; label = 'Great work! Nearly there.'; }
+      else if (pct >= 50)    { emoji = '👍'; label = 'Not bad — keep practising!'; }
+      else                   { emoji = '📚'; label = 'Room to improve. Give it another go!'; }
+
+      document.getElementById('results-emoji').textContent = emoji;
+      document.getElementById('results-score').textContent = `${pct}%`;
+      document.getElementById('results-label').textContent = label;
+      document.getElementById('res-correct').textContent = score;
+      document.getElementById('res-wrong').textContent = wrong;
+
+      document.getElementById('progress-fill').style.width = '100%';
+
+      const rs = document.getElementById('results-screen');
+      rs.className = 'results-screen show';
+    }
+
+    function restartQuiz() {
+      current = 0;
+      score = 0;
+      document.getElementById('results-screen').className = 'results-screen';
+      document.getElementById('quiz-ui').style.display = 'flex';
+      loadQuestion();
+    }
+
+    document.getElementById('next-btn').addEventListener('click', nextQuestion);
+
+    // Kick off
+    loadQuestion();
+  </script>
+</body>
+</html>
