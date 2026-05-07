@@ -317,6 +317,34 @@
     }
 
     .restart-btn:hover { background: #2E2B27; }
+
+    .q-picker {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .q-picker-label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--ink-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+
+    #q-select {
+      padding: 0.35rem 0.6rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--card-bg);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--ink);
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -324,6 +352,16 @@
   <header>
     <div class="quiz-title">ITEC A&amp;P Exam Mock Questions</div>
     <div class="quiz-subtitle" id="subtitle"></div>
+    <div class="q-picker" id="q-picker">
+      <label class="q-picker-label" for="q-select">Questions per round</label>
+      <select id="q-select" onchange="setSessionSize(parseInt(this.value))">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50" selected>50</option>
+      </select>
+    </div>
   </header>
 
   <div id="quiz-ui" style="width:100%; display:flex; flex-direction:column; align-items:center;">
@@ -377,7 +415,7 @@
   <script src="questions.js"></script>
   <script>
     const LETTERS = ['A', 'B', 'C', 'D'];
-    const SESSION_SIZE = 50;
+    let SESSION_SIZE = 50;
 
     let deck    = [];   // remaining unasked questions across sessions
     let session = [];   // the 50 questions for this round
@@ -395,6 +433,7 @@
     }
 
     function newSession() {
+      document.getElementById('q-picker').style.display = 'none';
       // If the deck doesn't have enough left, top it up with a reshuffled
       // batch of the questions not already queued, then reset if still short
       if (deck.length < SESSION_SIZE) {
@@ -404,6 +443,10 @@
         if (deck.length < SESSION_SIZE) deck = shuffle(QUESTIONS.slice());
       }
       session = deck.splice(0, SESSION_SIZE);
+    }
+
+    function setSessionSize(n) {
+      SESSION_SIZE = n;
     }
 
     function updateSubtitle() {
@@ -498,6 +541,7 @@
       document.getElementById('res-wrong').textContent = wrong;
       document.getElementById('progress-fill').style.width = '100%';
 
+      document.getElementById('q-picker').style.display = 'flex';
       document.getElementById('results-screen').className = 'results-screen show';
     }
 
