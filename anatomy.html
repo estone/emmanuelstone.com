@@ -391,7 +391,7 @@
   <div class="start-screen" id="start-screen">
     <div class="start-card">
       <div class="start-card-label">Ready to begin?</div>
-      <div class="start-card-text">Choose how many questions you'd like in this round, then hit Start.</div>
+      <div class="start-card-text">Choose how many questions you'd like in this round.</div>
       <div class="picker-row">
         <label class="picker-label" for="q-select">Questions per round</label>
         <select id="q-select" onchange="setSessionSize(parseInt(this.value))">
@@ -601,7 +601,7 @@
       document.getElementById('subtitle').textContent = 'Error: questions.js could not be loaded.';
     } else {
       document.getElementById('subtitle').textContent =
-        `${QUESTIONS.length} questions in the bank — ${SESSION_SIZE} random each round`;
+        `${QUESTIONS.length} questions in the bank`;
       document.getElementById('start-screen').className = 'start-screen show';
     }
   </script>
