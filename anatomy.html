@@ -377,17 +377,35 @@
   <script src="questions.js"></script>
   <script>
     const LETTERS = ['A', 'B', 'C', 'D'];
+    const SESSION_SIZE = 50;
+
+    let session = [];   // the 50 questions for this round
     let current = 0;
     let score = 0;
     let answered = false;
 
-    document.getElementById('subtitle').textContent =
-      `Test your knowledge — ${QUESTIONS.length} questions`;
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function newSession() {
+      session = shuffle(QUESTIONS).slice(0, SESSION_SIZE);
+    }
+
+    function updateSubtitle() {
+      document.getElementById('subtitle').textContent =
+        `${QUESTIONS.length} questions in the bank — 50 random each round`;
+    }
 
     function loadQuestion() {
       answered = false;
-      const total = QUESTIONS.length;
-      const q = QUESTIONS[current];
+      const total = session.length;
+      const q = session[current];
 
       document.getElementById('q-label').textContent = `Question ${current + 1}`;
       document.getElementById('q-text').textContent = q.q;
@@ -413,14 +431,14 @@
       document.getElementById('feedback-bar').className = 'feedback-bar';
       const nb = document.getElementById('next-btn');
       nb.className = 'next-btn';
-      nb.textContent = current < QUESTIONS.length - 1 ? 'Next question →' : 'See results →';
+      nb.textContent = current < session.length - 1 ? 'Next question →' : 'See results →';
     }
 
     function handleAnswer(chosen) {
       if (answered) return;
       answered = true;
 
-      const q = QUESTIONS[current];
+      const q = session[current];
       const btns = document.querySelectorAll('.option-btn');
       const correct = chosen === q.answer;
 
@@ -446,7 +464,7 @@
 
     function nextQuestion() {
       current++;
-      if (current >= QUESTIONS.length) showResults();
+      if (current >= session.length) showResults();
       else loadQuestion();
     }
 
@@ -454,7 +472,7 @@
       document.getElementById('quiz-ui').style.display = 'none';
       document.getElementById('next-btn').style.display = 'none';
 
-      const total = QUESTIONS.length;
+      const total = session.length;
       const pct   = Math.round((score / total) * 100);
       const wrong = total - score;
 
@@ -477,12 +495,18 @@
     function restartQuiz() {
       current = 0;
       score = 0;
+      newSession();
       document.getElementById('results-screen').className = 'results-screen';
       document.getElementById('quiz-ui').style.display = 'flex';
+      document.getElementById('next-btn').style.display = '';
       loadQuestion();
     }
 
     document.getElementById('next-btn').addEventListener('click', nextQuestion);
+
+    // Kick off
+    updateSubtitle();
+    newSession();
     loadQuestion();
   </script>
 </body>
