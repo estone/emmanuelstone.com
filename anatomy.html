@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+ 
     :root {
       --cream: #F5F0E8;
       --ink: #1A1714;
@@ -20,7 +20,7 @@
       --card-bg: #FDFAF5;
       --border: #E2DBD0;
     }
-
+ 
     body {
       font-family: 'DM Sans', sans-serif;
       background: var(--cream);
@@ -31,34 +31,115 @@
       align-items: center;
       padding: 0 0 3rem;
     }
-
+ 
     header {
       width: 100%;
       max-width: 480px;
       padding: 2rem 1.5rem 1rem;
     }
-
+ 
     .quiz-title {
       font-family: 'Playfair Display', serif;
       font-size: 1.75rem;
       line-height: 1.2;
       letter-spacing: -0.02em;
     }
-
+ 
     .quiz-subtitle {
       font-size: 0.85rem;
       color: var(--ink-muted);
       margin-top: 0.35rem;
       font-weight: 500;
     }
-
+ 
+    /* ── Start screen ── */
+    .start-screen {
+      display: none;
+      width: 100%;
+      max-width: 480px;
+      padding: 0 1.5rem;
+      animation: slideUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+ 
+    .start-screen.show { display: block; }
+ 
+    .start-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2rem 1.5rem;
+      margin-bottom: 1.25rem;
+    }
+ 
+    .start-card-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.6rem;
+    }
+ 
+    .start-card-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      line-height: 1.45;
+      margin-bottom: 1.5rem;
+    }
+ 
+    .picker-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+ 
+    .picker-label {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--ink-muted);
+      white-space: nowrap;
+    }
+ 
+    #q-select {
+      padding: 0.45rem 0.7rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--cream);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--ink);
+      cursor: pointer;
+    }
+ 
+    .start-btn {
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      background: var(--ink);
+      color: var(--cream);
+      border: none;
+      border-radius: 12px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      letter-spacing: 0.01em;
+      transition: background 0.15s, transform 0.1s;
+      -webkit-tap-highlight-color: transparent;
+    }
+ 
+    .start-btn:hover  { background: #2E2B27; }
+    .start-btn:active { transform: scale(0.985); }
+ 
+    /* ── Progress ── */
     .progress-wrap {
       width: 100%;
       max-width: 480px;
       padding: 0 1.5rem;
       margin-bottom: 1.5rem;
     }
-
+ 
     .progress-meta {
       display: flex;
       justify-content: space-between;
@@ -69,27 +150,28 @@
       letter-spacing: 0.06em;
       margin-bottom: 0.5rem;
     }
-
+ 
     .progress-bar-bg {
       height: 4px;
       background: var(--border);
       border-radius: 2px;
       overflow: hidden;
     }
-
+ 
     .progress-bar-fill {
       height: 100%;
       background: var(--accent);
       border-radius: 2px;
       transition: width 0.4s ease;
     }
-
+ 
+    /* ── Question card ── */
     .card-area {
       width: 100%;
       max-width: 480px;
       padding: 0 1.5rem;
     }
-
+ 
     .question-card {
       background: var(--card-bg);
       border: 1px solid var(--border);
@@ -98,12 +180,12 @@
       margin-bottom: 1rem;
       animation: slideUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
     }
-
+ 
     @keyframes slideUp {
       from { opacity: 0; transform: translateY(18px); }
       to   { opacity: 1; transform: translateY(0); }
     }
-
+ 
     .question-label {
       font-size: 0.72rem;
       font-weight: 600;
@@ -112,19 +194,19 @@
       color: var(--accent);
       margin-bottom: 0.9rem;
     }
-
+ 
     .question-text {
       font-family: 'Playfair Display', serif;
       font-size: 1.3rem;
       line-height: 1.45;
     }
-
+ 
     .options-list {
       display: flex;
       flex-direction: column;
       gap: 0.65rem;
     }
-
+ 
     .option-btn {
       display: flex;
       align-items: center;
@@ -143,14 +225,14 @@
       transition: background 0.15s, border-color 0.15s, transform 0.1s;
       -webkit-tap-highlight-color: transparent;
     }
-
+ 
     .option-btn:active { transform: scale(0.985); }
-
+ 
     .option-btn:hover:not(:disabled) {
       background: #EDE8DE;
       border-color: #C8BFB0;
     }
-
+ 
     .option-letter {
       width: 28px;
       height: 28px;
@@ -165,32 +247,15 @@
       font-weight: 700;
       transition: background 0.15s, border-color 0.15s, color 0.15s;
     }
-
-    .option-btn.correct {
-      background: var(--green-light);
-      border-color: var(--green);
-    }
-
-    .option-btn.correct .option-letter {
-      background: var(--green);
-      border-color: var(--green);
-      color: white;
-    }
-
-    .option-btn.wrong {
-      background: var(--accent-light);
-      border-color: var(--accent);
-    }
-
-    .option-btn.wrong .option-letter {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: white;
-    }
-
-    .option-btn.dimmed { opacity: 0.45; }
+ 
+    .option-btn.correct { background: var(--green-light); border-color: var(--green); }
+    .option-btn.correct .option-letter { background: var(--green); border-color: var(--green); color: white; }
+    .option-btn.wrong   { background: var(--accent-light); border-color: var(--accent); }
+    .option-btn.wrong   .option-letter { background: var(--accent); border-color: var(--accent); color: white; }
+    .option-btn.dimmed  { opacity: 0.45; }
     .option-btn:disabled { cursor: default; }
-
+ 
+    /* ── Feedback ── */
     .feedback-bar {
       border-radius: 12px;
       padding: 0.85rem 1.25rem;
@@ -202,18 +267,18 @@
       margin-top: 0.5rem;
       animation: fadeIn 0.25s ease both;
     }
-
+ 
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(6px); }
       to   { opacity: 1; transform: translateY(0); }
     }
-
-    .feedback-bar.show { display: flex; }
+ 
+    .feedback-bar.show      { display: flex; }
     .feedback-bar.correct-fb { background: var(--green-light); color: var(--green); }
     .feedback-bar.wrong-fb   { background: var(--accent-light); color: var(--accent); }
-
     .feedback-icon { font-size: 1.1rem; }
-
+ 
+    /* ── Next button ── */
     .next-btn {
       display: none;
       width: calc(100% - 3rem);
@@ -232,11 +297,12 @@
       transition: background 0.15s, transform 0.1s;
       -webkit-tap-highlight-color: transparent;
     }
-
+ 
     .next-btn:active { transform: scale(0.985); }
     .next-btn:hover  { background: #2E2B27; }
     .next-btn.show   { display: block; animation: fadeIn 0.3s ease both; }
-
+ 
+    /* ── Results screen ── */
     .results-screen {
       display: none;
       width: 100%;
@@ -244,9 +310,9 @@
       padding: 0 1.5rem;
       animation: slideUp 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
     }
-
+ 
     .results-screen.show { display: block; }
-
+ 
     .results-card {
       background: var(--card-bg);
       border: 1px solid var(--border);
@@ -255,9 +321,9 @@
       text-align: center;
       margin-bottom: 1.25rem;
     }
-
+ 
     .results-emoji { font-size: 3rem; margin-bottom: 1rem; }
-
+ 
     .results-score {
       font-family: 'Playfair Display', serif;
       font-size: 3.5rem;
@@ -265,42 +331,37 @@
       letter-spacing: -0.03em;
       margin-bottom: 0.4rem;
     }
-
+ 
     .results-label {
       font-size: 0.85rem;
       font-weight: 500;
       color: var(--ink-muted);
       margin-bottom: 1.5rem;
     }
-
+ 
     .results-detail {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 0.75rem;
     }
-
+ 
     .results-stat {
       background: var(--cream);
       border-radius: 10px;
       padding: 0.85rem;
     }
-
-    .results-stat-num {
-      font-size: 1.5rem;
-      font-weight: 700;
-      line-height: 1.1;
-    }
-
+ 
+    .results-stat-num { font-size: 1.5rem; font-weight: 700; line-height: 1.1; }
     .results-stat-num.green { color: var(--green); }
     .results-stat-num.red   { color: var(--accent); }
-
+ 
     .results-stat-label {
       font-size: 0.75rem;
       font-weight: 500;
       color: var(--ink-muted);
       margin-top: 0.25rem;
     }
-
+ 
     .restart-btn {
       width: 100%;
       padding: 1rem;
@@ -315,56 +376,38 @@
       transition: background 0.15s;
       -webkit-tap-highlight-color: transparent;
     }
-
+ 
     .restart-btn:hover { background: #2E2B27; }
-
-    .q-picker {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      margin-top: 1rem;
-    }
-
-    .q-picker-label {
-      font-size: 0.78rem;
-      font-weight: 600;
-      color: var(--ink-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      white-space: nowrap;
-    }
-
-    #q-select {
-      padding: 0.35rem 0.6rem;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--card-bg);
-      font-family: 'DM Sans', sans-serif;
-      font-size: 0.9rem;
-      font-weight: 500;
-      color: var(--ink);
-      cursor: pointer;
-    }
   </style>
 </head>
 <body>
-
+ 
   <header>
     <div class="quiz-title">ITEC A&amp;P Exam Mock Questions</div>
     <div class="quiz-subtitle" id="subtitle"></div>
-    <div class="q-picker" id="q-picker">
-      <label class="q-picker-label" for="q-select">Questions per round</label>
-      <select id="q-select" onchange="setSessionSize(parseInt(this.value))">
-        <option value="10">10</option>
-        <option value="20">20</option>
-        <option value="30">30</option>
-        <option value="40">40</option>
-        <option value="50" selected>50</option>
-      </select>
-    </div>
   </header>
-
-  <div id="quiz-ui" style="width:100%; display:flex; flex-direction:column; align-items:center;">
+ 
+  <!-- Start screen -->
+  <div class="start-screen" id="start-screen">
+    <div class="start-card">
+      <div class="start-card-label">Ready to begin?</div>
+      <div class="start-card-text">Choose how many questions you'd like in this round, then hit Start.</div>
+      <div class="picker-row">
+        <label class="picker-label" for="q-select">Questions per round</label>
+        <select id="q-select" onchange="setSessionSize(parseInt(this.value))">
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
+          <option value="40">40</option>
+          <option value="50" selected>50</option>
+        </select>
+      </div>
+    </div>
+    <button class="start-btn" onclick="startQuiz()">Start quiz →</button>
+  </div>
+ 
+  <!-- Quiz UI -->
+  <div id="quiz-ui" style="width:100%; display:none; flex-direction:column; align-items:center;">
     <div class="progress-wrap">
       <div class="progress-meta">
         <span id="q-counter"></span>
@@ -374,24 +417,25 @@
         <div class="progress-bar-fill" id="progress-fill" style="width:0%"></div>
       </div>
     </div>
-
+ 
     <div class="card-area">
       <div class="question-card" id="question-card">
         <div class="question-label" id="q-label"></div>
         <div class="question-text" id="q-text"></div>
       </div>
-
+ 
       <div class="options-list" id="options-list"></div>
-
+ 
       <div class="feedback-bar" id="feedback-bar">
         <span class="feedback-icon" id="feedback-icon"></span>
         <span id="feedback-text"></span>
       </div>
     </div>
-
+ 
     <button class="next-btn" id="next-btn"></button>
   </div>
-
+ 
+  <!-- Results screen -->
   <div class="results-screen" id="results-screen">
     <div class="results-card">
       <div class="results-emoji" id="results-emoji"></div>
@@ -408,21 +452,20 @@
         </div>
       </div>
     </div>
-    <button class="restart-btn" onclick="restartQuiz()">Try again ↺</button>
+    <button class="restart-btn" onclick="goToStart()">Go again ↺</button>
   </div>
-
+ 
   <!-- Load questions first, then app logic -->
   <script src="questions.js"></script>
   <script>
     const LETTERS = ['A', 'B', 'C', 'D'];
     let SESSION_SIZE = 50;
-
-    let deck    = [];   // remaining unasked questions across sessions
-    let session = [];   // the 50 questions for this round
+    let deck    = [];
+    let session = [];
     let current = 0;
     let score   = 0;
     let answered = false;
-
+ 
     function shuffle(arr) {
       const a = arr.slice();
       for (let i = a.length - 1; i > 0; i--) {
@@ -431,11 +474,12 @@
       }
       return a;
     }
-
-    function newSession() {
-      document.getElementById('q-picker').style.display = 'none';
-      // If the deck doesn't have enough left, top it up with a reshuffled
-      // batch of the questions not already queued, then reset if still short
+ 
+    function setSessionSize(n) {
+      SESSION_SIZE = n;
+    }
+ 
+    function buildSession() {
       if (deck.length < SESSION_SIZE) {
         const queued = new Set(deck);
         const remaining = shuffle(QUESTIONS.filter(q => !queued.has(q)));
@@ -444,35 +488,39 @@
       }
       session = deck.splice(0, SESSION_SIZE);
     }
-
-    function setSessionSize(n) {
-      SESSION_SIZE = n;
+ 
+    function startQuiz() {
+      current = 0;
+      score = 0;
+      buildSession();
+      document.getElementById('start-screen').className = 'start-screen';
+      document.getElementById('quiz-ui').style.display = 'flex';
+      document.getElementById('next-btn').style.display = '';
+      loadQuestion();
     }
-
-    function updateSubtitle() {
-      document.getElementById('subtitle').textContent =
-        `${QUESTIONS.length} questions in the bank — 50 random each round`;
+ 
+    function goToStart() {
+      document.getElementById('results-screen').className = 'results-screen';
+      document.getElementById('start-screen').className = 'start-screen show';
     }
-
+ 
     function loadQuestion() {
       answered = false;
       const total = session.length;
       const q = session[current];
-
+ 
       document.getElementById('q-label').textContent = `Question ${current + 1}`;
       document.getElementById('q-text').textContent = q.q;
       document.getElementById('q-counter').textContent = `Question ${current + 1} of ${total}`;
       document.getElementById('q-score').textContent = `Score: ${score}`;
       document.getElementById('progress-fill').style.width = `${(current / total) * 100}%`;
-
+ 
       const card = document.getElementById('question-card');
       card.style.animation = 'none';
       card.offsetHeight;
       card.style.animation = '';
-
-      // Shuffle display order while preserving original indices
+ 
       const displayOrder = shuffle([0, 1, 2, 3]);
-
       const list = document.getElementById('options-list');
       list.innerHTML = '';
       displayOrder.forEach((origIdx, displayPos) => {
@@ -483,89 +531,80 @@
         btn.onclick = () => handleAnswer(origIdx);
         list.appendChild(btn);
       });
-
+ 
       document.getElementById('feedback-bar').className = 'feedback-bar';
       const nb = document.getElementById('next-btn');
       nb.className = 'next-btn';
       nb.textContent = current < session.length - 1 ? 'Next question →' : 'See results →';
     }
-
+ 
     function handleAnswer(chosen) {
       if (answered) return;
       answered = true;
-
+ 
       const q = session[current];
-      const btns = document.querySelectorAll('.option-btn');
       const correct = chosen === q.answer;
-
       if (correct) score++;
-
-      btns.forEach(btn => {
+ 
+      document.querySelectorAll('.option-btn').forEach(btn => {
         btn.disabled = true;
         const orig = parseInt(btn.dataset.orig);
         if (orig === q.answer)                btn.classList.add('correct');
         else if (orig === chosen && !correct) btn.classList.add('wrong');
         else                                  btn.classList.add('dimmed');
       });
-
-      const fb = document.getElementById('feedback-bar');
+ 
       document.getElementById('feedback-icon').textContent = correct ? '✓' : '✕';
       document.getElementById('feedback-text').textContent = correct
         ? 'Correct! Well done.'
         : `Not quite — the answer is "${q.options[q.answer]}".`;
-      fb.className = `feedback-bar ${correct ? 'correct-fb' : 'wrong-fb'} show`;
-
+      document.getElementById('feedback-bar').className =
+        `feedback-bar ${correct ? 'correct-fb' : 'wrong-fb'} show`;
+ 
       document.getElementById('q-score').textContent = `Score: ${score}`;
       document.getElementById('next-btn').className = 'next-btn show';
     }
-
+ 
     function nextQuestion() {
       current++;
       if (current >= session.length) showResults();
       else loadQuestion();
     }
-
+ 
     function showResults() {
       document.getElementById('quiz-ui').style.display = 'none';
       document.getElementById('next-btn').style.display = 'none';
-
+ 
       const total = session.length;
       const pct   = Math.round((score / total) * 100);
-      const wrong = total - score;
-
+ 
       let emoji, label;
       if (pct === 100)    { emoji = '🏆'; label = 'Perfect score! Exceptional.'; }
       else if (pct >= 75) { emoji = '🎉'; label = 'Great work! Nearly there.'; }
       else if (pct >= 50) { emoji = '👍'; label = 'Not bad — keep practising!'; }
       else                { emoji = '📚'; label = 'Room to improve. Give it another go!'; }
-
+ 
       document.getElementById('results-emoji').textContent = emoji;
       document.getElementById('results-score').textContent = `${pct}%`;
       document.getElementById('results-label').textContent = label;
       document.getElementById('res-correct').textContent = score;
-      document.getElementById('res-wrong').textContent = wrong;
+      document.getElementById('res-wrong').textContent = total - score;
       document.getElementById('progress-fill').style.width = '100%';
-
-      document.getElementById('q-picker').style.display = 'flex';
+ 
       document.getElementById('results-screen').className = 'results-screen show';
     }
-
-    function restartQuiz() {
-      current = 0;
-      score = 0;
-      newSession();
-      document.getElementById('results-screen').className = 'results-screen';
-      document.getElementById('quiz-ui').style.display = 'flex';
-      document.getElementById('next-btn').style.display = '';
-      loadQuestion();
-    }
-
+ 
     document.getElementById('next-btn').addEventListener('click', nextQuestion);
-
+ 
     // Kick off
-    updateSubtitle();
-    newSession();
-    loadQuestion();
+    if (typeof QUESTIONS === 'undefined' || !QUESTIONS.length) {
+      document.getElementById('subtitle').textContent = 'Error: questions.js could not be loaded.';
+    } else {
+      document.getElementById('subtitle').textContent =
+        `${QUESTIONS.length} questions in the bank — ${SESSION_SIZE} random each round`;
+      document.getElementById('start-screen').className = 'start-screen show';
+    }
   </script>
 </body>
 </html>
+ 
