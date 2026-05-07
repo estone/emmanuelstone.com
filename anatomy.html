@@ -470,13 +470,17 @@
       card.offsetHeight;
       card.style.animation = '';
 
+      // Shuffle display order while preserving original indices
+      const displayOrder = shuffle([0, 1, 2, 3]);
+
       const list = document.getElementById('options-list');
       list.innerHTML = '';
-      q.options.forEach((opt, i) => {
+      displayOrder.forEach((origIdx, displayPos) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
-        btn.innerHTML = `<span class="option-letter">${LETTERS[i]}</span> ${opt}`;
-        btn.onclick = () => handleAnswer(i);
+        btn.dataset.orig = origIdx;
+        btn.innerHTML = `<span class="option-letter">${LETTERS[displayPos]}</span> ${q.options[origIdx]}`;
+        btn.onclick = () => handleAnswer(origIdx);
         list.appendChild(btn);
       });
 
@@ -496,11 +500,12 @@
 
       if (correct) score++;
 
-      btns.forEach((btn, i) => {
+      btns.forEach(btn => {
         btn.disabled = true;
-        if (i === q.answer)                btn.classList.add('correct');
-        else if (i === chosen && !correct) btn.classList.add('wrong');
-        else                               btn.classList.add('dimmed');
+        const orig = parseInt(btn.dataset.orig);
+        if (orig === q.answer)                btn.classList.add('correct');
+        else if (orig === chosen && !correct) btn.classList.add('wrong');
+        else                                  btn.classList.add('dimmed');
       });
 
       const fb = document.getElementById('feedback-bar');
