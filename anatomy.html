@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quiz</title>
+  <title>ITEC A&P Exam Mock Questions</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
@@ -322,7 +322,7 @@
 <body>
 
   <header>
-    <div class="quiz-title">ITEC A&P exam mock questions</div>
+    <div class="quiz-title">ITEC A&amp;P Exam Mock Questions</div>
     <div class="quiz-subtitle" id="subtitle"></div>
   </header>
 
@@ -379,9 +379,10 @@
     const LETTERS = ['A', 'B', 'C', 'D'];
     const SESSION_SIZE = 50;
 
+    let deck    = [];   // remaining unasked questions across sessions
     let session = [];   // the 50 questions for this round
     let current = 0;
-    let score = 0;
+    let score   = 0;
     let answered = false;
 
     function shuffle(arr) {
@@ -394,7 +395,15 @@
     }
 
     function newSession() {
-      session = shuffle(QUESTIONS).slice(0, SESSION_SIZE);
+      // If the deck doesn't have enough left, top it up with a reshuffled
+      // batch of the questions not already queued, then reset if still short
+      if (deck.length < SESSION_SIZE) {
+        const queued = new Set(deck);
+        const remaining = shuffle(QUESTIONS.filter(q => !queued.has(q)));
+        deck = deck.concat(remaining);
+        if (deck.length < SESSION_SIZE) deck = shuffle(QUESTIONS.slice());
+      }
+      session = deck.splice(0, SESSION_SIZE);
     }
 
     function updateSubtitle() {
