@@ -6770,5 +6770,1715 @@ const QUESTIONS = [
         q: "Veins carry:",
         options: ["Oxygenated blood to the heart", "Oxygenated blood from the lungs to the heart", "Deoxygenated blood back to the heart", "Deoxygenated blood to the lungs"],
         answer: 2
-    }
+    },
+    {
+    "q": "Which of the following can be found in the epidermis?",
+    "options": [
+      "Sweat glands",
+      "Lymph vessels",
+      "Melanocytes",
+      "Elastin"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is dermatitis?",
+    "options": [
+      "An inflammation of the skin caused by external factors",
+      "An allergy marked by the eruption of wheals with severe itching",
+      "An erythema covered with silvery scales",
+      "An infection of the skin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of these is an example of a bacterial skin disease?",
+    "options": [
+      "Herpes simplex",
+      "Acne vulgaris",
+      "Tinea pedis",
+      "Eczema"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What do eccrine glands excrete?",
+    "options": [
+      "Sebum",
+      "Milky fluid",
+      "Watery sweat",
+      "Oil"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Malignant melanoma is defined as:",
+    "options": [
+      "A malignancy found in melanin",
+      "A malignant mole",
+      "A malignancy found in ergosterol",
+      "A malignant tumour of the melanocytes"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which muscle adducts the arm and medially rotates the humerus?",
+    "options": [
+      "Teres major",
+      "Teres minor",
+      "Deltoid",
+      "Supraspinatis"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which muscle adducts and rotates the scapula downwards?",
+    "options": [
+      "Trapezius",
+      "Latissimus dorsi",
+      "Rhomboid major",
+      "Serratus anterior"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What does a ligament connect?",
+    "options": [
+      "Bone to bone",
+      "Muscle to muscle",
+      "Muscle to bone",
+      "Muscle to skin"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The muscles of the lower leg and foot include:",
+    "options": [
+      "Gracilis",
+      "Peroneus Longus",
+      "Supinator Radii Brevis",
+      "Flexor Carpi Radialis"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the action of the gluteus medius?",
+    "options": [
+      "To flex the femur",
+      "To abduct and medially rotate the femur",
+      "To extend the femur",
+      "To laterally rotate the femur"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What occurs at the metaphase stage of mitosis?",
+    "options": [
+      "Pairs of chromatids divide and identical halves of the pairs move to each end of",
+      "The spindle fibres disintegrate and the centrioles replicate",
+      "The chromosomes arrange themselves at the centre of the cell, each",
+      "The cell is resting"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the function of hyaline cartilage?",
+    "options": [
+      "To absorb shock",
+      "To connect and protect",
+      "To be flexible",
+      "To transport"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What are centrioles?",
+    "options": [
+      "Rod-like organelles that play an important part in mitosis",
+      "Dense areas in the cytoplasm",
+      "Organelles that contain digestive enzymes to destroy worn out parts of a cell",
+      "They are two strands held together by a centromere to form a chromosome"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the function of striated muscle tissue?",
+    "options": [
+      "To help support and move the body",
+      "To allow the heart to pump blood",
+      "To transmit signals",
+      "To carry out involuntary functions"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the function of columnar epithelial tissue?",
+    "options": [
+      "To protect the delicate parts of the body",
+      "To form the lining of the stomach and intestines",
+      "To form a waterproof and expandable lining",
+      "To provide lubrication"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Where would you find the navicular bone?",
+    "options": [
+      "In the face",
+      "In the hand",
+      "In the foot",
+      "In the cranium"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which of the following is an example of a flat bone?",
+    "options": [
+      "Nasal",
+      "Patella",
+      "Clavicle",
+      "Capitate"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "An example of a fixed joint is:",
+    "options": [
+      "Between the tarsals",
+      "Between the phalanges of the thumb and its metacarpal",
+      "The innominate bones",
+      "Between the vertebrae"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the cause of rheumatoid arthritis?",
+    "options": [
+      "An auto immune disease that attacks the synovial membrane",
+      "A deficiency of calcium",
+      "A deposition of uric acid crystals within the joint capsule and cartilage",
+      "An injury to the joint"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The reduction of which hormone could be the cause of osteoporosis in women?",
+    "options": [
+      "Human growth",
+      "Testosterone",
+      "Progesterone",
+      "Oestrogen"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What is the function of the glucocorticoid hormones?",
+    "options": [
+      "To metabolise carbohydrates, fats and proteins",
+      "To metabolise vitamins and minerals",
+      "To regulate glucose levels",
+      "To regulate salts in the body"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What can hypersection of thyroxin in adults cause?",
+    "options": [
+      "Graves disease",
+      "Myxoedema",
+      "Cretinism",
+      "Dwarfism"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What could hyposecretion of vasopressin in adults cause?",
+    "options": [
+      "Low blood pressure",
+      "Diabetes mellitis",
+      "Jaundice",
+      "Diabetes insipidus"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What does a person suffering from diabetes insipidus suffer from?",
+    "options": [
+      "Excessive excretion of urine causing dehydration and extreme thirst",
+      "Deficiency or absence of insulin causing defective glucose metabolism",
+      "Failure of the kidneys to regulate sodium, potassium and water excretion causing",
+      "Over production of insulin causing disturbed neural function leading to coma"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The inner membrane of the heart wall is called the:",
+    "options": [
+      "Sino-atrial",
+      "Myocardium",
+      "Endocardium",
+      "Pericardium"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "By which method does oxygen enter the blood stream?",
+    "options": [
+      "Absorption",
+      "Diffusion",
+      "Osmosis",
+      "Filtration"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is atherosclerosis?",
+    "options": [
+      "Loss of elasticity from the arterial walls causing an increase in blood pressure",
+      "Blood poisoning",
+      "Low blood pressure",
+      "A build up of fats, including cholesterol, inside the arteries"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What is the function of venules?",
+    "options": [
+      "To carry deoxygenated blood from the capillaries to the larger veins",
+      "To carry deoxygenated blood from the larger veins to the capillaries",
+      "To carry oxygenated blood from the capillaries to the larger veins",
+      "To carry oxygenated blood from the larger veins to the capillaries"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What are the characteristics of arteries?",
+    "options": [
+      "They have thick walls and small lumen",
+      "They have thin walls and small lumen",
+      "They have thin walls and thin lumen",
+      "They have thin walls and large lumen"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What type of tissue is the middle layer of lymphatic vessels made from?",
+    "options": [
+      "Areolar",
+      "Muscular and elastic",
+      "Endothelial",
+      "White fibrous"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Where are the anterior auricular lymph nodes situated?",
+    "options": [
+      "In front of the ear",
+      "Behind the ear",
+      "Under the jaw bone",
+      "On the neck"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What areas do the submandibular lymph nodes drain?",
+    "options": [
+      "Temple and ear",
+      "Lower lip and chin",
+      "Nose, eyelids and skin of the face",
+      "Lips, cheek and nose"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is not a function of the right lymphatic duct?",
+    "options": [
+      "To drain lymph from the right leg",
+      "To drain lymph from the right side of the chest",
+      "To drain lymph from the right arm",
+      "To drain lymph from the right side of the head"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The functions of the spleen include to:",
+    "options": [
+      "Collect and drain lymph",
+      "Transport excess waste away from the tissues",
+      "Destroy lymphocytes",
+      "Destroy thrombocytes"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "How does a nerve impulse travel?",
+    "options": [
+      "From dendrite to cell body to axon",
+      "From axon to dendrite to synapse",
+      "From cerebrum to cerebellum",
+      "From cell body to synapse to axon"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is neuralgia?",
+    "options": [
+      "Paralysis or weakness of one side of the face caused by injury or infection",
+      "Disease of the basal ganglia of the brain",
+      "Shooting pains along the course of a nerve or nerves",
+      "Pain down the back and outside of the thigh, leg and foot"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the function of the hypoglossal cranial nerve?",
+    "options": [
+      "To supply the muscles which move the eyes",
+      "To give a sense of smell",
+      "To give a sense of sight",
+      "To supply the muscles of the tongue enabling it to move"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "The function of the myelin sheath includes to:",
+    "options": [
+      "Help reproduce nerve cells",
+      "Transmit nerve impulses away from the cell body",
+      "Speed up nerve conduction",
+      "Slow down nerve conduction"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the cause of Parkinson’s disease?",
+    "options": [
+      "Damage to the basal ganglia of the brain",
+      "Deterioration of the motor neurones in the body",
+      "Loss of the protective myelin sheath from nerve fibres",
+      "Paralysis of the face caused by injury or infection of the facial nerve"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "In the secretory phase of the menstrual cycle, which hormone stimulates the ruptured",
+    "options": [
+      "Progesterone",
+      "Testosterone",
+      "Follicle stimulating",
+      "Luteinising"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What part of the breast develops and produces milk?",
+    "options": [
+      "The nipples",
+      "The ducts",
+      "The lobules",
+      "The endocrine gland in the fatty tissue"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What are carbohydrates?",
+    "options": [
+      "Essential fatty acids",
+      "Energy providers",
+      "Building material for the body",
+      "Essential organic substances"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Where does the majority of absorption take place?",
+    "options": [
+      "In the stomach",
+      "In the mouth",
+      "In the small intestine",
+      "In the large intestine"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which of the following is a function of the gall bladder?",
+    "options": [
+      "To produce vitamin D",
+      "To regulate blood sugar level",
+      "To act as a reservoir for bile",
+      "To complete chemical digestion of food"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What are the functions of the trachea?",
+    "options": [
+      "To moisten and warm the air",
+      "To collect foreign matter or bacteria in the goblet secretory cells",
+      "To allow exchange of gases to take place",
+      "To act as a passageway between the larynx and pharynx"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is meant by diffusion?",
+    "options": [
+      "The movement of water and soluble substances across a membrane caused by",
+      "When water passes through a membrane from a strong concentration of pressure",
+      "When substances are too large to pass directly through the membrane, a carrier",
+      "When a strong concentration of gas moves to the weaker concentration of"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What is the function of the larynx?",
+    "options": [
+      "To act as the passageway for air between the pharynx and bronchi",
+      "To act as the passageway for air between the trachea and bronchi",
+      "To act as the passageway for air between the pharynx and trachea",
+      "To act as the passageway for air between the nose and trachea"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Why does the circulatory system rely on the urinary system?",
+    "options": [
+      "Because the kidneys helps to regulate blood pressure by producing the enzyme",
+      "Because the kidneys remove waste by excretion",
+      "Because the kidneys purify the blood",
+      "Because the kidneys help to stimulate the production of bone marrow"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the function of the renal pelvis of the kidney?",
+    "options": [
+      "To take urine from the bladder to the outside",
+      "To collect urine from the medulla and pass it into the ureter",
+      "To act as a reservoir",
+      "To take urine from the kidneys to the bladder"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is a characteristic of acne rosacea?",
+    "options": [
+      "Erythema",
+      "Comedones",
+      "Silvery scales",
+      "Blisters"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of the following is not a function of the skin?",
+    "options": [
+      "Secretion",
+      "Heat regulation",
+      "Absorption",
+      "Formation of vitamin C"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What type of skin disease/disorder is folliculitis?",
+    "options": [
+      "Congenital",
+      "Bacterial",
+      "Viral",
+      "Fungal"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is a characteristic of albinism?",
+    "options": [
+      "Complete lack of melanocytes",
+      "A large area of dilated capillaries",
+      "Dark patches of pigment",
+      "Excessive itching"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What type of skin disorder/disease is tinea pedis?",
+    "options": [
+      "Bacterial",
+      "Viral",
+      "Fungal",
+      "Congenital"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which of the following is a definition of supination?",
+    "options": [
+      "To point the toes down towards the ground",
+      "To turn the palm of the hand up to face the ceiling (if lying flat on the floor)",
+      "Movement in which the distal end of a bone moves in a circle",
+      "Movement of a bone towards the midline of the body or limb"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following muscles is the main one to raise the body to a standing position",
+    "options": [
+      "Gluteus maximus",
+      "Gluteus medius",
+      "Gluteus minimus",
+      "Piriformis"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the action of the subscapularis?",
+    "options": [
+      "To rotate the arm inwards",
+      "To abduct the arm",
+      "To rotate the arm outwards",
+      "To adduct the arm"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of the following does NOT help in the chewing of food?",
+    "options": [
+      "Masseter",
+      "Temporalis",
+      "Buccinator",
+      "Mentalis"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What is the function of adipose tissue?",
+    "options": [
+      "To help support and move the body",
+      "To protect and insulate the body",
+      "To connect and support other tissues",
+      "To enable stretch and recoil"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the function of yellow elastic tissue?",
+    "options": [
+      "To connect and support",
+      "To protect and insulate",
+      "To enable stretch and recoil",
+      "To cover and line"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which of the following is the only moveable bone in the skull?",
+    "options": [
+      "Maxilla",
+      "Parietal",
+      "Temporal",
+      "Mandible"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What is the name of the bone that forms the kneecap?",
+    "options": [
+      "The femur",
+      "The clavicle",
+      "The sternum",
+      "The patella"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What is the name of the first cervical vertebra?",
+    "options": [
+      "Skull",
+      "Occipital",
+      "Atlas",
+      "Axis"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is osteoporosis?",
+    "options": [
+      "Degeneration of one or more joints",
+      "Inflammation of many joints",
+      "A disease where the bones become porous and brittle",
+      "Inflammation of the synovial fluid in a joint"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "How many pairs of ribs are there?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Hypersecretion of testosterone in females can lead to:",
+    "options": [
+      "Endometriosis",
+      "Amenhorrhoea",
+      "Dysmenorrhoea",
+      "Premenstrual syndrome"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "A person with a high blood sugar level and high urine production could be suffering from",
+    "options": [
+      "Addison’s disease",
+      "Diabetes mellitis",
+      "Diabetes insipidus",
+      "Muscular atrophy"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is amenorrhoea?",
+    "options": [
+      "Painful menstruation",
+      "Very heavy menstruation",
+      "Constant menstruation",
+      "Absence of menstruation"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which part of the nervous system controls the endocrine system?",
+    "options": [
+      "The cerebellum gland",
+      "The hypothalamus",
+      "The medulla oblongata",
+      "The cerebrum"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following blood vessels leaves the heart carrying oxygen?",
+    "options": [
+      "The superior vena cava",
+      "The aorta",
+      "The pulmonary vein",
+      "The pulmonary artery"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What type of blood does the right side of the heart carry?",
+    "options": [
+      "Arterial",
+      "Oxygenated",
+      "Deoxygenated",
+      "Venule"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which artery supplies the head and neck?",
+    "options": [
+      "Jugular",
+      "Common carotid",
+      "Mesenteric",
+      "Subclavian"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is not a function of the Lymphatic System?",
+    "options": [
+      "To produce new lymphocytes",
+      "To filter harmful materials from the blood",
+      "To assist in the absorption of fats",
+      "To produce antibodies"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Where would you find the tonsils?",
+    "options": [
+      "Just above the stomach",
+      "By the pharynx",
+      "By the trachea",
+      "In the small intestines"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is a function of a lymphatic node?",
+    "options": [
+      "To produce subcutaneous tissue",
+      "To remove and destroy harmful micro-organisms",
+      "To produce endothelial and elastic tissue",
+      "To produce blood plasma"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the name of the lymph node that is found in the crook of the elbow?",
+    "options": [
+      "The supratrochlear",
+      "The axillary",
+      "The popliteal",
+      "The inguinal"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of the following is a function of the thoracic duct?",
+    "options": [
+      "To drain lymph from the right axillary node",
+      "To drain lymph from the right supratrochlear lymph node",
+      "To drain lymph from the right submandibular node",
+      "To drain lymph from the right popliteal node"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "How many pairs of spinal nerves are there?",
+    "options": [
+      "27",
+      "30",
+      "31",
+      "33"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the effect of neuritis?",
+    "options": [
+      "Tremors and rigidity in muscles",
+      "Lack of control over the motor system of the body",
+      "Muscular weakness loss of muscular coordination, problems with skin sensation,",
+      "Pain along the length of the nerve"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What is the function of the hypoglossal nerve?",
+    "options": [
+      "To supply the muscles which move the eyes",
+      "To give a sense of smell",
+      "To give a sense of sight",
+      "To supply the muscles of the tongue, enabling it to move"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which part of the brain is responsible for interpreting sensation?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Pons varolii",
+      "Medulla oblongata"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "A person suffering from anorexia nervosa is someone who:",
+    "options": [
+      "Binges and takes diuretics",
+      "Only eats two meals a day",
+      "Has a fear of gaining weight therefore will not eat",
+      "Regularly eats more food that is necessary"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is the muscle called that allows food to enter the stomach?",
+    "options": [
+      "Pyloric sphinter",
+      "Cardiac sphinter",
+      "Anal sphinter",
+      "Mouth of the stomach"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the action of pepsin?",
+    "options": [
+      "To curdle milk",
+      "To break down proteins into peptones",
+      "To breakdown polypeptides into amino acids",
+      "To breakdown polysaccharides into disaccharides"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following statements is true with regard to inspiration?",
+    "options": [
+      "The diaphragm relaxes, becomes a dome shape and pushes up the chest cavity",
+      "The diaphragm contracts, becomes a dome shape and pushes up the chest",
+      "The diaphragm relaxes and flattens out forming the bottom of the chest cavity",
+      "The diaphragm contracts and flattens out forming the bottom of the chest cavity."
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which of the following is a function of the trachea?",
+    "options": [
+      "To moisten and warm the air",
+      "To collect foreign matter or bacteria in the lining of the cells",
+      "To allow exchange of gases to take place",
+      "To act as a passageway between the larynx and pharynx"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the function of the pleural cavity?",
+    "options": [
+      "To prevent friction between the two layers",
+      "To filter and warm the air",
+      "To exchange gases between the respiratory and the circulatory systems",
+      "To transport air into and out of the lungs"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which disease / disorder results in calcium deposits forming in the renal pelvis?",
+    "options": [
+      "Glomerulonephritis",
+      "Gallbladder stones",
+      "Nephritis",
+      "Kidney stones"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What is herpes zoster also known as?",
+    "options": [
+      "Cold sore",
+      "Shingles",
+      "Hives",
+      "Liver spots"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following statements is incorrect with regards the function of the skin?",
+    "options": [
+      "Absorption is a function of the skin",
+      "Elimination is a function of the skin",
+      "Sensation is a function of the skin",
+      "Support is a function of the skin"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which of the following is an example of a bacterial skin disease?",
+    "options": [
+      "Tinea corporis",
+      "Folliculitis",
+      "Warts",
+      "Dermatitis"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "How many layers does the epidermis contain?",
+    "options": [
+      "Four",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which of the following is a definition of extension?",
+    "options": [
+      "To straighten or bend back",
+      "To point the toe towards the sky",
+      "Movement of a bone or the trunk around its own longitudinal axis",
+      "Movement of a bone towards the midline of the body or limb"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the action of the biceps femoris?",
+    "options": [
+      "To extend the hip and flex the knee",
+      "To flex the hip and abduct the leg",
+      "To flex the arm",
+      "To flex the hip and extend the knee"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the action of the orbicularis oculi?",
+    "options": [
+      "To close the mouth",
+      "To raise and retract the lower jaw",
+      "To purse the lips",
+      "To close the eye"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which of the following is a definition of adduction?",
+    "options": [
+      "Movement of a bone away from the midline of the body or limb",
+      "To bend in order to decrease the angle between bones at a joint",
+      "Movement of a bone towards the midline of the body or limb",
+      "To straighten or bend back"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which muscle draws the arm forward, adducts and rotates the arm medially?",
+    "options": [
+      "Pectoralis major",
+      "Serratus anterior",
+      "Teres minor",
+      "Deltoid"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the study of the structure of tissues called?",
+    "options": [
+      "Ostelogy",
+      "Histology",
+      "Neurology",
+      "Angiology"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following statements is incorrect with regards to yellow elastic tissue?",
+    "options": [
+      "The spleen contains yellow elastic tissue",
+      "The stomach contains yellow elastic tissue",
+      "The bladder contains yellow elastic tissue",
+      "The aorta contains yellow elastic tissue"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which of the following tissues transmits signals?",
+    "options": [
+      "Muscle",
+      "Blood",
+      "Areolar",
+      "Nervous"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Cancellous tissue is found in bones and is used for:",
+    "options": [
+      "Strength",
+      "Flexibility",
+      "Protective and insulator purposes",
+      "Structure bearing and cell development"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What type of joint do the atlas and axis form?",
+    "options": [
+      "Pivot",
+      "Hinge",
+      "Gliding",
+      "Saddle"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "How many tarsal bones are there in each foot?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Where would you find an example of a fixed joint?",
+    "options": [
+      "Between the tarsals",
+      "Between the phalanges of the thumb and its metacarpals",
+      "The innominate bones",
+      "Between the vertebrae"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which area of the spine does lordosis affect?",
+    "options": [
+      "The sacrum",
+      "The thoracic",
+      "The cervical",
+      "The lumbar"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which of the following is the only movable bone in the skull?",
+    "options": [
+      "Maxilla",
+      "Parietal",
+      "Temporal",
+      "Mandible"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which endocrine gland is known as the ‘master gland’?",
+    "options": [
+      "Pineal",
+      "Pituitary",
+      "Adrenal",
+      "Thymus"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following is an effect of polycystic ovarian syndrome?",
+    "options": [
+      "Hirsutism",
+      "Release of adrenaline into the bloodstream",
+      "Muscular atrophy",
+      "Early menopause"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Which hormone controls the adrenal cortex?",
+    "options": [
+      "HGH",
+      "MSH",
+      "TSH",
+      "ACTH"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What do the endocrine glands secrete?",
+    "options": [
+      "Melanin",
+      "Sebum",
+      "Blood cells",
+      "Hormones"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "What chamber of the heart receives deoxygenated blood first?",
+    "options": [
+      "The right atrium",
+      "The right ventricle",
+      "The left atrium",
+      "The left ventricle"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the cause of Hepatitis A?",
+    "options": [
+      "Excessive intake of fats",
+      "Infected body fluids",
+      "Faecally contaminated foods",
+      "Cancer of the blood"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "What is hypertension?",
+    "options": [
+      "Low blood pressure",
+      "Low cholesterol",
+      "High blood pressure",
+      "High cholesterol"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which of the following statements is incorrect with regard to lymph flow?",
+    "options": [
+      "Warmth promotes lymph flow",
+      "Cold promotes lymph flow",
+      "Exertion promotes lymph flow",
+      "Contraction of skeletal muscle promotes lymph flow"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the name of the lymph node found in the armpit?",
+    "options": [
+      "The supratrochlear",
+      "The cervical",
+      "The axillary",
+      "The inguinal"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "How is lymph drained into the circulatory system?",
+    "options": [
+      "Through the spleen",
+      "Through the lymphatic capillaries",
+      "Through the lymphatic nodes",
+      "Through the lymphatic ducts"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which part of the brain is responsible for breathing?",
+    "options": [
+      "Pons varolii",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Cerebrum"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "How many pairs of coccygeal nerves are there?",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "6"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the function of a sensory nerve?",
+    "options": [
+      "To carry impulses from all parts of the body to the brain",
+      "To carry impulses from the brain to the muscles",
+      "To protect the brain from external stimuli",
+      "To protect the spinal cord from external stimuli"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is the function of hypothalamus?",
+    "options": [
+      "To help control the rate and force of the heart",
+      "To help control the rate and depth of breathing",
+      "To help control the constriction and dilation of blood vessels",
+      "To help with the regulation of body temperature"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Which of the following statements is incorrect with regard the liver?",
+    "options": [
+      "Vitamin K is stored in the liver",
+      "Vitamin B6 is stored in the liver",
+      "Vitamin B12 is stored in the liver",
+      "Vitamin A is stored in the liver"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is the action of lactase?",
+    "options": [
+      "To break down specific proteins into peptones",
+      "To break specific disaccharides to monosaccharides",
+      "To break down specific fats to fatty acids",
+      "To break down specific starch to polysaccharides"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Which of the following statements is incorrect with regard respiration?",
+    "options": [
+      "The transverse abdominus is a muscle involved with respiration",
+      "The intercostals are muscles involved with respiration",
+      "The internal obliques are muscles involved with respiration",
+      "The diaphragm is a muscle involved with respiration"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What do you call the exchange of gases between the lungs and the blood",
+    "options": [
+      "External inspiration",
+      "Internal respiration",
+      "Expiration",
+      "Respiration"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The functions of the ureter include:",
+    "options": [
+      "To take urine from the tubules in the medulla and pass into the bladder",
+      "To take urine from the kidneys to the bladder",
+      "To take urine from the bladder to the outside",
+      "To take urine from the urethra to the bladder"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What is meant by micturition?",
+    "options": [
+      "The act of passing urine",
+      "The act of passing faeces",
+      "The act of filtration within the glomerular capsule",
+      "The act of re-absorption of proteins, amino acids and sugars in nephrons of the"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Chloasma can be recognised by:",
+    "options": [
+      "White patches of skin",
+      "Yellow patches of skin",
+      "Red Patches of skin",
+      "Brown patches of skin"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "The dermis has the ability to absorb:",
+    "options": [
+      "Mineral oils",
+      "Chemical substances",
+      "Water",
+      "Aqueous creams"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The role of the subaceous gland is to:",
+    "options": [
+      "Control temperature",
+      "Secrete chemicals and act as nerve receptors",
+      "Remove waste from the skin",
+      "Secrete sebum to act as a natural moisturiser"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "A verruca is:",
+    "options": [
+      "Bacterial",
+      "Fungal",
+      "Viral",
+      "Congenital"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The action of the masseter muscle is to:",
+    "options": [
+      "Raise the lower jaw",
+      "Raise the lips",
+      "Flex the head",
+      "Compress the nasal opening"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The pterygoids are:",
+    "options": [
+      "Bone",
+      "Layers of skin",
+      "Muscle",
+      "Nerve"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The lymphatic system relies on the muscular system for:",
+    "options": [
+      "Leverage",
+      "Movement",
+      "Digestion",
+      "Absorption"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The action of the biceps femoris is to:",
+    "options": [
+      "Flex the hip, extend the knee",
+      "Abduct the leg",
+      "Extend the hip, flex the knee",
+      "Flex the arm"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The action of the gluteus medius muscle is to:",
+    "options": [
+      "Extend the femur",
+      "Adduct and laterally rotate the femur",
+      "Flex the hip, flex the knee",
+      "Abduct and medially rotate the femur"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Endoplasmic Reticulum:",
+    "options": [
+      "Is a protein factory",
+      "Is a network of canals which form the circulation of the cell",
+      "Combines carbohydrates with protein compounds for energy",
+      "Releases energy and forms adenosine triphosphate"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Mitosis is the process of:",
+    "options": [
+      "Cell structure",
+      "Protection against UV light",
+      "Eliminating toxins from the skin",
+      "Cell division"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Areolar tissue is a type of:",
+    "options": [
+      "Connective tissue",
+      "Epithelial tissue",
+      "Nervous tissue",
+      "Muscular tissue"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The functions of areolar tissue include:",
+    "options": [
+      "Protection, insulation",
+      "Support, connection",
+      "Stretch, recoil",
+      "Lining, absorption"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What happens at the telophase stage of mitosis?",
+    "options": [
+      "Pairs of chromatids divide and identical halves of the pairs move to each end of",
+      "The spindle fibres disintegrate and the centrioles replicate",
+      "The chromosomes arrange themselves at the centre of the cell, each attached to",
+      "The centrosome divide into two"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The functions of the skeletal system include to:",
+    "options": [
+      "Receive messages, protect",
+      "Store calcium, form red blood cells",
+      "Form vitamin D, maintain homeostatis",
+      "Stimulate and reproduce muscles"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The common name for the zygomatic bone is:",
+    "options": [
+      "Jaw bone",
+      "Cheek bone",
+      "Forehead",
+      "Skull bone"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "The innominate bones are:",
+    "options": [
+      "Sacrum and coccyx",
+      "Femur, patella and tibia",
+      "Ilium, ischium and pubis",
+      "Clavicle and scapula"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The bones of the cranium include:",
+    "options": [
+      "Parietal, occipital",
+      "Palatine, nasal",
+      "Maxilla, zygomatic",
+      "Lacrimal, vomer"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The elbow joint is a:",
+    "options": [
+      "Pivot joint",
+      "Fixed joint",
+      "Hinge joint",
+      "Gliding joint"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The functions of the adrenal medulla hormones include:",
+    "options": [
+      "Regulation of salts in the body",
+      "Maintenance of calcium levels in plasma",
+      "Regulation of water absorption",
+      "Prepares the body for ‘fight or flight’"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "The endocrine system works closely with the nervous system to provide:",
+    "options": [
+      "Homeopathy",
+      "Homeosapien",
+      "Hemeostasis",
+      "Imbalance in the body"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Hyposecretion of vasopressin includes:",
+    "options": [
+      "Oedema",
+      "High blood pressure",
+      "Diabetes insipidus",
+      "Low blood pressure"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Hormones are transported in the:",
+    "options": [
+      "Circulatory system",
+      "Lymphatic system",
+      "Digestive system",
+      "Respiratory system"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "Hypersecretion of thyroxin can cause:",
+    "options": [
+      "Graves disease",
+      "Myxoedema",
+      "Cretinism",
+      "Dwarfism"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The function of the venules is to:",
+    "options": [
+      "Carry oxygenated blood from the capillaries to the larger veins",
+      "Carry oxygenated blood from the larger veins to the capillaries",
+      "Carry deoxygenated blood from the capillaries to the larger veins",
+      "Carry deoxygenated blood from the larger veins to the capillaries"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Thrombocytes are:",
+    "options": [
+      "Cells that fight infection",
+      "Cells that transport oxygen as oxyhaemoglobin",
+      "Cells responsible for blood clotting",
+      "Cells that form collagen"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Erythrocytes are:",
+    "options": [
+      "Cells that fight infection",
+      "Cells that transport oxygen as oxyhaemoglobin",
+      "Cells responsible for blood clotting",
+      "Cells that form collagen"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Which vessel carries oxygen into the heart?",
+    "options": [
+      "Inferior vena cava",
+      "Pulmonary vein",
+      "Superior vena cava",
+      "Pulmonary artery"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "Lymph is drained back into the bloodstream through the:",
+    "options": [
+      "Lymphatic capillaries",
+      "Lymphatic nodes",
+      "Lymphatic ducts",
+      "Spleen"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The functions of the spleen include:",
+    "options": [
+      "Collect and drain lymph",
+      "Transport excess waste away from the tisues",
+      "Destroy thrombocytes",
+      "Destroy lymphocytes"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The function of a lymph vessel is to:",
+    "options": [
+      "Work with blood to collect and distribute waste",
+      "Transport lymph to the arteries",
+      "Transport lymph to the lymph ducts",
+      "Transport lymph to the nerves"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Lymph flow is hindered by:",
+    "options": [
+      "Muscular activity",
+      "Arterial pulsation",
+      "Infection",
+      "Peristaltic action"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The cervical lymph nodes are situated:",
+    "options": [
+      "In front of the ear",
+      "Behind the ear",
+      "Under the chin",
+      "On the neck"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "The part of the nervous system which works closely with the respiratory system for",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Spinal cord"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The sympathetic nervous system affects the heart by:",
+    "options": [
+      "Accelerating the action of the heart",
+      "Constricting the flow of blood to the heart",
+      "Slowing down the action of the heart",
+      "Lowering blood pressure"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The brachial nerves supply the:",
+    "options": [
+      "Muscles of the neck, shoulder and skin",
+      "Skin and muscles of the lower abdomen, thighs and groin",
+      "Muscles from the base of the neck to the fingertips and skin",
+      "Chest muscles and the main parts of the abdominal wall"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Neuralgia can be defined as:",
+    "options": [
+      "Shooting pains along the course of a nerve",
+      "Pain down the back and outside of the thigh",
+      "Disease of the basal ganglia",
+      "Paralysis or weakness of one side of the face"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "The muscular and nervous systems work together to:",
+    "options": [
+      "Reproduce",
+      "Protect",
+      "Regulate body temperature",
+      "Control and coordinate movement"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Amenorrhoea is defined as:",
+    "options": [
+      "Constantly menstruating",
+      "Painfully menstruation",
+      "Absence of menstruation",
+      "Very heavy menstruation"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The functions of the large intestine include:",
+    "options": [
+      "Ingestion",
+      "Indigestion",
+      "Digestion",
+      "Excretion"
+    ],
+    "answer": 3
+  },
+  {
+    "q": "Lipase digests:",
+    "options": [
+      "Starch",
+      "Proteins",
+      "Fats",
+      "Carbohydrates"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "Peptones are digested in the:",
+    "options": [
+      "Stomach",
+      "Jejunum",
+      "Duodenum",
+      "Ileum"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The structure of the pleura is:",
+    "options": [
+      "Yellow elastic connective tissue",
+      "Areolar tissue",
+      "Serous membrane",
+      "Columnar epithelium tissue"
+    ],
+    "answer": 2
+  },
+  {
+    "q": "The functions of the trachea include:",
+    "options": [
+      "Collection of foreign matter or bacteria by the goblet secretory cells",
+      "To act as a passageway between the larynx and pharynx",
+      "To moisten and warm the air",
+      "To allow exchange of gases to take place"
+    ],
+    "answer": 0
+  },
+  {
+    "q": "What is nephritis?",
+    "options": [
+      "An inflammation of the eyes",
+      "An inflammation of the kidneys",
+      "An inflammation of the bladder",
+      "An inflammation of the liver"
+    ],
+    "answer": 1
+  }
 ];
