@@ -487,14 +487,69 @@
       SESSION_SIZE = n;
     }
 
-    function buildSession() {
-      if (deck.length < SESSION_SIZE) {
-        const queued = new Set(deck);
-        const remaining = shuffle(QUESTIONS.filter(q => !queued.has(q)));
-        deck = deck.concat(remaining);
-        if (deck.length < SESSION_SIZE) deck = shuffle(QUESTIONS.slice());
+    // Target distribution for a 50-question quiz (scales proportionally for other sizes)
+    const DISTRIBUTION = {
+      skeletal:       5,
+      muscular:       5,
+      nervous:        5,
+      cardiovascular: 5,
+      lymphatic:      5,
+      endocrine:      5,
+      skin:           5,
+      cells:          5,
+      digestive:      3,
+      respiratory:    3,
+      urinary:        2,
+      reproductive:   2,
+    };
+    const DIST_TOTAL = Object.values(DISTRIBUTION).reduce((a, b) => a + b, 0); // 50
+
+    // Per-category question pools (shuffled independently, refilled when exhausted)
+    const pools = {};
+
+    function getPool(cat) {
+      if (!pools[cat] || pools[cat].length === 0) {
+        pools[cat] = shuffle(QUESTIONS.filter(q => q.cat === cat));
       }
-      session = deck.splice(0, SESSION_SIZE);
+      return pools[cat];
+    }
+
+    function buildSession() {
+      // Calculate how many questions to draw from each category
+      const alloc = {};
+      let allocated = 0;
+      const cats = Object.keys(DISTRIBUTION);
+
+      // Scale proportionally, floor each
+      cats.forEach(cat => {
+        alloc[cat] = Math.floor((DISTRIBUTION[cat] / DIST_TOTAL) * SESSION_SIZE);
+        allocated += alloc[cat];
+      });
+
+      // Distribute any remainder to largest-ratio categories
+      let remainder = SESSION_SIZE - allocated;
+      const sorted = cats.slice().sort(
+        (a, b) => (DISTRIBUTION[b] / DIST_TOTAL * SESSION_SIZE - Math.floor(DISTRIBUTION[b] / DIST_TOTAL * SESSION_SIZE))
+                - (DISTRIBUTION[a] / DIST_TOTAL * SESSION_SIZE - Math.floor(DISTRIBUTION[a] / DIST_TOTAL * SESSION_SIZE))
+      );
+      for (let i = 0; i < remainder; i++) {
+        alloc[sorted[i % sorted.length]]++;
+      }
+
+      // Draw questions from each category pool
+      session = [];
+      cats.forEach(cat => {
+        const pool = getPool(cat);
+        for (let i = 0; i < alloc[cat]; i++) {
+          if (pool.length === 0) {
+            pools[cat] = shuffle(QUESTIONS.filter(q => q.cat === cat));
+          }
+          session.push(pools[cat].pop());
+        }
+      });
+
+      // Shuffle the final session so categories aren't grouped
+      session = shuffle(session);
     }
 
     function startQuiz() {
