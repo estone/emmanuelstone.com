@@ -11,6 +11,10 @@ const QUESTIONS = [
     q: 'Define the function of the erector pili muscle',
     options: ['Cause the hair follicle to stand erect (goose pimples)', 'Constrict the flow of blood to the epidermis', 'The layer of muscle found below the dermis', 'Pumps sebum to the surface of the skin'],
     answer: 0
+  },  {
+    q: 'Define the function of the erector pili muscle',
+    options: ['Cause the hair follicle to stand erect (goose pimples)', 'Constrict the flow of blood to the epidermis', 'The layer of muscle found below the dermis', 'Pumps sebum to the surface of the skin'],
+    answer: 0
   },
   {
     q: 'Define sebum',
