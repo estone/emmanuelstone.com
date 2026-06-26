@@ -365,7 +365,7 @@ const QUESTIONS = [
   },
   {
     q: 'The functions of the adrenal medulla hormones include:',
-    options: ['Regulation of salts in the body', 'Maintenance of calcium levels in plasma', 'Regulation of water absorption', 'Prepares the body for \\', ''],
+    options: ['Regulation of salts in the body', 'Maintenance of calcium levels in plasma', 'Regulation of water absorption', "Prepares the body for 'fight or flight'"],
     answer: 3,
     cat: 'endocrine'
   },
@@ -3887,9 +3887,9 @@ const QUESTIONS = [
   },
   {
     q: 'Hypersecretion of glucocorticoids causes which condition?',
-    options: ['Addison\\', ', ', 's syndrome', 'Polycystic ovaries', 'Hirsutism'],
+    options: ["Addison's disease", "Cushing's syndrome", 'Polycystic ovaries', 'Hirsutism'],
     answer: 1,
-    cat: 'reproductive'
+    cat: 'endocrine'
   },
   {
     q: 'The pancreas secretes hormones which perform which function?',
@@ -4001,7 +4001,7 @@ const QUESTIONS = [
   },
   {
     q: 'Another name for nephritis is what?',
-    options: ['Addison\\', ', ', ', ', 's disease', 'S.A.D.'],
+    options: ["Addison's disease", 'Cystitis', "Bright's disease", 'S.A.D.'],
     answer: 2,
     cat: 'urinary'
   },
@@ -5213,7 +5213,7 @@ const QUESTIONS = [
   },
   {
     q: 'Menstruation stops in one of the following instances:',
-    options: ['Addison\\', ', ', 's syndrome', 'Amenorrhoea', 'Polycystic ovarian syndrome'],
+    options: ["Addison's syndrome", "Cushing's syndrome", 'Amenorrhoea', 'Polycystic ovarian syndrome'],
     answer: 2,
     cat: 'reproductive'
   },
@@ -5255,7 +5255,7 @@ const QUESTIONS = [
   },
   {
     q: 'Hypersecretion of mineralocorticoids causes:',
-    options: ['Addison\\', ', ', ', ', ', ', 's syndrome'],
+    options: ["Addison's disease", 'Muscle atrophy', 'High blood pressure', "Cushing's syndrome"],
     answer: 2,
     cat: 'endocrine'
   },
@@ -5537,7 +5537,7 @@ const QUESTIONS = [
   },
   {
     q: 'What are joints?',
-    options: ['The body\\', ', ', 's levers', 'The body\\', ', ', 's muscles'],
+    options: ["The body's hinges", "The body's levers", "The body's postural deformities", "The body's muscles"],
     answer: 0,
     cat: 'skeletal'
   },
