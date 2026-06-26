@@ -227,7 +227,7 @@ const QUESTIONS = [
   },
   {
     q: 'What does the peripheral nervous system do?',
-    options: ['Transmits information to and from the body', 'Stimulates the body\\', ', ', ', '],
+    options: ['Transmits information to and from the body', "Stimulates the body's involuntary organs", 'Slows down the body', 'Transmission of the sensory information only'],
     answer: 0,
     cat: 'nervous'
   },
@@ -389,7 +389,7 @@ const QUESTIONS = [
   },
   {
     q: 'Hypersecretion of thyroxine can cause:',
-    options: ['Graves\\', ', ', ', ', ', '],
+    options: ["Graves' disease", 'Myxoedema', 'Cretinism', 'Dwarfism'],
     answer: 0,
     cat: 'endocrine'
   },
@@ -731,7 +731,7 @@ const QUESTIONS = [
   },
   {
     q: 'Hypersecretion of the thyroid gland can cause:',
-    options: ['Dwarfism', 'Graves\\', ', ', ', '],
+    options: ['Dwarfism', "Graves' disease", 'Cretinism', 'Myxoedema'],
     answer: 1,
     cat: 'endocrine'
   },
@@ -971,7 +971,7 @@ const QUESTIONS = [
   },
   {
     q: 'What do we call an intense allergic reaction that can cause collapse or death?',
-    options: ['Autoimmune reaction', 'Anaphylactic reaction', 'A reflex action', 'Cushing\\'],
+    options: ['Autoimmune reaction', 'Anaphylactic reaction', 'A reflex action', "Cushing's syndrome"],
     answer: 1,
     cat: 'lymphatic'
   },
@@ -1001,13 +1001,13 @@ const QUESTIONS = [
   },
   {
     q: 'Which lymph organ destroys bacteria and worn out red blood cells and platelets?',
-    options: ['Peyer\\', ', ', ', ', ', '],
+    options: ["Peyer's patches", 'Liver', 'Thoracic duct', 'Spleen'],
     answer: 3,
     cat: 'lymphatic'
   },
   {
     q: 'What disease is characterised by the body not recognising some of its own chemical structures?',
-    options: ['Hodgkin\\', ', ', ', ', ', '],
+    options: ["Hodgkin's disease", 'Lymphoma', 'Cancer', 'Autoimmune disease'],
     answer: 3,
     cat: 'lymphatic'
   },
@@ -1103,7 +1103,7 @@ const QUESTIONS = [
   },
   {
     q: 'The thoracic duct begins at a swollen sac called what?',
-    options: ['Peyer\\', ', ', ', ', ', '],
+    options: ["Peyer's patches", 'Cisterna chyli', 'Axillary node', 'Inguinal node'],
     answer: 1,
     cat: 'lymphatic'
   },
@@ -3323,7 +3323,7 @@ const QUESTIONS = [
   },
   {
     q: 'Short bones can be defined as',
-    options: ['Protective bones with broad flat surfaces', 'Strong and compact bones that require little movement', 'Bones within tendons', 'The body\\'],
+    options: ['Protective bones with broad flat surfaces', 'Strong and compact bones that require little movement', 'Bones within tendons', "The body's levers"],
     answer: 1,
     cat: 'skeletal'
   },
@@ -3383,7 +3383,7 @@ const QUESTIONS = [
   },
   {
     q: 'Sesamoid bones can be defined as',
-    options: ['The body\\', ', ', ', ', ', '],
+    options: ["The body's levers", 'Strong and compact bones', 'Bones within tendons', 'Protective bones with broad flat surfaces'],
     answer: 2,
     cat: 'skeletal'
   },
@@ -3899,7 +3899,7 @@ const QUESTIONS = [
   },
   {
     q: 'Arteriosclerosis is defined as which of the following?',
-    options: ['A build-up of fats inside the arteries', 'A degenerative disease of the arteries', 'Reduction in the ability to carry oxygen', 'The blood\\'],
+    options: ['A build-up of fats inside the arteries', 'A degenerative disease of the arteries', 'Reduction in the ability to carry oxygen', "The blood's inability to clot"],
     answer: 1,
     cat: 'cardiovascular'
   },
@@ -4613,7 +4613,7 @@ const QUESTIONS = [
   },
   {
     q: 'A loss of dopamine occurs when an individual is suffering from:',
-    options: ['Multiple sclerosis', 'Parkinson\\', ', ', ', '],
+    options: ['Multiple sclerosis', "Parkinson's disease", 'Cerebral palsy', 'Myalgic encephalomyelitis'],
     answer: 1,
     cat: 'nervous'
   },
@@ -4691,7 +4691,7 @@ const QUESTIONS = [
   },
   {
     q: 'The central nervous system consists of:',
-    options: ['All of the body\\', ', ', ', ', ', '],
+    options: ["All of the body's internal organs", 'Brain', 'Cranial and spinal nerves', 'Brain and spinal cord'],
     answer: 3,
     cat: 'nervous'
   },
@@ -4919,7 +4919,7 @@ const QUESTIONS = [
   },
   {
     q: 'A burning or stabbing pain along a nerve is known as:',
-    options: ['Parkinson\\', ', ', ', ', ', '],
+    options: ["Parkinson's disease", 'Neuralgia', 'Neuritis', 'Motor neurone disease'],
     answer: 1,
     cat: 'nervous'
   },
@@ -4949,7 +4949,7 @@ const QUESTIONS = [
   },
   {
     q: 'Hypersecretion of testosterone in women causes:',
-    options: ['Cushing\\', ', ', ', ', ', '],
+    options: ["Cushing's syndrome", 'Amenorrhoea', "Addison's disease", 'Breast growth'],
     answer: 1,
     cat: 'endocrine'
   },
@@ -5015,7 +5015,7 @@ const QUESTIONS = [
   },
   {
     q: 'Hypersecretion of parathormone causes:',
-    options: ['Spasms in hands and feet', 'Kidney failure', 'Addison\\', ', '],
+    options: ['Spasms in hands and feet', 'Kidney failure', "Addison's syndrome", 'Softened bones'],
     answer: 3,
     cat: 'endocrine'
   },
@@ -5081,7 +5081,7 @@ const QUESTIONS = [
   },
   {
     q: 'Hypersecretion of oestrogen in men causes:',
-    options: ['Addison\\', ', ', ', ', ', '],
+    options: ["Addison's disease", 'Hair growth', 'Kidney failure', 'Breast growth'],
     answer: 3,
     cat: 'endocrine'
   },
@@ -5111,7 +5111,7 @@ const QUESTIONS = [
   },
   {
     q: 'Hyposecretion of mineralocorticoids causes:',
-    options: ['Addison\\', ', ', ', ', ', '],
+    options: ["Addison's syndrome", 'Moon shaped face', 'Diabetes insipidus', 'Diabetes mellitus'],
     answer: 0,
     cat: 'endocrine'
   },
@@ -5183,7 +5183,7 @@ const QUESTIONS = [
   },
   {
     q: 'Hyposecretion of parathormone causes:',
-    options: ['Cushing\\', ', ', ', ', ', '],
+    options: ["Cushing's syndrome", 'Convulsions', 'Low blood sugar levels', 'Diabetes insipidus'],
     answer: 1,
     cat: 'endocrine'
   },
@@ -5243,7 +5243,7 @@ const QUESTIONS = [
   },
   {
     q: 'Hyposecretion of antidiuretic hormone causes:',
-    options: ['Addison\\', ', ', ', ', ', '],
+    options: ["Addison's disease", 'High blood pressure', 'Diabetes insipidus', 'Muscular atrophy'],
     answer: 2,
     cat: 'endocrine'
   },
@@ -5783,7 +5783,7 @@ const QUESTIONS = [
   },
   {
     q: 'Anaemia can be defined as follows:',
-    options: ['A reduction in the blood\\', ', ', ', ', ', '],
+    options: ["A reduction in the blood's ability to carry oxygen", 'A reduction in white blood cells', 'An increase in the production of erythrocytes', 'The inability of the blood to clot'],
     answer: 0,
     cat: 'cardiovascular'
   },
@@ -5867,7 +5867,7 @@ const QUESTIONS = [
   },
   {
     q: 'Define interstitial fluid:',
-    options: ['Fluid which helps to maintain blood pressure', 'Fluid which filters out through the capillary walls and bathes the body\\', ', ', ', '],
+    options: ['Fluid which helps to maintain blood pressure', "Fluid which filters out through the capillary walls and bathes the body's tissues", 'Fluid that supplies oxygen and nutrients to most parts of the body', 'Fluid that helps to maintain body temperature'],
     answer: 1,
     cat: 'cardiovascular'
   },
@@ -5903,7 +5903,7 @@ const QUESTIONS = [
   },
   {
     q: 'Haemophilia is another term for:',
-    options: ['A blood clot in the heart or vessels', 'Blood poisoning', 'Cancer of the blood', 'The blood\\'],
+    options: ['A blood clot in the heart or vessels', 'Blood poisoning', 'Cancer of the blood', "The blood's inability to clot"],
     answer: 3,
     cat: 'cardiovascular'
   },
@@ -6131,7 +6131,7 @@ const QUESTIONS = [
   },
   {
     q: 'What is haemophilia?',
-    options: ['An enlarged vein in the rectum', 'A blood clot', 'The blood\\', ', '],
+    options: ['An enlarged vein in the rectum', 'A blood clot', "The blood's inability to clot", 'Inflammation of a vein'],
     answer: 2,
     cat: 'cardiovascular'
   },
