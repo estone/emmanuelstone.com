@@ -11,10 +11,6 @@ const QUESTIONS = [
     q: 'Define the function of the erector pili muscle',
     options: ['Cause the hair follicle to stand erect (goose pimples)', 'Constrict the flow of blood to the epidermis', 'The layer of muscle found below the dermis', 'Pumps sebum to the surface of the skin'],
     answer: 0
-  },  {
-    q: 'Define the function of the erector pili muscle',
-    options: ['Cause the hair follicle to stand erect (goose pimples)', 'Constrict the flow of blood to the epidermis', 'The layer of muscle found below the dermis', 'Pumps sebum to the surface of the skin'],
-    answer: 0
   },
   {
     q: 'Define sebum',
@@ -3149,6 +3145,1977 @@ const QUESTIONS = [
   {
     q: 'Which one of the following is not a wrist bone',
     options: ['Trapezium', 'Capitate', 'Lunate', 'Medial'],
+    answer: 3
+  },
+
+  {
+    q: 'The action of the orbicularis oris is to do what?',
+    options: ['Close the eyes', 'Pout lips as in kissing', 'Draw the eyebrows inwards', 'Smile'],
+    answer: 1
+  },
+  {
+    q: 'Which muscle lies deep to gastrocnemius?',
+    options: ['Tibialis anterior', 'Peroneus longus', 'Soleus', 'Extensor digitorum longus'],
+    answer: 2
+  },
+  {
+    q: 'The hamstring muscles are comprised of which group?',
+    options: ['Rectus femoris, semitendinosus and semimembranosus', 'Biceps femoris, semimembranosus and semitendinosus', 'Adductor brevis, adductor longus and adductor magnus', 'Rectus femoris, vastus lateralis and vastus medialis'],
+    answer: 1
+  },
+  {
+    q: 'Atrophy is defined as which of the following?',
+    options: ['Lack of muscle tone or tension in a muscle', 'Painful localised and involuntary contraction of one or more muscles', 'Muscle fibres contracting for much longer than necessary, wasting away', 'Failure to reach normal size or bulk of muscle'],
+    answer: 3
+  },
+  {
+    q: 'A ligament performs which function?',
+    options: ['Connects bone to bone', 'Connects muscle to bone', 'Connects muscle to ligaments', 'Connects bone to ligaments'],
+    answer: 0
+  },
+  {
+    q: 'The endoplasmic reticulum performs which role?',
+    options: ['Forms protein', 'Forms network of canals', 'Releases energy in the form of ATP', 'Carries chromosomes'],
+    answer: 1
+  },
+  {
+    q: 'Areolar tissue is a type of which tissue?',
+    options: ['Nervous tissue', 'Epithelial tissue', 'Connective tissue', 'Muscular tissue'],
+    answer: 2
+  },
+  {
+    q: 'Hyaline cartilage performs which of the following functions?',
+    options: ['Reduces friction and absorbs shock at joints', 'Is flexible and readily springs back into shape', 'Enables organs to slide freely against each other to prevent friction', 'Cushions and lubricates the ends of bones'],
+    answer: 0
+  },
+  {
+    q: 'At the telophase stage of mitosis, what occurs?',
+    options: ['The centrosome divides into two centrioles', 'The spindle fibres disintegrate and the centrioles replicate', 'The centrosomes arrange themselves at the centre of the cell', 'The cell is resting'],
+    answer: 1
+  },
+  {
+    q: 'Ciliated epithelium is found in which location?',
+    options: ['Lines most of the digestive tract', 'Lines the bladder and ureters', 'Forms the top five layers of the skin', 'Lines the respiratory passages'],
+    answer: 3
+  },
+  {
+    q: 'The innominate bones consist of which parts?',
+    options: ['Clavicle and scapula', 'Sacrum and coccyx', 'Pubis', 'Ilium and ischium'],
+    answer: 3
+  },
+  {
+    q: 'The bones of the cranium include which of the following?',
+    options: ['Parietal and occipital', 'Palatine and nasal', 'Maxilla and zygomatic', 'Lacrimal and vomer'],
+    answer: 0
+  },
+  {
+    q: 'The shoulder joint is classified as what type of joint?',
+    options: ['Saddle joint', 'Gliding joint', 'Ball and socket joint', 'Hinge joint'],
+    answer: 2
+  },
+  {
+    q: 'Cancellous bone is found in which location?',
+    options: ['On the outside of short bones', 'In the shaft of long bones', 'In the ends of long bones', 'In an infected bone'],
+    answer: 2
+  },
+  {
+    q: 'Which of these is part of the appendicular skeleton?',
+    options: ['Skull', 'Vertebral column', 'Ribs', 'Pelvic girdle'],
+    answer: 3
+  },
+  {
+    q: 'The endocrine system works closely with the nervous system to provide what?',
+    options: ['Homeostasis', 'Homeopathy', 'Imbalance in the body', 'Homo sapiens'],
+    answer: 0
+  },
+  {
+    q: 'Hyposecretion of vasopressin causes which condition?',
+    options: ['Oedema', 'High blood pressure', 'Diabetes insipidus', 'Low blood pressure'],
+    answer: 2
+  },
+  {
+    q: 'Hormones are carried in which system?',
+    options: ['Circulatory system', 'Lymphatic system', 'Nervous system', 'Respiratory system'],
+    answer: 0
+  },
+  {
+    q: 'Hypersecretion of glucocorticoids causes which condition?',
+    options: ['Addison\'s disease', 'Cushing\'s syndrome', 'Polycystic ovaries', 'Hirsutism'],
+    answer: 1
+  },
+  {
+    q: 'The pancreas secretes hormones which perform which function?',
+    options: ['Regulate water absorption', 'Regulate mineral balance', 'Regulate calcium balance', 'Regulate glucose balance'],
+    answer: 3
+  },
+  {
+    q: 'Arteriosclerosis is defined as which of the following?',
+    options: ['A build-up of fats inside the arteries', 'A degenerative disease of the arteries', 'Reduction in the ability to carry oxygen', 'The blood\'s inability to clot'],
+    answer: 1
+  },
+  {
+    q: 'Arteries have which of the following characteristics?',
+    options: ['Carry oxygenated blood and have thick muscular walls', 'Carry deoxygenated blood and have thick muscular walls', 'Lie deep in the tissues and contain valves', 'Run alongside veins and have thin walls'],
+    answer: 0
+  },
+  {
+    q: 'The lymphatic nodes located in the crease of the elbow are called what?',
+    options: ['Auricular nodes', 'Supratrochlear nodes', 'Submandibular nodes', 'Inguinal nodes'],
+    answer: 1
+  },
+  {
+    q: 'Lymph is drained back into the bloodstream through which structures?',
+    options: ['Spleen', 'Lymphatic nodes', 'Lymphatic capillaries', 'Lymphatic ducts'],
+    answer: 3
+  },
+  {
+    q: 'The function of the lacteals in the lining of the small intestine is to do what?',
+    options: ['Carry digested fat', 'Absorb water', 'Filter lymph', 'Make lymphocytes'],
+    answer: 0
+  },
+  {
+    q: 'Which of the following areas contain lymphatic tissue?',
+    options: ['Tonsils and appendix', 'Appendix and liver', 'Tonsils and adrenal glands', 'Adrenal glands and spleen'],
+    answer: 0
+  },
+  {
+    q: 'The functions of the spleen include which of the following?',
+    options: ['Collect and drain lymph', 'Transport excess waste away from the tissue', 'Destroy thrombocytes', 'Destroy lymphocytes'],
+    answer: 2
+  },
+  {
+    q: 'The brachial nerves supply which area?',
+    options: ['Chest muscles and the main part of the abdominal wall', 'Skin and muscles of the lower abdomen, thighs and groin', 'Muscles and skin from the base of the neck to the fingertips', 'Muscles and skin of the neck and shoulder'],
+    answer: 2
+  },
+  {
+    q: 'Which one of the following is the fatty covering of an axon?',
+    options: ['Neuroglia', 'Neurilemma', 'Myelin sheath', 'Adipose tissue'],
+    answer: 2
+  },
+  {
+    q: 'White matter is found in which location?',
+    options: ['On the outside of the brain and inside of the spinal cord', 'On the outside of the brain only', 'On the inside of the brain and outside of the spinal cord', 'On the outside of the spinal cord only'],
+    answer: 2
+  },
+  {
+    q: 'Bell\'s palsy is defined as which of the following?',
+    options: ['Bouts of burning or stabbing pain along the nerve', 'Pain down the back and outside of the thigh', 'Facial paralysis caused by injury or infection of the facial nerve', 'Blood poisoning'],
+    answer: 2
+  },
+  {
+    q: 'Which one of the following is a function of the vas deferens?',
+    options: ['Acts as a passageway for sperm', 'Carries testosterone to the bloodstream', 'Acts as a site for immature sperm to develop', 'Acts as a passageway for semen and urine'],
+    answer: 0
+  },
+  {
+    q: 'Human ovulation normally occurs every how many days?',
+    options: ['14 days', '28 days', '40 days', '60 days'],
+    answer: 1
+  },
+  {
+    q: 'Trypsin digests which of the following?',
+    options: ['Starch', 'Proteins', 'Fats', 'Carbohydrates'],
+    answer: 1
+  },
+  {
+    q: 'The epiglottis performs which action?',
+    options: ['Closes the trachea when swallowing', 'Closes the oesophagus during breathing', 'Prevents the trachea from collapsing', 'Closes the nasal cavity when swallowing'],
+    answer: 0
+  },
+  {
+    q: 'The membranes surrounding the lungs comprise which of the following?',
+    options: ['The pericardium', 'Periosteum', 'Pleura', 'Perichondrium'],
+    answer: 2
+  },
+  {
+    q: 'Which of the following is the part of the kidney which acts as a filter?',
+    options: ['Loop of Henle', 'Glomerular capsule', 'Collecting tubule', 'The renal pelvis'],
+    answer: 1
+  },
+  {
+    q: 'Another name for nephritis is what?',
+    options: ['Addison\'s disease', 'Cystitis', 'Bright\'s disease', 'S.A.D.'],
+    answer: 2
+  },
+  {
+    q: 'Which part of the cell is responsible for producing energy in the form of ATP?',
+    options: ['Nucleus', 'Ribosomes', 'Mitochondria', 'Golgi apparatus'],
+    answer: 2
+  },
+  {
+    q: 'Which layer of the epidermis is responsible for constant cell division (mitosis)?',
+    options: ['Stratum corneum', 'Stratum germinativum', 'Stratum lucidum', 'Stratum granulosum'],
+    answer: 1
+  },
+  {
+    q: 'Which muscle is responsible for flexing the elbow joint?',
+    options: ['Triceps brachii', 'Biceps brachii', 'Deltoid', 'Trapezius'],
+    answer: 1
+  },
+  {
+    q: 'Which part of the nervous system is responsible for the \'fight or flight\' response?',
+    options: ['Parasympathetic nervous system', 'Somatic nervous system', 'Sympathetic nervous system', 'Central nervous system'],
+    answer: 2
+  },
+  {
+    q: 'Which hormone is produced by the Islets of Langerhans in the pancreas to lower blood sugar levels?',
+    options: ['Insulin', 'Glucagon', 'Adrenaline', 'Thyroxine'],
+    answer: 0
+  },
+  {
+    q: 'Which blood vessel carries deoxygenated blood from the heart to the lungs?',
+    options: ['Aorta', 'Pulmonary artery', 'Pulmonary vein', 'Vena cava'],
+    answer: 1
+  },
+  {
+    q: 'What is the primary function of lymph nodes?',
+    options: ['To pump lymph fluid through the body', 'To produce red blood cells', 'To filter out toxins and pathogens', 'To store bile'],
+    answer: 2
+  },
+  {
+    q: 'In which part of the digestive system does the majority of nutrient absorption take place?',
+    options: ['Stomach', 'Large intestine', 'Small intestine', 'Oesophagus'],
+    answer: 2
+  },
+  {
+    q: 'What is the structural and functional unit of the kidney responsible for filtering blood?',
+    options: ['Neurone', 'Nephron', 'Alveoli', 'Ureter'],
+    answer: 1
+  },
+  {
+    q: 'Which hormone is primarily responsible for the development of female secondary sexual characteristics?',
+    options: ['Testosterone', 'Progesterone', 'Oestrogen', 'Prolactin'],
+    answer: 2
+  },
+  {
+    q: 'What is the medical term for the \'true skin\' which contains blood vessels and nerves?',
+    options: ['Epidermis', 'Dermis', 'Hypodermis', 'Corneum'],
+    answer: 1
+  },
+  {
+    q: 'Which type of joint allows for the greatest range of movement, such as in the shoulder?',
+    options: ['Hinge joint', 'Ball and socket joint', 'Gliding joint', 'Pivot joint'],
+    answer: 1
+  },
+  {
+    q: 'Which muscle is found on the posterior (back) of the lower leg and helps with plantarflexion?',
+    options: ['Tibialis anterior', 'Gastrocnemius', 'Quadriceps', 'Hamstrings'],
+    answer: 1
+  },
+  {
+    q: 'What is the function of the myelin sheath in the nervous system?',
+    options: ['To produce neurotransmitters', 'To protect the brain from shock', 'To increase the speed of nerve impulse transmission', 'To connect the brain hemispheres'],
+    answer: 2
+  },
+  {
+    q: 'Which gland is known as the \'master gland\' because it controls other endocrine glands?',
+    options: ['Thyroid gland', 'Pituitary gland', 'Adrenal gland', 'Pineal gland'],
+    answer: 1
+  },
+  {
+    q: 'What are the smallest blood vessels where gas and nutrient exchange occurs?',
+    options: ['Arteries', 'Veins', 'Capillaries', 'Arterioles'],
+    answer: 2
+  },
+  {
+    q: 'Which lymphatic organ is responsible for \'recycling\' old red blood cells?',
+    options: ['Thymus', 'Spleen', 'Tonsils', 'Thoracic duct'],
+    answer: 1
+  },
+  {
+    q: 'What is the term for the wave-like muscular contractions that move food through the digestive tract?',
+    options: ['Mastication', 'Emulsification', 'Peristalsis', 'Absorption'],
+    answer: 2
+  },
+  {
+    q: 'Which tube connects the urinary bladder to the outside of the body?',
+    options: ['Ureter', 'Urethra', 'Renal pelvis', 'Nephron'],
+    answer: 1
+  },
+  {
+    q: 'In the male reproductive system, where are sperm cells produced?',
+    options: ['Testes', 'Prostate gland', 'Vas deferens', 'Seminal vesicles'],
+    answer: 0
+  },
+  {
+    q: 'What is the function of melanocytes in the skin?',
+    options: ['To provide waterproof protection', 'To produce pigment that protects against UV radiation', 'To sense touch and pressure', 'To produce sebum'],
+    answer: 1
+  },
+  {
+    q: 'Which part of the skeletal system consists of the skull, vertebral column, and rib cage?',
+    options: ['Appendicular skeleton', 'Axial skeleton', 'Cervical skeleton', 'Thoracic skeleton'],
+    answer: 1
+  },
+  {
+    q: 'Which neurotransmitter is primarily involved in the transmission of signals at the neuromuscular junction?',
+    options: ['Dopamine', 'Serotonin', 'Acetylcholine', 'Adrenaline'],
+    answer: 2
+  },
+  {
+    q: 'Which hormone regulates the body\'s basal metabolic rate?',
+    options: ['Thyroxine', 'Oxytocin', 'Calcitonin', 'Cortisol'],
+    answer: 0
+  },
+  {
+    q: 'What is the largest lymphatic vessel in the body?',
+    options: ['Right lymphatic duct', 'Thoracic duct', 'Cisterna chyli', 'Aorta'],
+    answer: 1
+  },
+  {
+    q: 'Where is bile produced in the body?',
+    options: ['Gallbladder', 'Pancreas', 'Liver', 'Duodenum'],
+    answer: 2
+  },
+  {
+    q: 'Which of the following is a normal constituent of urine?',
+    options: ['Glucose', 'Red blood cells', 'Urea', 'Proteins'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of the fallopian tubes?',
+    options: ['To produce eggs', 'To provide a site for fertilisation and transport the egg', 'To house the developing foetus', 'To produce oestrogen'],
+    answer: 1
+  },
+  {
+    q: 'Which skin condition is characterised by silvery scales and red, itchy patches?',
+    options: ['Eczema', 'Psoriasis', 'Acne', 'Impetigo'],
+    answer: 1
+  },
+  {
+    q: 'Which of the following bones is found in the lower arm on the \'thumb side\'?',
+    options: ['Ulna', 'Humerus', 'Radius', 'Fibula'],
+    answer: 2
+  },
+  {
+    q: 'Which muscle is known as the \'tailor\'s muscle\' and is the longest muscle in the body?',
+    options: ['Rectus femoris', 'Sartorius', 'Gracilis', 'Gluteus maximus'],
+    answer: 1
+  },
+  {
+    q: 'Which cranial nerve is responsible for the sense of smell?',
+    options: ['Optic nerve', 'Oculomotor nerve', 'Olfactory nerve', 'Trigeminal nerve'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of the mineralocorticoid hormones produced by the adrenal cortex?',
+    options: ['To regulate blood glucose', 'To regulate salt and water balance', 'To trigger fight or flight', 'To produce red blood cells'],
+    answer: 1
+  },
+  {
+    q: 'In the cardiac cycle, what does \'systole\' refer to?',
+    options: ['The relaxation phase of the heart', 'The contraction phase of the heart', 'The sound of valves closing', 'The electrical signal start'],
+    answer: 1
+  },
+  {
+    q: 'What is the main function of the thymus gland?',
+    options: ['To produce antibodies', 'To store vitamin B12', 'To provide a site for T-lymphocyte maturation', 'To regulate calcium'],
+    answer: 2
+  },
+  {
+    q: 'Which enzyme in the stomach begins the digestion of proteins?',
+    options: ['Amylase', 'Lipase', 'Pepsin', 'Trypsin'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of the bladder?',
+    options: ['To filter blood', 'To store urine until it is excreted', 'To produce renin', 'To reabsorb water'],
+    answer: 1
+  },
+  {
+    q: 'What is the name of the \'yellow body\' that forms in the ovary after ovulation and secretes progesterone?',
+    options: ['Graafian follicle', 'Corpus luteum', 'Endometrium', 'Cervix'],
+    answer: 1
+  },
+  {
+    q: 'Which of the following is an appendage of the skin?',
+    options: ['Arrector pili muscle', 'Adipose tissue', 'Basal layer', 'Melanin'],
+    answer: 0
+  },
+  {
+    q: 'What type of bone is the patella (kneecap)?',
+    options: ['Long bone', 'Sesamoid bone', 'Irregular bone', 'Flat bone'],
+    answer: 1
+  },
+  {
+    q: 'Which muscle is found on the side of the neck and is responsible for turning the head?',
+    options: ['Pectoralis major', 'Latissimus dorsi', 'Sternocleidomastoid', 'Masseter'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of the cerebellum?',
+    options: ['To control higher-order thinking', 'To coordinate balance, posture, and fine motor skills', 'To regulate breathing', 'To act as a sensory relay station'],
+    answer: 1
+  },
+  {
+    q: 'Which hormone from the posterior pituitary gland regulates water reabsorption in the kidneys?',
+    options: ['Anti-diuretic hormone (ADH)', 'Growth hormone', 'Luteinizing hormone', 'Melatonin'],
+    answer: 0
+  },
+  {
+    q: 'What is the liquid portion of the blood called?',
+    options: ['Serum', 'Plasma', 'Lymph', 'Haemoglobin'],
+    answer: 1
+  },
+  {
+    q: 'Which type of immunity is acquired when a person is given a vaccine?',
+    options: ['Natural active immunity', 'Artificial active immunity', 'Natural passive immunity', 'Artificial passive immunity'],
+    answer: 1
+  },
+  {
+    q: 'Where does the chemical digestion of carbohydrates begin?',
+    options: ['Mouth', 'Stomach', 'Small intestine', 'Oesophagus'],
+    answer: 0
+  },
+  {
+    q: 'What is the common name for the scapula bone?',
+    options: ['Collar bone', 'Breast bone', 'Shoulder blade', 'Shin bone'],
+    answer: 2
+  },
+  {
+    q: 'Which organelle is responsible for the production of ATP?',
+    options: ['Nucleus', 'Mitochondria', 'Ribosome', 'Lysosome'],
+    answer: 1
+  },
+  {
+    q: 'What is the primary function of the cell membrane?',
+    options: ['To control the entry and exit of substances', 'To store hereditary information', 'To synthesise lipids', 'To provide rigid structural support'],
+    answer: 0
+  },
+  {
+    q: 'During which phase of mitosis do the chromatids pull apart and move toward opposite poles?',
+    options: ['Prophase', 'Metaphase', 'Anaphase', 'Telophase'],
+    answer: 2
+  },
+  {
+    q: 'Which of the following is a type of loose connective tissue?',
+    options: ['Squamous epithelium', 'Areolar', 'Myocardium', 'Neurone'],
+    answer: 1
+  },
+  {
+    q: 'The axial skeleton includes which of the following bones?',
+    options: ['Femur', 'Scapula', 'Sternum', 'Humerus'],
+    answer: 2
+  },
+  {
+    q: 'What is the name of the bone cells responsible for the breakdown of bone tissue?',
+    options: ['Osteoblasts', 'Osteocytes', 'Osteoclasts', 'Chondrocytes'],
+    answer: 2
+  },
+  {
+    q: 'The joint between the humerus and the scapula is an example of what type of joint?',
+    options: ['Hinge', 'Ball and socket', 'Pivot', 'Gliding'],
+    answer: 1
+  },
+  {
+    q: 'How many cervical vertebrae are found in the human vertebral column?',
+    options: ['5', '7', '12', '4'],
+    answer: 1
+  },
+  {
+    q: 'Which of the following is an example of a \'long bone\'?',
+    options: ['Carpals', 'Humerus', 'Sternum', 'Vertebrae'],
+    answer: 1
+  },
+  {
+    q: 'The tough, fibrous tissue that covers the outside of a bone is the:',
+    options: ['Endosteum', 'Periosteum', 'Synovial membrane', 'Epiphysis'],
+    answer: 1
+  },
+  {
+    q: 'What is the function of red bone marrow?',
+    options: ['To store fat', 'To produce blood cells', 'To provide rigid support', 'To secrete growth hormones'],
+    answer: 1
+  },
+  {
+    q: 'Which bone is commonly known as the \'shoulder blade\'?',
+    options: ['Clavicle', 'Scapula', 'Sternum', 'Radius'],
+    answer: 1
+  },
+  {
+    q: 'Which muscle is the primary mover (agonist) for elbow flexion?',
+    options: ['Triceps brachii', 'Biceps brachii', 'Deltoid', 'Pectoralis major'],
+    answer: 1
+  },
+  {
+    q: 'Which of the following describes \'isometric\' muscle contraction?',
+    options: ['The muscle shortens', 'The muscle lengthens', 'The muscle length remains constant while tension increases', 'The muscle relaxes completely'],
+    answer: 2
+  },
+  {
+    q: 'Where is the gastrocnemius muscle located?',
+    options: ['The thigh', 'The lower back', 'The posterior lower leg', 'The upper arm'],
+    answer: 2
+  },
+  {
+    q: 'What occurs when a muscle \'atrophies\'?',
+    options: ['The muscle grows larger', 'The muscle fibres waste away or shrink', 'The muscle remains in partial contraction', 'The muscle becomes more flexible'],
+    answer: 1
+  },
+  {
+    q: 'Which muscle group is located on the anterior thigh?',
+    options: ['Hamstrings', 'Quadriceps', 'Adductors', 'Abductors'],
+    answer: 1
+  },
+  {
+    q: 'The \'latissimus dorsi\' muscle is primarily involved in:',
+    options: ['Flexion of the neck', 'Adduction and extension of the arm', 'Elevation of the eyebrows', 'Flexion of the hip'],
+    answer: 1
+  },
+  {
+    q: 'What type of muscle is found in the walls of the stomach?',
+    options: ['Skeletal', 'Cardiac', 'Smooth', 'Striated'],
+    answer: 2
+  },
+  {
+    q: 'The movement of a limb toward the midline of the body is called:',
+    options: ['Abduction', 'Adduction', 'Circumduction', 'Rotation'],
+    answer: 1
+  },
+  {
+    q: 'Which part of a neurone receives incoming signals?',
+    options: ['Axon', 'Dendrites', 'Myelin sheath', 'Synapse'],
+    answer: 1
+  },
+  {
+    q: 'The autonomic nervous system is divided into which two branches?',
+    options: ['Central and peripheral', 'Sensory and motor', 'Sympathetic and parasympathetic', 'Somatic and visceral'],
+    answer: 2
+  },
+  {
+    q: 'Which part of the brain is responsible for balance and posture?',
+    options: ['Cerebrum', 'Medulla oblongata', 'Cerebellum', 'Thalamus'],
+    answer: 2
+  },
+  {
+    q: 'What is the protective outer layer of the brain and spinal cord called?',
+    options: ['Meninges', 'Periosteum', 'Pericardium', 'Pleura'],
+    answer: 0
+  },
+  {
+    q: 'Which branch of the nervous system is active during \'rest and digest\'?',
+    options: ['Sympathetic', 'Parasympathetic', 'Somatic', 'Central'],
+    answer: 1
+  },
+  {
+    q: 'What is the insulating material that covers many axons?',
+    options: ['Synapse', 'Neurolemma', 'Myelin', 'Dendrite'],
+    answer: 2
+  },
+  {
+    q: 'Which nerve is the longest in the human body?',
+    options: ['Vagus nerve', 'Sciatic nerve', 'Ulnar nerve', 'Femoral nerve'],
+    answer: 1
+  },
+  {
+    q: 'Which endocrine gland secretes melatonin?',
+    options: ['Thyroid', 'Pineal gland', 'Adrenal gland', 'Pituitary gland'],
+    answer: 1
+  },
+  {
+    q: 'What is the function of the hormone insulin?',
+    options: ['To increase blood sugar levels', 'To lower blood sugar levels', 'To stimulate milk production', 'To regulate calcium'],
+    answer: 1
+  },
+  {
+    q: 'Which gland is considered the \'master gland\'?',
+    options: ['Hypothalamus', 'Pituitary gland', 'Thymus', 'Pancreas'],
+    answer: 1
+  },
+  {
+    q: 'Which hormone is produced by the adrenal medulla during stress?',
+    options: ['Cortisol', 'Adrenaline (epinephrine)', 'Aldosterone', 'Oestrogen'],
+    answer: 1
+  },
+  {
+    q: 'Which hormone regulates the body\'s metabolic rate?',
+    options: ['Insulin', 'Thyroxine', 'Glucagon', 'Calcitonin'],
+    answer: 1
+  },
+  {
+    q: 'Which hormone is secreted by the parathyroid glands?',
+    options: ['Thyroxine', 'Parathyroid hormone (PTH)', 'Cortisol', 'Growth hormone'],
+    answer: 1
+  },
+  {
+    q: 'The \'islets of Langerhans\' are found in which organ?',
+    options: ['Liver', 'Pancreas', 'Kidney', 'Adrenal gland'],
+    answer: 1
+  },
+  {
+    q: 'Which chamber of the heart receives deoxygenated blood from the body?',
+    options: ['Left atrium', 'Right atrium', 'Left ventricle', 'Right ventricle'],
+    answer: 1
+  },
+  {
+    q: 'Which blood vessels have the thinnest walls?',
+    options: ['Arteries', 'Veins', 'Capillaries', 'Arterioles'],
+    answer: 2
+  },
+  {
+    q: 'What is the primary function of leukocytes?',
+    options: ['To transport oxygen', 'To fight infection', 'To assist in blood clotting', 'To transport carbon dioxide'],
+    answer: 1
+  },
+  {
+    q: 'Which valve is between the left atrium and left ventricle?',
+    options: ['Tricuspid valve', 'Bicuspid (mitral) valve', 'Pulmonary valve', 'Aortic valve'],
+    answer: 1
+  },
+  {
+    q: 'What does \'systole\' refer to?',
+    options: ['Relaxation of the heart', 'Contraction of the heart', 'Closing of the valves', 'Heart failure'],
+    answer: 1
+  },
+  {
+    q: 'Which blood component is responsible for initiating clotting?',
+    options: ['Erythrocytes', 'Leukocytes', 'Platelets', 'Haemoglobin'],
+    answer: 2
+  },
+  {
+    q: 'What is the name of the \'pacemaker\' of the heart?',
+    options: ['AV node', 'SA node', 'Bundle of His', 'Purkinje fibres'],
+    answer: 1
+  },
+  {
+    q: 'What is the name of fluid that leaks out of capillaries into tissue?',
+    options: ['Plasma', 'Interstitial fluid', 'Lymph', 'Serum'],
+    answer: 1
+  },
+  {
+    q: 'Which organ acts as a graveyard for old red blood cells?',
+    options: ['Thymus', 'Spleen', 'Tonsils', 'Lymph node'],
+    answer: 1
+  },
+  {
+    q: 'In which direction does lymph flow?',
+    options: ['Away from the heart', 'Towards the heart only', 'In a continuous loop', 'From liver to kidneys'],
+    answer: 1
+  },
+  {
+    q: 'Which is a function of the lymphatic system?',
+    options: ['Transport oxygen', 'Return excess tissue fluid to the blood', 'Produce bile', 'Control body temperature'],
+    answer: 1
+  },
+  {
+    q: 'The thoracic duct drains lymph from:',
+    options: ['The right arm only', 'The majority of the body', 'The lungs only', 'The brain'],
+    answer: 1
+  },
+  {
+    q: 'Where do T-cells mature?',
+    options: ['Spleen', 'Thymus', 'Bone marrow', 'Thyroid'],
+    answer: 1
+  },
+  {
+    q: 'What are the building blocks of proteins?',
+    options: ['Monosaccharides', 'Fatty acids', 'Amino acids', 'Nucleotides'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of the midbrain?',
+    options: ['Transmits messages to and from the spinal cord', 'Transmits messages to and from the spinal cord, the cerebrum and the cerebellum', 'Transmits message to and from the spinal cord and cerebrum', 'Transmits messages to and from the spinal cord and cerebellum'],
+    answer: 1
+  },
+  {
+    q: 'The coccygeal plexus is located:',
+    options: ['Front of the pelvic cavity', 'Right side of the pelvic cavity', 'Left side of the pelvic cavity', 'Back of the pelvic cavity'],
+    answer: 3
+  },
+  {
+    q: 'What is the function of neurilemma?',
+    options: ['To speed up the passage of nerve impulses along the fibre', 'Transmit nerve impulses away from the cell body', 'They pass on the nerve impulse to the dendrites of the next neurone', 'To regenerate nerve cells'],
+    answer: 3
+  },
+  {
+    q: 'How long is the midbrain?',
+    options: ['2cm', '1.5cm', '2.5cm', '1cm'],
+    answer: 0
+  },
+  {
+    q: 'Which one of the following is not a function of cerebrospinal fluid?',
+    options: ['Forms a cushion between the bony cavities and nerves, protecting the brain and spinal cord', 'Removes waste and toxins', 'Regulates body temperature', 'Keeps pressure around the brain and spinal cord constant'],
+    answer: 2
+  },
+  {
+    q: 'The olfactory nerve describes:',
+    options: ['Nerve of sight', 'Nerve of smell', 'Nerve of touch', 'Sensory nerve'],
+    answer: 1
+  },
+  {
+    q: 'A loss of dopamine occurs when an individual is suffering from:',
+    options: ['Multiple sclerosis', 'Parkinson\'s disease', 'Cerebral palsy', 'Myalgic encephalomyelitis'],
+    answer: 1
+  },
+  {
+    q: 'The peripheral nervous system contains:',
+    options: ['Brain', 'Spinal cord', 'Autonomic nervous system', 'Muscle fibres'],
+    answer: 2
+  },
+  {
+    q: 'Dendrites are:',
+    options: ['Nerve fibres', 'Nerve cells', 'Nerve impulses', 'Neurones'],
+    answer: 0
+  },
+  {
+    q: 'White matter is made of:',
+    options: ['Bundles of cell bodies', 'Bundles of mixed fibres and dendrites', 'Bundles of unmyelinated nerve fibres', 'Bundles of myelinated nerve fibres'],
+    answer: 3
+  },
+  {
+    q: 'The outer layer of the meninges is called:',
+    options: ['Dura mater', 'Cerebrospinal fluid', 'Arachnoid fluid', 'Pia mater'],
+    answer: 0
+  },
+  {
+    q: 'Which part of the brain helps with the regulation of metabolism?',
+    options: ['Hypothalamus', 'Cerebrum', 'Midbrain', 'Cerebellum'],
+    answer: 0
+  },
+  {
+    q: 'The groin is supplied by:',
+    options: ['Lumbar plexus', 'Coccygeal plexus', 'Brachial plexus', 'Cervical plexus'],
+    answer: 0
+  },
+  {
+    q: 'Which of the following is not an effect of multiple sclerosis?',
+    options: ['Muscle weakness', 'Impaired speech', 'Loss of muscle coordination', 'Tremoring'],
+    answer: 3
+  },
+  {
+    q: 'Parasympathetic nervous system consists of:',
+    options: ['Ganglia', 'Vagus, oculomotor, facial and glossopharyngeal nerves', 'Ganglia, vagus, facial and oculomotor', 'Vagus, oculomotor, ganglia and glossopharyngeal'],
+    answer: 1
+  },
+  {
+    q: 'Which part of the brain is the relay station?',
+    options: ['The cerebrum', 'The medulla oblongata', 'The midbrain', 'The pons varolii'],
+    answer: 2
+  },
+  {
+    q: 'Efferent nerves only transmit to which type of tissue?',
+    options: ['Muscular tissue', 'Elastic tissue', 'Muscular and glandular tissue', 'Connective tissue'],
+    answer: 2
+  },
+  {
+    q: 'The function of the axon is to:',
+    options: ['Transmit nerve impulses away from the cell body', 'Transmit cell bodies away from the nerve impulses', 'Transmit nerve impulses to the cell body', 'Transmit nerve impulses away from the neurone'],
+    answer: 0
+  },
+  {
+    q: 'White matter is positioned:',
+    options: ['On the inside of the spinal cord', 'On the inside of the brain and outside of the spinal cord', 'On the outside of the brain and inside of the spinal cord', 'On the outside of the brain'],
+    answer: 1
+  },
+  {
+    q: 'The central nervous system consists of:',
+    options: ['All of the body\'s internal organs', 'Brain', 'Cranial and spinal nerves', 'Brain and spinal cord'],
+    answer: 3
+  },
+  {
+    q: 'What is the function of the spinal cord?',
+    options: ['Carries motor nerve fibres along its length', 'Carries motor and sensory nerve fibres along its length', 'Transmits messages to the brain', 'Carries motor and sensory nerve fibres along its length, sending messages about feeling and movement to and from the body and brain'],
+    answer: 3
+  },
+  {
+    q: 'Where is the sciatic nerve located?',
+    options: ['Coccygeal plexus', 'Lumbar plexus', 'Sacral plexus', 'Thoracic plexus'],
+    answer: 2
+  },
+  {
+    q: 'Parkinson\'s disease is caused by:',
+    options: ['Damage to nerve endings', 'Damage to the myelin sheath', 'Damage to basal ganglia of the brain', 'Damage to the facial nerve'],
+    answer: 2
+  },
+  {
+    q: 'Which of the following is not a function of the myelin sheath?',
+    options: ['Pass on the nerve impulse to the dendrites', 'Insulates the axon', 'Speeds up nerve conduction', 'Protects the axon from pressure'],
+    answer: 0
+  },
+  {
+    q: 'Which part of the brain maintains the balance and equilibrium of the body?',
+    options: ['The brain stem', 'The pons varolli', 'The cerebrum', 'The cerebellum'],
+    answer: 3
+  },
+  {
+    q: 'How many pairs of spinal nerves does the spinal cord have?',
+    options: ['13', '41', '31', '21'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of the phrenic nerve?',
+    options: ['To send nerve impulses to the diaphragm telling it to contract', 'To send nerve impulses to the lungs telling them to contract', 'To receive nerve impulses', 'To send nerve impulses to and from the brain'],
+    answer: 0
+  },
+  {
+    q: 'Ganglia is another term for:',
+    options: ['A collection of nerve endings', 'Nerve tissue', 'A collection of nerve cells', 'A collection of reflexes'],
+    answer: 2
+  },
+  {
+    q: 'Post viral fatigue is also known as:',
+    options: ['Myalgic encephalomelitis', 'Multiple sclerosis', 'Motor neuron disease', 'Neuralgia'],
+    answer: 0
+  },
+  {
+    q: 'Cerebrospinal fluid:',
+    options: ['Is a clear, colourless fluid formed in special cells', 'Is a yellow fluid situated in the lining of the brain', 'Is a double layer of tough fibrous membrane', 'Is a thin vascular membrane'],
+    answer: 0
+  },
+  {
+    q: 'What surrounds the axons?',
+    options: ['Grey matter', 'Myelin sheath', 'Synapse', 'Neurilemma'],
+    answer: 1
+  },
+  {
+    q: 'Which type of nerves are only present in spinal nerves?',
+    options: ['Sensory nerves', 'Motor nerves', 'Efferent nerves', 'Mixed nerves'],
+    answer: 3
+  },
+  {
+    q: 'The brain stem is made up of 3 parts:',
+    options: ['Hypothalamus, midbrain, medulla oblongata', 'Midbrain, pons varolli, medulla oblongata', 'Hypothalamus, pons varolli, medulla oblongata', 'Midbrain, pons varolli, hypothalamus'],
+    answer: 1
+  },
+  {
+    q: 'Which part of the meninges supplies blood to the brain and spinal cord?',
+    options: ['Dura mater', 'Outer membrane', 'Pia mater', 'Arachnoid mater'],
+    answer: 2
+  },
+  {
+    q: 'The first 4 cervical nerves are contained within:',
+    options: ['Brachial plexus', 'Cervical plexus', 'Lumbar plexus', 'Sacral plexus'],
+    answer: 1
+  },
+  {
+    q: 'Bells palsy causes:',
+    options: ['Facial paralysis', 'Muscular weakness', 'Inflammation of a nerve', 'Loss of muscular coordination'],
+    answer: 0
+  },
+  {
+    q: 'Multiple sclerosis is caused by:',
+    options: ['Loss of the myelin sheath from nerve tissue in the brain', 'Loss of ganglia from nerve tissue', 'Loss of the myelin sheath from nerve fibres in the central nervous system', 'Damage or injury'],
+    answer: 2
+  },
+  {
+    q: 'What covers the axon?',
+    options: ['Neurilemma', 'Synapse', 'Myelin sheath', 'Dendrites'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of end feet?',
+    options: ['They pass on the nerve impulse to the dendrites of the next neurone', 'They fill a gap between one neurone and the next', 'They help regenerate nerve cells', 'They transmit nerve impulses'],
+    answer: 0
+  },
+  {
+    q: 'Which part of the brain is known as the small brain?',
+    options: ['Hypothalamus', 'Cerebellum', 'Cerebrum', 'Midbrain'],
+    answer: 1
+  },
+  {
+    q: 'What is the function of the meninges?',
+    options: ['Transports nutrients', 'Removes waste products', 'Protects the central nervous system', 'Keeps pressure around the brain constant'],
+    answer: 2
+  },
+  {
+    q: 'The cervical plexus supplies:',
+    options: ['Muscles of the neck', 'Muscles from the base of the neck to the fingertips', 'Muscles of the lower limbs', 'Muscles of the neck, shoulder and skin'],
+    answer: 3
+  },
+  {
+    q: 'Which one of the following is not a function of the parasympathetic nervous system?',
+    options: ['Constricts blood flow to the heart muscles', 'Slows down the action of an organ', 'Restricts the flow of digestive juices', 'Slows the action of the heart'],
+    answer: 2
+  },
+  {
+    q: 'A long single nerve fibre is known as:',
+    options: ['Synapse', 'Cell body', 'Myelin sheath', 'Axon'],
+    answer: 3
+  },
+  {
+    q: 'Which part of the nerve cell speeds up the passage of nerve impulses along the fibre?',
+    options: ['Myelin sheath', 'Nodes of ranvier', 'End feet', 'Dendrites'],
+    answer: 0
+  },
+  {
+    q: 'Which one of the following is not a function of the cerebellum?',
+    options: ['Controls the rate and depth of breathing', 'Maintains balance and equilibrium of the body', 'Controls muscle tone and posture', 'Coordinates muscular activity'],
+    answer: 0
+  },
+  {
+    q: 'Which part of the brain is the centre for the emotions?',
+    options: ['Medulla oblongata', 'Hypothalamus', 'Midbrain', 'Pons varolii'],
+    answer: 1
+  },
+  {
+    q: 'What is the function of the dendrites?',
+    options: ['A chemical messenger', 'Insulation', 'Transmits nerve impulses away from the cell body', 'Transmits nerve impulses to the cell body'],
+    answer: 3
+  },
+  {
+    q: 'The point where one neurone meets another is called:',
+    options: ['Synapse', 'Neurilemma', 'Axon', 'Nodes of ranvier'],
+    answer: 0
+  },
+  {
+    q: 'Which of the following is not part of the medulla oblongata?',
+    options: ['Cardiac centre', 'Nerve centre', 'Vasomotor centre', 'Reflex centre'],
+    answer: 1
+  },
+  {
+    q: 'Which part of the body do the thoracic nerves supply?',
+    options: ['Thighs', 'Chest', 'Fingertips', 'Neck'],
+    answer: 1
+  },
+  {
+    q: 'Which one of the following is not a function of the sympathetic nervous system?',
+    options: ['Slows action of the heart', 'Releases noradrenaline preparing the body for fight or flight', 'Raises blood pressure', 'Relaxes arteries which increases blood supply to the heart muscle'],
+    answer: 0
+  },
+  {
+    q: 'What causes sciatica?',
+    options: ['Slowness with voluntary movement', 'Damage to the nerve tissue', 'Injury to the nerve cell', 'Degeneration of intervertebral discs'],
+    answer: 3
+  },
+  {
+    q: 'Neuritis is described as:',
+    options: ['Facial paralysis', 'Post viral fatigue', 'Inflammation of a nerve', 'Damage to the basal ganglia'],
+    answer: 2
+  },
+  {
+    q: 'The function of motor nerves is to:',
+    options: ['Carry impulses from the brain or spinal cord to the muscles, producing movement', 'Carry impulses from all parts of the body to the brain', 'Carry nerve fibres from the brain or spinal cord to the muscles, producing movement', 'Carry nerve fibres from all parts of the body to the brain'],
+    answer: 0
+  },
+  {
+    q: 'Which one of the following is not a function of the hypothalamus?',
+    options: ['Regulation of the pituitary gland', 'Regulation of body temperature', 'Secretion of oxytocin', 'Regulation of rate and depth of breathing'],
+    answer: 3
+  },
+  {
+    q: 'The autonomic nervous system supplies:',
+    options: ['Brain', 'Spinal cord', 'Blood vessels', 'Internal organs and blood vessels'],
+    answer: 3
+  },
+  {
+    q: 'A burning or stabbing pain along a nerve is known as:',
+    options: ['Parkinson\'s disease', 'Neuralgia', 'Neuritis', 'Motor neurone disease'],
+    answer: 1
+  },
+  {
+    q: 'Motor nerves are also known as:',
+    options: ['Afferent nerves', 'Grey matter', 'Sensory nerves', 'Efferent nerves'],
+    answer: 3
+  },
+  {
+    q: 'Cerebral palsy affects:',
+    options: ['Sensory organs', 'Nerve endings', 'Nerve fibres', 'Motor system control'],
+    answer: 3
+  },
+  {
+    q: 'The third phase of the menstrual cycle is known as:',
+    options: ['Secretory phase', 'Menstrual phase', 'Climacteric phase', 'Proliferative phase'],
+    answer: 0
+  },
+  {
+    q: 'What is the function of HGH?',
+    options: ['Stimulates production of melanin', 'Regulates height and growth', 'Controls body rhythms', 'Produces milk during lactation'],
+    answer: 1
+  },
+  {
+    q: 'Hypersecretion of testosterone in women causes:',
+    options: ['Cushing\'s syndrome', 'Amenorrhoea', 'Addisons disease', 'Breast growth'],
+    answer: 1
+  },
+  {
+    q: 'Which hormone is produced by the pineal body?',
+    options: ['Glucogen', 'Melatonin', 'Adrenaline', 'Parathormone'],
+    answer: 1
+  },
+  {
+    q: 'Where are the pituitary glands located?',
+    options: ['Base of the brain', 'Either side of the neck', 'Either side of the uterus', 'On top of the kidneys'],
+    answer: 0
+  },
+  {
+    q: 'Hyposecretion of thyroxin causes:',
+    options: ['Cretinism', 'Amenorrhoea', 'Sweating', 'Fatigue'],
+    answer: 0
+  },
+  {
+    q: 'Which of the following is a function of oxytocin?',
+    options: ['Ovulation', 'Hair growth', 'Regulates blood sugar levels', 'Contracts muscles of uterus to begin childbirth'],
+    answer: 3
+  },
+  {
+    q: 'Where are the ovaries located?',
+    options: ['Either side of the uterus', 'Above the uterus', 'Below the uterus', 'Between duodenum and spleen'],
+    answer: 0
+  },
+  {
+    q: 'Which one of the following is not contained in the menstrual flow?',
+    options: ['The cells lining the uterus', 'The corpus luteum', 'The unfertilised ovum', 'Blood from broken capillaries in the endometrium'],
+    answer: 1
+  },
+  {
+    q: 'Insulin is secreted by:',
+    options: ['Pancreas', 'Adrenal cortex', 'Pineal body', 'Thyroid glands'],
+    answer: 0
+  },
+  {
+    q: 'Which one of the following is not a function of follicle stimulating hormone?',
+    options: ['Production of progesterone', 'Stimulates ovaries to produce oestrogen', 'Sperm production in men', 'Ovulation in women'],
+    answer: 3
+  },
+  {
+    q: 'Hyposecretion of HGH causes:',
+    options: ['Oedema', 'High blood pressure', 'Kidney failure', 'Dwarfism'],
+    answer: 3
+  },
+  {
+    q: 'Which hormone is responsible for sexual development?',
+    options: ['Testes', 'Ovaries', 'Luteinising hormone', 'Gonadotrophins'],
+    answer: 3
+  },
+  {
+    q: 'Hypersecretion of parathormone causes:',
+    options: ['Spasms in hands and feet', 'Kidney failure', 'Addison\'s syndrome', 'Softened bones'],
+    answer: 3
+  },
+  {
+    q: 'Where is the pancreas located?',
+    options: ['Above the stomach', 'Behind and slightly below the stomach', 'Behind the lungs', 'In between the lungs'],
+    answer: 1
+  },
+  {
+    q: 'The first phase of the menstrual cycle is known as:',
+    options: ['Proliferative phase', 'Secretory phase', 'Menstrual phase', 'Menopause'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of melanocyte stimulating hormone?',
+    options: ['Stimulates production of melanin', 'Stimulates ovaries to produce the corpus luteum', 'Controls sexual development', 'Regulates salts in the body'],
+    answer: 0
+  },
+  {
+    q: 'Where are the parathyroid glands situated?',
+    options: ['Either side of the neck', 'On each kidney', 'Base of the brain', 'Behind the thyroid'],
+    answer: 3
+  },
+  {
+    q: 'What is the function of mineralocorticoids?',
+    options: ['Controls body rhythms', 'Regulates salts in the body', 'Maintains calcium levels in plasma', 'Stimulates production of melanin'],
+    answer: 1
+  },
+  {
+    q: 'Hypersecretion of insulin and glucagon causes:',
+    options: ['Diabetes mellitus', 'Depression', 'Hypoglycaemia', 'Diabetes insipidus'],
+    answer: 2
+  },
+  {
+    q: 'The second phase of the menstrual cycle is known as:',
+    options: ['Menarche phase', 'Secretory phase', 'Menstrual phase', 'Proliferative phase'],
+    answer: 3
+  },
+  {
+    q: 'What hormone is not produced by the anterior lobe of the pituitary gland?',
+    options: ['Thyrotrophin', 'Adrenocorticotrophin', 'Calcitonin', 'Gonadotrophins'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of luteinising hormone?',
+    options: ['Stimulates ovaries to produce oestrogen', 'Produces milk during lactation', 'Stimulates ovaries to produce the corpus luteum', 'Produce testosterone'],
+    answer: 2
+  },
+  {
+    q: 'Where are the thyroid glands located?',
+    options: ['Behind the stomach', 'Either side of the neck', 'In the thorax', 'Centre of the brain'],
+    answer: 1
+  },
+  {
+    q: 'Hypersecretion of oestrogen in men causes:',
+    options: ['Addison\'s disease', 'Hair growth', 'Kidney failure', 'Breast growth'],
+    answer: 3
+  },
+  {
+    q: 'A malfunction of melatonin includes:',
+    options: ['Fatigue', 'Depression', 'High blood pressure', 'Muscle atrophy'],
+    answer: 1
+  },
+  {
+    q: 'The start of menstruation is known as:',
+    options: ['Menopause', 'Menarche', 'Proliferative', 'Menstrual cycle'],
+    answer: 1
+  },
+  {
+    q: 'Which of the following is a function of interstitial cell stimulating hormone?',
+    options: ['Maintains BMR', 'Regulates water absorption in kidneys', 'Secretes testosterone', 'Regulates salts in the body'],
+    answer: 2
+  },
+  {
+    q: 'Hypersecretion of ADH causes:',
+    options: ['Oedema', 'Graves disease', 'Diabetes insipidus', 'Cretinism'],
+    answer: 0
+  },
+  {
+    q: 'Hyposecretion of mineralocorticoids causes:',
+    options: ['Addison\'s syndrome', 'Moon shaped face', 'Diabetes insipidus', 'Diabetes mellitus'],
+    answer: 0
+  },
+  {
+    q: 'Which one of the following is not an effect of cushing\'s syndrome?',
+    options: ['Moon shaped face', 'Low blood pressure', 'Muscle atrophy', 'Mental illness'],
+    answer: 1
+  },
+  {
+    q: 'Which hormone is produced by the posterior lobe hormones?',
+    options: ['TSH', 'HGH', 'ACTH', 'ADH'],
+    answer: 3
+  },
+  {
+    q: 'Which one of the following is a function of the hormones produced by the thyroid glands?',
+    options: ['Maintains basic metabolic rate', 'Regulates blood sugar levels', 'Activates vitamin D', 'Regulates salt levels'],
+    answer: 0
+  },
+  {
+    q: 'Which glands are situated on top of each kidney?',
+    options: ['Thyroid glands', 'Pituitary glands', 'Parathyroids', 'Adrenal glands'],
+    answer: 3
+  },
+  {
+    q: 'Which one of the following is not a function of parathormone?',
+    options: ['To prepare the body for fight or flight', 'Maintains calcium levels in plasma', 'Activates vitamin D', 'Stimulates calcium reabsorption in kidneys'],
+    answer: 0
+  },
+  {
+    q: 'Which hormone is not produced by the adrenal cortex?',
+    options: ['Adrenaline', 'Glucocorticoids', 'Mineralocorticoids', 'Sex hormones'],
+    answer: 0
+  },
+  {
+    q: 'Hyposecretion of insulin and glucogen causes:',
+    options: ['Hypoglycaemia', 'Diabetes insipidus', 'Sweating', 'Diabetes mellitus'],
+    answer: 3
+  },
+  {
+    q: 'What is secreted by the thymus?',
+    options: ['HGH', 'ACTH', 'TF and THF', 'FSH'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of antidiuretic hormone?',
+    options: ['Stimulates tissue metabolism', 'Regulates water absorption in kidneys', 'Maintains calcium levels in plasma', 'Activates Vitamin D'],
+    answer: 1
+  },
+  {
+    q: 'Which of the following hormones are not produced by the thyroid glands?',
+    options: ['Thyroxin', 'Calcitonin', 'Oxytocin', 'Triiodothyronine'],
+    answer: 2
+  },
+  {
+    q: 'Which hormone is produced by the parathyroids?',
+    options: ['Noradrenaline', 'Mineralocorticoids', 'Parathormone', 'Thyroxin'],
+    answer: 2
+  },
+  {
+    q: 'Hyposecretion of parathormone causes:',
+    options: ['Cushing\'s syndrome', 'Convulsions', 'Low blood sugar levels', 'Diabetes insipidus'],
+    answer: 1
+  },
+  {
+    q: 'Which hormone stimulates the testes to produce testosterone?',
+    options: ['Interstitial cell stimulating hormone', 'Follicle stimulating hormone', 'Lactogenic hormone', 'Adrenocorticotrophin'],
+    answer: 0
+  },
+  {
+    q: 'Hyposecretion can be defined as:',
+    options: ['Over production of a hormone', 'Where 2 or more hormones are produced', 'Where only 1 hormone is secreted', 'Under production of a hormone'],
+    answer: 3
+  },
+  {
+    q: 'What is the function of glucocorticoids?',
+    options: ['Regulates blood sugar levels', 'Responsible for male sex hormones', 'Metabolises carbohydrates, fats and proteins', 'Maintains basic metabolic rate'],
+    answer: 2
+  },
+  {
+    q: 'Which one of the following is a function of adrenaline?',
+    options: ['Constricts blood vessels to increase blood pressure', 'Responsible for male sexual characteristics', 'Activates vitamin D', 'Hair growth'],
+    answer: 0
+  },
+  {
+    q: 'Menstruation stops in one of the following instances:',
+    options: ['Addison\'s syndrome', 'Cushing\'s syndrome', 'Amenorrhoea', 'Polycystic ovarian syndrome'],
+    answer: 2
+  },
+  {
+    q: 'The thymus is located:',
+    options: ['Centre of the brain', 'In the thorax', 'Either side of the neck', 'Base of the brain'],
+    answer: 1
+  },
+  {
+    q: 'What is the function of insulin and glucagon?',
+    options: ['Regulates salts in the body', 'Maintains calcium levels in the body', 'Regulates blood sugar levels', 'Regulates water absorption'],
+    answer: 2
+  },
+  {
+    q: 'A hormone is a:',
+    options: ['Chemical catalyst', 'Chemical reaction', 'Chemical messenger', 'Chemical enzyme'],
+    answer: 2
+  },
+  {
+    q: 'Which hormone controls the thyroid gland?',
+    options: ['Parathormone', 'Thyrotrophin', 'Luteinising hormone', 'Insulin'],
+    answer: 1
+  },
+  {
+    q: 'Hyposecretion of antidiuretic hormone causes:',
+    options: ['Addison\'s disease', 'High blood pressure', 'Diabetes insipidus', 'Muscular atrophy'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of calcitonin?',
+    options: ['Helps glucose enter cells', 'Controls body rhythms', 'Maintains calcium and phosphorus balance', 'Sexual development'],
+    answer: 2
+  },
+  {
+    q: 'Hypersecretion of mineralocorticoids causes:',
+    options: ['Addison\'s disease', 'Muscle atrophy', 'High blood pressure', 'Cushing\'s syndrome'],
+    answer: 2
+  },
+  {
+    q: 'Which hormone does the adrenal medulla secrete?',
+    options: ['Glucocorticoids', 'Adrenaline', 'Insulin', 'Testosterone'],
+    answer: 1
+  },
+  {
+    q: 'Where is the pineal body located?',
+    options: ['In the thorax', 'Either side of the neck', 'Behind the scrotum', 'Centre of the brain'],
+    answer: 3
+  },
+  {
+    q: 'Hypersecretion can be defined as:',
+    options: ['Too much of a hormone is produced', 'Not enough of a hormone is produced', 'No hormones are produced', 'A balance of hormones are produced'],
+    answer: 0
+  },
+  {
+    q: 'Which stage of the menstrual cycle does ovulation occur?',
+    options: ['Menstrual cycle', 'Secretory phase', 'Menopause', 'Proliferative phase'],
+    answer: 3
+  },
+  {
+    q: 'Which one of the following is a function of melatonin?',
+    options: ['Sexual development', 'Stimulates tissue metabolism', 'Maintains BMR', 'Controls body rhythms'],
+    answer: 3
+  },
+  {
+    q: 'An endocrine gland:',
+    options: ['Is a chemical messenger', 'A ductless gland which produces hormones', 'A hormone', 'A ductless gland'],
+    answer: 1
+  },
+  {
+    q: 'Which hormone is responsible for the production of milk during lactation?',
+    options: ['Follicle stimulating hormone', 'Lactogenic hormone', 'Human growth hormone', 'Thyroxin'],
+    answer: 1
+  },
+  {
+    q: 'Which part of the nervous system does the adrenal medulla support?',
+    options: ['Sympathetic nervous system', 'Central nervous system', 'Peripheral nervous system', 'Parasympathetic nervous system'],
+    answer: 0
+  },
+  {
+    q: 'What is the function of endoplasmic reticulum?',
+    options: ['Forms a system of sacs and canals', 'Growth and repair', 'Destroys worn out parts of a cell', 'Secretes carbohydrates'],
+    answer: 0
+  },
+  {
+    q: 'Carbohydrates are combined with protein compounds in:',
+    options: ['Ribosomes', 'Mitochondria', 'Golgi apparatus', 'Nucleus'],
+    answer: 2
+  },
+  {
+    q: 'The material needed to form chromosomes is called:',
+    options: ['Centrosomes', 'Centrioles', 'Centromere', 'Chromatin'],
+    answer: 3
+  },
+  {
+    q: 'Which one of the following is a function of the nucleus?',
+    options: ['To secrete waste materials supplying the cell with energy', 'To control every organelle within the cytoplasm', 'To form the circulation of a cell', 'Cell reproduction'],
+    answer: 3
+  },
+  {
+    q: 'Where can adipose tissue be found?',
+    options: ['Back of the eyes', 'Feet', 'Nose', 'Lips'],
+    answer: 0
+  },
+  {
+    q: 'Where are goblet cells found?',
+    options: ['Simple epithelium', 'Squamous epithelium', 'Compound epithelium', 'Cuboidal epithelium'],
+    answer: 0
+  },
+  {
+    q: 'What is the function of the centrioles?',
+    options: ['Supply the cell with energy', 'Store waste materials', 'Play a part in mitosis', 'Circulation of oxygen within the cell'],
+    answer: 2
+  },
+  {
+    q: 'How is a chromosome formed?',
+    options: ['2 strands of centrioles held together by a centrosome', '2 strands of chromatids held together by a centromere', 'Within the nucleolus', 'During the formation of ATP'],
+    answer: 1
+  },
+  {
+    q: 'What is the function of vacuoles?',
+    options: ['Growth and repair', 'Storage', 'Energy', 'Circulation'],
+    answer: 1
+  },
+  {
+    q: 'Lymphoid tissue is a type of:',
+    options: ['Muscular tissue', 'Nervous tissue', 'Ciliated tissue', 'Connective tissue'],
+    answer: 3
+  },
+  {
+    q: 'Keratinised compound epithelium can be found:',
+    options: ['Lining of the oesophagus', 'Hair, skin and nails', 'Inside mouth', 'Lining of the bladder'],
+    answer: 1
+  },
+  {
+    q: 'Which type of cartilage is found on articular surfaces of joints?',
+    options: ['Hyaline', 'Yellow elastic', 'Elastic', 'White fibrocartilage'],
+    answer: 0
+  },
+  {
+    q: 'A group of organs join to form:',
+    options: ['Tissue', 'System', 'An organ', 'An organism'],
+    answer: 1
+  },
+  {
+    q: 'Which type of tissue is found in organs that need waterproof and expandable lining?',
+    options: ['Stratified', 'Transitional', 'Ciliated', 'Simple'],
+    answer: 1
+  },
+  {
+    q: 'What is the structure of the cell membrane?',
+    options: ['A fine membrane, made of protein threads and lipids', 'A fine membrane, made of fats and carbohydrates', 'A fine membrane, made of water and tissue', 'A fine membrane, made of water and protein'],
+    answer: 0
+  },
+  {
+    q: 'During the interphase of mitosis:',
+    options: ['A new nuclear membrane appears', 'The cell is resting', 'The nucleolus disappears', 'The nuclear membrane of the nucleus disappears'],
+    answer: 1
+  },
+  {
+    q: 'What is the fourth stage of mitosis?',
+    options: ['Telophase', 'Interphase', 'Prophase', 'Anaphase'],
+    answer: 0
+  },
+  {
+    q: 'What is the function of lysosomes?',
+    options: ['Storage', 'Aid digestion', 'Destroy worn out parts of a cell and bacteria', 'Formation of ATP'],
+    answer: 2
+  },
+  {
+    q: 'What is the function of white fibrocartilage?',
+    options: ['To provide protection', 'To provide flexibility', 'To provide heat', 'To absorb shock'],
+    answer: 3
+  },
+  {
+    q: 'Which type of connective tissue is capable of considerable extension and recoil?',
+    options: ['Areolar', 'Adipose', 'Yellow elastic', 'White fibrous'],
+    answer: 2
+  },
+  {
+    q: 'Where can lymphoid tissue be found?',
+    options: ['Lining of the stomach', 'Heart lining', 'The appendix', 'The respiratory system'],
+    answer: 2
+  },
+  {
+    q: 'What parts of the body does the appendicular skeleton support?',
+    options: ['Shoulder girdle, the upper limbs, the pelvic girdle and lower limbs', 'Torso', 'Head, neck and torso', 'Shoulder girdle and pelvic girdle'],
+    answer: 0
+  },
+  {
+    q: 'Which one of the following is an example of a long bone?',
+    options: ['Carpals', 'Ribs', 'Ethmoid', 'Phalanges'],
+    answer: 3
+  },
+  {
+    q: 'The scapula falls under which category of bone?',
+    options: ['Irregular bone', 'Flat bone', 'Short bone', 'Sesamoid bone'],
+    answer: 1
+  },
+  {
+    q: 'Which one of the following is not a function of the skeleton?',
+    options: ['Protection', 'Support', 'Heat absorption', 'Movement'],
+    answer: 2
+  },
+  {
+    q: 'Haversian canals can be defined as:',
+    options: ['Passageways which run lengthways', 'Passageways which run lengthways through compact bone', 'Passageways which run lengthways through cancellous bone', 'Passageways found in cancellous bone containing oxygen and nutrients'],
+    answer: 1
+  },
+  {
+    q: 'Which bones form the bridge of the nose?',
+    options: ['Ethmoid bones', 'Nasal bones', 'Vomer', 'Lacrimal'],
+    answer: 1
+  },
+  {
+    q: 'The frontal bone forms:',
+    options: ['The cheekbone', 'The lower jaw', 'The upper jaw', 'The forehead'],
+    answer: 3
+  },
+  {
+    q: 'The turbinator bone is located on which part of the face?',
+    options: ['Cheek', 'Nose', 'Chin', 'Forehead'],
+    answer: 1
+  },
+  {
+    q: 'The back of the cranium is made up of which bone?',
+    options: ['Occipital', 'Temporal', 'Parietal', 'Lacrimal'],
+    answer: 0
+  },
+  {
+    q: 'Where is the foramen magnus located?',
+    options: ['Occipital bone', 'Mandible', 'Parietal bone', 'Frontal'],
+    answer: 0
+  },
+  {
+    q: 'Which part of the body is the cervical spine positioned?',
+    options: ['Lower back', 'Ribs', 'Neck', 'Pelvis'],
+    answer: 2
+  },
+  {
+    q: 'How many bones does the lumbar vertebrae contain?',
+    options: ['12', '7', '4', '5'],
+    answer: 3
+  },
+  {
+    q: 'The shoulder blades are called:',
+    options: ['Sternum', 'Clavicle', 'Scapulae', 'Ribs'],
+    answer: 2
+  },
+  {
+    q: 'The bone at the top of the arm is called:',
+    options: ['Humerus', 'Ulna', 'Radius', 'Carpals'],
+    answer: 0
+  },
+  {
+    q: 'The wrist bones are known as:',
+    options: ['Phalanges', 'Metacarpals', 'Tarsals', 'Carpals'],
+    answer: 3
+  },
+  {
+    q: 'How many phalanges are there in each hand?',
+    options: ['12', '14', '8', '10'],
+    answer: 1
+  },
+  {
+    q: 'The heel bone is known as:',
+    options: ['Cuboid bone', 'Calcaneus bone', 'Navicular bone', 'Cuneiform bone'],
+    answer: 1
+  },
+  {
+    q: 'What are joints?',
+    options: ['The body\'s hinges', 'The body\'s levers', 'The body\'s postural deformities', 'The body\'s muscles'],
+    answer: 0
+  },
+  {
+    q: 'Which of the following is not a cause of postural deformities?',
+    options: ['Congenital', 'Diet', 'Environment', 'Traumatic'],
+    answer: 1
+  },
+  {
+    q: 'A bone that is broken in one place with no damaged tissue is known as:',
+    options: ['An impacted fracture', 'A compound fracture', 'A simple fracture', 'A greenstick fracture'],
+    answer: 2
+  },
+  {
+    q: 'Turning a limb to face upwards is known as:',
+    options: ['Plantarflexion', 'Pronation', 'Supination', 'Eversion'],
+    answer: 2
+  },
+  {
+    q: 'Which muscle helps to bend the neck laterally?',
+    options: ['Mentalis', 'Iliopsoas', 'Levator scapulae', 'Masseter'],
+    answer: 2
+  },
+  {
+    q: 'What is the position of the flexor carpi radialis?',
+    options: ['Posterior forearm', 'Anterior forearm', 'Elbow', 'Top of humerus'],
+    answer: 1
+  },
+  {
+    q: 'What is the structure of muscle tissue?',
+    options: ['Muscle tissue has spindle shaped cells with a nucleus', 'Muscle tissue is bound in bundles and contained in a sheath', 'Muscle tissue has striated fibres with only 1 nucleus', 'Muscle tissue is made up of several nuclei and is surrounded by a sheath'],
+    answer: 1
+  },
+  {
+    q: 'The agonist muscle is:',
+    options: ['The relaxing muscle', 'The fixed end of the muscle', 'The moving muscle', 'The thickest part of the muscle'],
+    answer: 2
+  },
+  {
+    q: 'Which of the following is not an action of the pectoralis major?',
+    options: ['Draws arm backwards', 'Draws arm forwards', 'Draws arm medially', 'Adducts arm'],
+    answer: 0
+  },
+  {
+    q: 'Which muscle flexes the hip?',
+    options: ['Biceps femoris', 'Vastus lateralis', 'Gastrocnemius', 'Rectus femoris'],
+    answer: 3
+  },
+  {
+    q: 'The muscular system relies on the skeletal system for which of the following?',
+    options: ['Production of heat', 'Production of nerve impulses', 'Leverage and movement', 'Storage of glycogen'],
+    answer: 2
+  },
+  {
+    q: 'Which muscle creates the look of surprise and horror?',
+    options: ['Frontalis', 'Risorius', 'Procerus nasi', 'Occipitofrontalis'],
+    answer: 1
+  },
+  {
+    q: 'Where are the rhomboids positioned?',
+    options: ['Waist', 'Between scapula and spine', 'Top of scapula', 'Scapula'],
+    answer: 1
+  },
+  {
+    q: 'Which muscle pushes the mandible out and opens the mouth?',
+    options: ['Lateral pterygoid', 'Medial pterygoid', 'Orbicularis oculi', 'Masseter'],
+    answer: 0
+  },
+  {
+    q: 'What is the action of the sternocleidomastoid?',
+    options: ['Elevates scapula', 'Draws scapula backwards', 'Bends neck laterally', 'Flexes head'],
+    answer: 3
+  },
+  {
+    q: 'Which muscle laterally rotates the humerus?',
+    options: ['Supraspinatus', 'Teres major', 'Serratus anterior', 'Infraspinatus'],
+    answer: 3
+  },
+  {
+    q: 'Voluntary muscle is also known as:',
+    options: ['Smooth muscle', 'Cardiac muscle', 'Unstriated muscle', 'Skeletal muscle'],
+    answer: 3
+  },
+  {
+    q: 'What is the action of the frontalis?',
+    options: ['Raises lower jaw', 'Moves scalp forwards', 'Shows a disgusted expression', 'Moves scalp backwards'],
+    answer: 1
+  },
+  {
+    q: 'Where is the iliopsoas positioned?',
+    options: ['Deep to the gluteus minimus', 'Underneath the gluteus maximus', 'Crosses the hip joint', 'Underneath the gluteus medius'],
+    answer: 2
+  },
+  {
+    q: 'What is the action of the biceps brachii?',
+    options: ['Flexes wrist joint', 'Pronates forearm', 'Supinates forearm', 'Flexes fingers'],
+    answer: 2
+  },
+  {
+    q: 'Which muscle on the arm crosses the elbow joint?',
+    options: ['Flexor carpi ulnaris', 'Brachialis', 'Extensor carpi radialis', 'Triceps'],
+    answer: 1
+  },
+  {
+    q: 'A sudden twist or wrench of the joints ligaments is known as:',
+    options: ['Sprain', 'Strain', 'Rupture', 'Spasm'],
+    answer: 0
+  },
+  {
+    q: 'What is the strongest muscle in the body (by pressure)?',
+    options: ['Deltoids', 'Masseter', 'Hamstrings', 'Gluteus maximus'],
+    answer: 1
+  },
+  {
+    q: 'The outer layer of the heart wall is called the:',
+    options: ['Pericardium', 'Myocardium', 'Sino-atrial', 'Endocardium'],
+    answer: 0
+  },
+  {
+    q: 'Where do capillaries arise from?',
+    options: ['Arterioles', 'Arteries', 'Venules', 'Veins'],
+    answer: 0
+  },
+  {
+    q: 'When you are looking at a diagram of the heart, the upper left chamber is called:',
+    options: ['Left ventricle', 'Right atrium', 'Right ventricle', 'Left atrium'],
+    answer: 3
+  },
+  {
+    q: 'The function of monocytes is to:',
+    options: ['Protect the body from infection', 'Transport oxygen as oxyhaemoglobin', 'Defend the system against micro-organisms', 'Eat bacteria and other micro-organisms'],
+    answer: 3
+  },
+  {
+    q: 'What artery supplies the head and neck?',
+    options: ['The common carotid', 'Sphenic artery', 'Maxillary artery', 'Jugular artery'],
+    answer: 0
+  },
+  {
+    q: 'Hypertension is another term for:',
+    options: ['Low blood pressure', 'High blood pressure', 'Heart attack', 'Angina'],
+    answer: 1
+  },
+  {
+    q: 'What is the function of leucocytes?',
+    options: ['Blood clotting', 'To fight infection', 'To transport waste products', 'Regulate body temperature'],
+    answer: 1
+  },
+  {
+    q: 'The four plasma proteins are as follows:',
+    options: ['Albumin, globulin, fibrinogen and prothrombin', 'Potassium, globulin, albumin and prothrombin', 'Albumin, potassium, fibrinogen and prothrombin', 'Iodine, prothrombin, fibrinogen and albumin'],
+    answer: 0
+  },
+  {
+    q: 'Where are lymphocytes formed?',
+    options: ['Red bone marrow', 'Lymphatic tissue', 'Spleen', 'Brain'],
+    answer: 1
+  },
+  {
+    q: 'The middle layer of the heart is called:',
+    options: ['Myocardium', 'Pericardium', 'Septum', 'Endocardium'],
+    answer: 0
+  },
+  {
+    q: 'The heart\'s action is controlled by:',
+    options: ['The central nervous system', 'The autonomic nervous system', 'The spinal cord', 'The peripheral nervous system'],
+    answer: 1
+  },
+  {
+    q: 'Which layer of the heart is made of cardiac muscle?',
+    options: ['Pericardium', 'Septum', 'Myocardium', 'Endocardium'],
+    answer: 2
+  },
+  {
+    q: 'Blood returns from the lungs into which heart chamber?',
+    options: ['Left atrium', 'Left ventricle', 'Right atrium', 'Right ventricle'],
+    answer: 0
+  },
+  {
+    q: 'The blood is pushed from the left atrium into the left ventricle through:',
+    options: ['Bicuspid valve', 'Tricuspid valve', 'Mitral valve', 'Septum'],
+    answer: 0
+  },
+  {
+    q: 'The pulmonary artery:',
+    options: ['Carries deoxygenated blood to the lungs', 'Carries oxygenated blood to the lungs', 'Carry deoxygenated blood from the heart to the body', 'Carry oxygenated blood from the heart to the body'],
+    answer: 0
+  },
+  {
+    q: 'The function of capillaries include:',
+    options: ['To distribute essential oxygen and nutrients to most parts of the body', 'To carry deoxygenated blood from the capillaries to the larger veins', 'To relax and dilate providing a large blood supply to an active organ', 'To carry oxygenated blood to the larger veins'],
+    answer: 0
+  },
+  {
+    q: 'Which one of the following is one of the main arteries of the head and neck?',
+    options: ['Right renal artery', 'Hepatic artery', 'Maxillary', 'External carotid'],
+    answer: 3
+  },
+  {
+    q: 'A Haemorrhage occurs when:',
+    options: ['When a capillary bleeds', 'No blood clot forms', 'When a blood clot is formed', 'When there is high blood pressure'],
+    answer: 0
+  },
+  {
+    q: 'Anaemia can be defined as follows:',
+    options: ['A reduction in the blood\'s ability to carry oxygen', 'A reduction in white blood cells', 'An increase in the production of erythrocytes', 'The inability of the blood to clot'],
+    answer: 0
+  },
+  {
+    q: 'Enlarged veins in the rectum are called:',
+    options: ['Haemorrhoids', 'Amenorrhoea', 'Emphysema', 'Rhinitis'],
+    answer: 0
+  },
+  {
+    q: 'A cancer of the blood is:',
+    options: ['Septicaemia', 'Leukaemia', 'Anaemia', 'Thrombus'],
+    answer: 1
+  },
+  {
+    q: 'Hepatitis A, B & C affect which organ of the body?',
+    options: ['Spleen', 'Pancreas', 'Heart', 'Liver'],
+    answer: 3
+  },
+  {
+    q: 'Which system works with the circulatory system to carry oxygen to every cell and system of the body?',
+    options: ['Muscular', 'Skeletal', 'Respiratory', 'Nervous'],
+    answer: 2
+  },
+  {
+    q: 'Where are the erythrocytes broken down?',
+    options: ['In the pancreas', 'In the kidneys', 'In the lymph', 'In the spleen'],
+    answer: 3
+  },
+  {
+    q: 'Which of the following is caused by a decrease in red blood cells?',
+    options: ['Anaemia', 'Leukaemia', 'Atherosclerosis', 'Haemorrhoids'],
+    answer: 0
+  },
+  {
+    q: 'Pulmonary circulation is the transport of blood:',
+    options: ['From the lungs to the heart', 'From the heart to the upper and lower body', 'From the heart to the lungs and back again', 'From the lungs to the heart and back again'],
+    answer: 2
+  },
+  {
+    q: 'Another term for a heartbeat is:',
+    options: ['Systolic pressure', 'Diastolic pressure', 'Cardiac cycle', 'Pulse'],
+    answer: 2
+  },
+  {
+    q: 'What protein gives blood its red colour?',
+    options: ['Fibrinogen', 'Haemoglobin', 'Albumin', 'Platelets'],
+    answer: 1
+  },
+  {
+    q: '75% of white blood cells are formed by:',
+    options: ['Granulocytes', 'Non granular leucocytes', 'Monocytes', 'Lymphocytes'],
+    answer: 0
+  },
+  {
+    q: 'Systemic circulation is the transport of blood:',
+    options: ['From the heart to the lungs and back again', 'From the lungs to the heart and back again', 'From the heart to the rest of the body and back again', 'From the lungs to the rest of the body and back again'],
+    answer: 2
+  },
+  {
+    q: 'Blood reaches the lungs via tiny vessels called:',
+    options: ['Capillaries', 'Venules', 'Arteries', 'Arterioles'],
+    answer: 0
+  },
+  {
+    q: 'A function of arterioles:',
+    options: ['To carry oxygenated blood to the lungs', 'To distribute essential oxygen and nutrients to the body', 'To carry deoxygenated blood from the capillaries to the larger veins', 'To relax and dilate providing a blood supply to active organs'],
+    answer: 3
+  },
+  {
+    q: 'Define interstitial fluid:',
+    options: ['Fluid which helps to maintain blood pressure', 'Fluid which filters out through the capillary walls and bathes the body\'s tissues', 'Fluid that supplies oxygen and nutrients to most parts of the body', 'Fluid that helps to maintain body temperature'],
+    answer: 1
+  },
+  {
+    q: 'Which one of the following is one of the main veins of the head and neck?',
+    options: ['Axillary', 'Maxillary', 'Jugular', 'Left iliac vein'],
+    answer: 2
+  },
+  {
+    q: 'A sphygmomanometer is used for:',
+    options: ['Measure plasma content', 'Measuring body temperature', 'Measuring the level of erythrocytes', 'Measuring blood pressure'],
+    answer: 3
+  },
+  {
+    q: 'Which of the following is not required for a clot to form?',
+    options: ['Fibrin', 'Vitamin D', 'Calcium', 'Prothrombin'],
+    answer: 1
+  },
+  {
+    q: 'What is the rhesus factor?',
+    options: ['An antigen found in white blood cells', 'An antigen found in red blood cells of most people', 'An antigen found in white blood cells of all animals', 'An antigen found in red blood cells of most people and animals'],
+    answer: 3
+  },
+  {
+    q: 'Which one of the following is not a cause of varicose veins?',
+    options: ['Pregnancy', 'Atherosclerosis', 'Obesity', 'Heredity'],
+    answer: 1
+  },
+  {
+    q: 'Haemophilia is another term for:',
+    options: ['A blood clot in the heart or vessels', 'Blood poisoning', 'Cancer of the blood', 'The blood\'s inability to clot'],
+    answer: 3
+  },
+  {
+    q: 'AIDS stands for:',
+    options: ['Acquired immune deficiency syndrome', 'Acquired immune disease syndrome', 'Anaemic immune disease syndrome', 'Anaemic immune deficiency syndrome'],
+    answer: 0
+  },
+  {
+    q: 'Hepatitis A is spread by:',
+    options: ['Infected blood', 'Infected body fluids', 'Faecally contaminated food', 'High cholesterol'],
+    answer: 2
+  },
+  {
+    q: 'What is the relationship between the circulatory and skeletal systems?',
+    options: ['Erythrocytes and leucocytes are manufactured in the bone marrow of short bones', 'Thrombocytes are manufactured in the bone marrow of short bones', 'Erythrocytes and leucocytes are manufactured in the bone marrow of long bones', 'Erythrocytes are manufactured in sesamoid bones'],
+    answer: 2
+  },
+  {
+    q: 'Coronary thrombosis is defined as:',
+    options: ['A blood clot in the heart', 'A blood clot in the arteries', 'A blood clot in the veins', 'A blood clot in the coronary artery'],
+    answer: 3
+  },
+  {
+    q: 'What is the wall that separates the right and left sides of the heart called?',
+    options: ['Pericardium', 'Endocardium', 'Myocardium', 'Septum'],
+    answer: 3
+  },
+  {
+    q: 'Deoxygenated blood travels:',
+    options: ['From the heart to the lungs in the pulmonary vein', 'From the lungs to the heart in the pulmonary artery', 'From the heart to the lungs in the pulmonary artery', 'From the lungs to the heart in the pulmonary vein'],
+    answer: 2
+  },
+  {
+    q: 'Diastolic relates to:',
+    options: ['When the heart is contracting', 'When the heart is relaxing', 'When the heart is pumping blood around the body', 'High blood pressure'],
+    answer: 1
+  },
+  {
+    q: 'Venules have the following structure:',
+    options: ['The walls are one cell thick and porous', 'An endothelial layer made of squamous epithelial tissue', 'They have a thin wall with a large lumen', 'They have a thick wall with a small lumen'],
+    answer: 2
+  },
+  {
+    q: 'Which plasma protein changes fibrinogen into fibrin?',
+    options: ['Albumin', 'Thrombin', 'Adrenaline', 'Thromboplastin'],
+    answer: 1
+  },
+  {
+    q: 'Patients with which blood type can receive any blood group?',
+    options: ['Type O', 'Type A', 'Type AB', 'Type B'],
+    answer: 2
+  },
+  {
+    q: 'Which one of the following is not a cause of anaemia?',
+    options: ['Extensive loss of blood', 'Lack of iron in the diet', 'Lack of vitamin D in the diet', 'Heredity'],
+    answer: 2
+  },
+  {
+    q: 'What is the term for blood poisoning?',
+    options: ['Thrombus', 'Phlebitis', 'Septicaemia', 'Haemophilia'],
+    answer: 2
+  },
+  {
+    q: 'What is the main function of insulin?',
+    options: ['Helps the body burn glucose for energy', 'Helps to maintain the correct body temperature', 'Helps the body to burn fat for energy', 'Helps the body to produce erythrocytes'],
+    answer: 0
+  },
+  {
+    q: 'Hepatitis B & C are transmitted by:',
+    options: ['Poisonous food', 'Infected body fluids except blood', 'Infected red blood cells', 'Infected body fluids including blood'],
+    answer: 3
+  },
+  {
+    q: 'The lymphatic system works with the circulatory system by:',
+    options: ['Transporting waste products away from the tissues', 'Carrying hormones to various organs', 'Carrying oxygen to every cell and system of the body', 'Transporting oxygen and nutrition to the skin, hair and nails'],
+    answer: 0
+  },
+  {
+    q: 'Enzymes are described as:',
+    options: ['The chemical catalysts in the body', 'Chemical substances in the body', 'Oxygen and carbon dioxide', 'Chemical messengers in the blood'],
+    answer: 0
+  },
+  {
+    q: 'Where are erythrocytes produced?',
+    options: ['Nucleus of a cell', 'Red bone marrow', 'Liver', 'Spleen'],
+    answer: 1
+  },
+  {
+    q: 'How is the process known as phagocytosis defined?',
+    options: ['The process of blood clotting', 'The transport of oxygen', 'The process of eating bacteria and other micro organisms', 'The process of protecting the body against infection'],
+    answer: 2
+  },
+  {
+    q: 'Systole relates to:',
+    options: ['When the heart is contracting', 'The heartbeat', 'When the heart is relaxing', 'The pulse'],
+    answer: 0
+  },
+  {
+    q: 'Deoxygenated blood travels from the upper body into the right atrium via:',
+    options: ['Pulmonary veins', 'Superior vena cava', 'Pulmonary artery', 'Inferior vena cava'],
+    answer: 1
+  },
+  {
+    q: 'Arteries carry:',
+    options: ['Deoxygenated blood to the lungs', 'Oxygenated blood to the lungs', 'Deoxygenated blood from the heart to the body', 'Oxygenated blood from the heart to the body'],
+    answer: 3
+  },
+  {
+    q: 'Which one of the following is one of the main veins of the legs?',
+    options: ['Right brachial', 'Right cephalic', 'Long saphenous', 'Left anterior tibial'],
+    answer: 2
+  },
+  {
+    q: 'Hypotension is another term for:',
+    options: ['Low blood pressure', 'High blood pressure', 'Blood clotting', 'Anaemia'],
+    answer: 0
+  },
+  {
+    q: 'Leukaemia is caused by:',
+    options: ['Over production of white blood cells', 'Over production of red blood cells', 'A decrease in the production of white blood cells', 'A decrease in the production of red blood cells'],
+    answer: 0
+  },
+  {
+    q: 'Inflammation of a vein is known as:',
+    options: ['Thrombus', 'Haemophilia', 'Phlebitis', 'Atherosclerosis'],
+    answer: 2
+  },
+  {
+    q: 'The muscular system works with the circulatory system by:',
+    options: ['Carrying oxygen to the lungs', 'Transporting glucose for energy conversion', 'Transporting oxygen and nutrients to skin, hair and nails', 'Removing waste products'],
+    answer: 1
+  },
+  {
+    q: 'What are the 2 types of leucocytes?',
+    options: ['Monocytes and granulocytes', 'Lymphocytes and monocytes', 'Granulocytes and non granular leucocytes', 'Granulocytes and lymphocytes'],
+    answer: 2
+  },
+  {
+    q: 'Blood travels from the right ventricle to the lungs via:',
+    options: ['Pulmonary vein', 'Pulmonary artery', 'Aorta', 'Superior vena cava'],
+    answer: 1
+  },
+  {
+    q: 'Deoxygenated blood travels from the lower body into the right atrium via:',
+    options: ['Pulmonary artery', 'Pulmonary vein', 'Superior vena cava', 'Inferior vena cava'],
+    answer: 3
+  },
+  {
+    q: 'The blood is pushed from the right atrium into the right ventricle through:',
+    options: ['Bicuspid', 'Tricuspid', 'Septum', 'Mitral'],
+    answer: 1
+  },
+  {
+    q: 'The function of venules:',
+    options: ['Carry deoxygenated blood to the heart', 'Carry deoxygenated blood from venules to the capillaries', 'Carry deoxygenated blood from arteries to venules', 'Carry deoxygenated blood from capillaries to the larger veins'],
+    answer: 3
+  },
+  {
+    q: 'Thrombus is:',
+    options: ['Inflammation of a vein', 'A blood clot in the heart or blood vessels', 'Blood poisoning', 'Cancer of the blood'],
+    answer: 1
+  },
+  {
+    q: 'The pulmonary vein carries blood:',
+    options: ['From the lungs to the heart', 'From the heart to the rest of the body', 'From the heart to the lungs', 'From the heart to the upper body'],
+    answer: 0
+  },
+  {
+    q: 'Diabetes effects which organ of the body?',
+    options: ['Liver', 'Spleen', 'Pancreas', 'Lungs'],
+    answer: 2
+  },
+  {
+    q: 'Veins carry:',
+    options: ['Oxygenated blood to the heart', 'Oxygenated blood from the lungs to the heart', 'Deoxygenated blood back to the heart', 'Deoxygenated blood to the lungs'],
+    answer: 2
+  },
+  {
+    q: 'Plasma is described as:',
+    options: ['A slightly opaque straw coloured fluid', 'A thin opaque straw coloured fluid', 'A slightly thick straw coloured fluid', 'A thick opaque straw coloured fluid'],
+    answer: 0
+  },
+  {
+    q: 'Which one of the following is not transmitted by infected body fluids?',
+    options: ['Hepatitis B', 'Hepatitis C', 'Hepatitis A', 'Hepatitis D'],
+    answer: 2
+  },
+  {
+    q: 'What is haemophilia?',
+    options: ['An enlarged vein in the rectum', 'A blood clot', 'The blood\'s inability to clot', 'Inflammation of a vein'],
+    answer: 2
+  },
+  {
+    q: 'What is the main artery that supplies blood to the legs?',
+    options: ['Tibial', 'Renal', 'Brachial', 'Femoral'],
     answer: 3
   },
 ];
