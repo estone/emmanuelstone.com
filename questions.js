@@ -46,7 +46,7 @@ const QUESTIONS = [
     cat: 'muscular'
   },
   {
-    q: 'Which of the following doesn\\\'t contain involuntary muscle',
+    q: 'Which of the following doesn\'t contain involuntary muscle',
     options: ['Digestive system', 'Heart', 'Respiratory system', 'Genito-urinary system'],
     answer: 1,
     cat: 'urinary'
@@ -238,7 +238,7 @@ const QUESTIONS = [
     cat: 'nervous'
   },
   {
-    q: 'What would be a symptom of Bell\\\'s palsy',
+    q: 'What would be a symptom of Bell\'s palsy',
     options: ['Pain down the lower back and leg', 'Tremor', 'Loss of co-ordination', 'Facial paralysis'],
     answer: 3,
     cat: 'nervous'
@@ -532,7 +532,7 @@ const QUESTIONS = [
     cat: 'respiratory'
   },
   {
-    q: 'Define Bright\\\'s Disease:',
+    q: 'Define Bright\'s Disease:',
     options: ['Inflammation of the eye', 'Inflammation of the kidney', 'Inflammation of the bladder', 'Inflammation of the liver'],
     answer: 1,
     cat: 'urinary'
@@ -544,7 +544,7 @@ const QUESTIONS = [
     cat: 'urinary'
   },
   {
-    q: 'The causes of Addison\\\'s Syndrome are:',
+    q: 'The causes of Addison\'s Syndrome are:',
     options: ['Hyposecretion of adrenocortical hormones', 'Hyposecretion of the female sex hormones', 'Hypersecretion of adrenocortical hormones', 'Hypersecretion of the female sex hormones'],
     answer: 0,
     cat: 'endocrine'
@@ -718,7 +718,7 @@ const QUESTIONS = [
     cat: 'muscular'
   },
   {
-    q: 'The causes of Cushing\\\'s Disease include the:',
+    q: 'The causes of Cushing\'s Disease include the:',
     options: ['Hyposecretion of glucocorticoid hormones', 'Hyposecretion of adrenocortical hormones', 'Hypersecretion of glucocorticoid hormones', 'Hypersecretion of adrenocortical hormones'],
     answer: 2,
     cat: 'endocrine'
@@ -1018,7 +1018,7 @@ const QUESTIONS = [
     cat: 'cardiovascular'
   },
   {
-    q: 'Which blood group\\\'s plasma carries both anti-A and anti-B antibodies?',
+    q: 'Which blood group\'s plasma carries both anti-A and anti-B antibodies?',
     options: ['Group A', 'Group A and B', 'Group O', 'Group AB'],
     answer: 2,
     cat: 'cardiovascular'
@@ -1877,7 +1877,7 @@ const QUESTIONS = [
   },
   {
     q: 'What is meant by micturition?',
-    options: ['The act of passing urine', 'The act of passing faeces', 'The act of filtration within the glomerular capsule', 'The act of re-absorption of proteins, amino acids and sugars in nephrons of the'],
+    options: ['The act of passing urine', 'The act of passing faeces', 'The act of filtration within the glomerular capsule', 'The act of re-absorption of proteins, amino acids and sugars in the nephrons of the kidney'],
     answer: 0,
     cat: 'urinary'
   },
@@ -2212,7 +2212,7 @@ const QUESTIONS = [
     cat: 'muscular'
   },
   {
-    q: 'What is a muscle\\\'s main fuel',
+    q: 'What is a muscle\'s main fuel',
     options: ['Lactic acid', 'Glucose', 'Oxygen', 'Blood'],
     answer: 1,
     cat: 'muscular'
@@ -3958,7 +3958,7 @@ const QUESTIONS = [
     cat: 'nervous'
   },
   {
-    q: 'Bell\\\'s palsy is defined as which of the following?',
+    q: 'Bell\'s palsy is defined as which of the following?',
     options: ['Bouts of burning or stabbing pain along the nerve', 'Pain down the back and outside of the thigh', 'Facial paralysis caused by injury or infection of the facial nerve', 'Blood poisoning'],
     answer: 2,
     cat: 'nervous'
@@ -4024,7 +4024,7 @@ const QUESTIONS = [
     cat: 'skeletal'
   },
   {
-    q: 'Which part of the nervous system is responsible for the \\\'fight or flight\\\' response?',
+    q: 'Which part of the nervous system is responsible for the \'fight or flight\' response?',
     options: ['Parasympathetic nervous system', 'Somatic nervous system', 'Sympathetic nervous system', 'Central nervous system'],
     answer: 2,
     cat: 'nervous'
@@ -4066,7 +4066,7 @@ const QUESTIONS = [
     cat: 'reproductive'
   },
   {
-    q: 'What is the medical term for the \\\'true skin\\\' which contains blood vessels and nerves?',
+    q: 'What is the medical term for the \'true skin\' which contains blood vessels and nerves?',
     options: ['Epidermis', 'Dermis', 'Hypodermis', 'Corneum'],
     answer: 1,
     cat: 'skin'
@@ -4090,7 +4090,7 @@ const QUESTIONS = [
     cat: 'nervous'
   },
   {
-    q: 'Which gland is known as the \\\'master gland\\\' because it controls other endocrine glands?',
+    q: 'Which gland is known as the \'master gland\' because it controls other endocrine glands?',
     options: ['Thyroid gland', 'Pituitary gland', 'Adrenal gland', 'Pineal gland'],
     answer: 1,
     cat: 'endocrine'
@@ -4102,7 +4102,7 @@ const QUESTIONS = [
     cat: 'cardiovascular'
   },
   {
-    q: 'Which lymphatic organ is responsible for \\\'recycling\\\' old red blood cells?',
+    q: 'Which lymphatic organ is responsible for \'recycling\' old red blood cells?',
     options: ['Thymus', 'Spleen', 'Tonsils', 'Thoracic duct'],
     answer: 1,
     cat: 'lymphatic'
@@ -4144,7 +4144,7 @@ const QUESTIONS = [
     cat: 'nervous'
   },
   {
-    q: 'Which hormone regulates the body\\\'s basal metabolic rate?',
+    q: 'Which hormone regulates the body\'s basal metabolic rate?',
     options: ['Thyroxine', 'Oxytocin', 'Calcitonin', 'Cortisol'],
     answer: 0,
     cat: 'endocrine'
@@ -4180,13 +4180,13 @@ const QUESTIONS = [
     cat: 'skin'
   },
   {
-    q: 'Which of the following bones is found in the lower arm on the \\\'thumb side\\\'?',
+    q: 'Which of the following bones is found in the lower arm on the \'thumb side\'?',
     options: ['Ulna', 'Humerus', 'Radius', 'Fibula'],
     answer: 2,
     cat: 'skeletal'
   },
   {
-    q: 'Which muscle is known as the \\\'tailor\\\'s muscle\\\' and is the longest muscle in the body?',
+    q: 'Which muscle is known as the \'tailor\'s muscle\' and is the longest muscle in the body?',
     options: ['Rectus femoris', 'Sartorius', 'Gracilis', 'Gluteus maximus'],
     answer: 1,
     cat: 'muscular'
@@ -4204,7 +4204,7 @@ const QUESTIONS = [
     cat: 'endocrine'
   },
   {
-    q: 'In the cardiac cycle, what does \\\'systole\\\' refer to?',
+    q: 'In the cardiac cycle, what does \'systole\' refer to?',
     options: ['The relaxation phase of the heart', 'The contraction phase of the heart', 'The sound of valves closing', 'The electrical signal start'],
     answer: 1,
     cat: 'cardiovascular'
@@ -4228,7 +4228,7 @@ const QUESTIONS = [
     cat: 'urinary'
   },
   {
-    q: 'What is the name of the \\\'yellow body\\\' that forms in the ovary after ovulation and secretes progesterone?',
+    q: 'What is the name of the \'yellow body\' that forms in the ovary after ovulation and secretes progesterone?',
     options: ['Graafian follicle', 'Corpus luteum', 'Endometrium', 'Cervix'],
     answer: 1,
     cat: 'reproductive'
@@ -4336,7 +4336,7 @@ const QUESTIONS = [
     cat: 'skeletal'
   },
   {
-    q: 'Which of the following is an example of a \\\'long bone\\\'?',
+    q: 'Which of the following is an example of a \'long bone\'?',
     options: ['Carpals', 'Humerus', 'Sternum', 'Vertebrae'],
     answer: 1,
     cat: 'skeletal'
@@ -4354,7 +4354,7 @@ const QUESTIONS = [
     cat: 'endocrine'
   },
   {
-    q: 'Which bone is commonly known as the \\\'shoulder blade\\\'?',
+    q: 'Which bone is commonly known as the \'shoulder blade\'?',
     options: ['Clavicle', 'Scapula', 'Sternum', 'Radius'],
     answer: 1,
     cat: 'skeletal'
@@ -4366,7 +4366,7 @@ const QUESTIONS = [
     cat: 'muscular'
   },
   {
-    q: 'Which of the following describes \\\'isometric\\\' muscle contraction?',
+    q: 'Which of the following describes \'isometric\' muscle contraction?',
     options: ['The muscle shortens', 'The muscle lengthens', 'The muscle length remains constant while tension increases', 'The muscle relaxes completely'],
     answer: 2,
     cat: 'skeletal'
@@ -4378,7 +4378,7 @@ const QUESTIONS = [
     cat: 'muscular'
   },
   {
-    q: 'What occurs when a muscle \\\'atrophies\\\'?',
+    q: 'What occurs when a muscle \'atrophies\'?',
     options: ['The muscle grows larger', 'The muscle fibres waste away or shrink', 'The muscle remains in partial contraction', 'The muscle becomes more flexible'],
     answer: 1,
     cat: 'muscular'
@@ -4390,7 +4390,7 @@ const QUESTIONS = [
     cat: 'muscular'
   },
   {
-    q: 'The \\\'latissimus dorsi\\\' muscle is primarily involved in:',
+    q: 'The latissimus dorsi muscle is primarily involved in:',
     options: ['Flexion of the neck', 'Adduction and extension of the arm', 'Elevation of the eyebrows', 'Flexion of the hip'],
     answer: 1,
     cat: 'muscular'
@@ -4432,7 +4432,7 @@ const QUESTIONS = [
     cat: 'respiratory'
   },
   {
-    q: 'Which branch of the nervous system is active during \\\'rest and digest\\\'?',
+    q: 'Which branch of the nervous system is active during \'rest and digest\'?',
     options: ['Sympathetic', 'Parasympathetic', 'Somatic', 'Central'],
     answer: 1,
     cat: 'nervous'
@@ -4462,7 +4462,7 @@ const QUESTIONS = [
     cat: 'endocrine'
   },
   {
-    q: 'Which gland is considered the \\\'master gland\\\'?',
+    q: 'Which gland is considered the \'master gland\'?',
     options: ['Hypothalamus', 'Pituitary gland', 'Thymus', 'Pancreas'],
     answer: 1,
     cat: 'endocrine'
@@ -4474,7 +4474,7 @@ const QUESTIONS = [
     cat: 'endocrine'
   },
   {
-    q: 'Which hormone regulates the body\\\'s metabolic rate?',
+    q: 'Which hormone regulates the body\'s metabolic rate?',
     options: ['Insulin', 'Thyroxine', 'Glucagon', 'Calcitonin'],
     answer: 1,
     cat: 'endocrine'
@@ -4486,7 +4486,7 @@ const QUESTIONS = [
     cat: 'endocrine'
   },
   {
-    q: 'The \\\'islets of Langerhans\\\' are found in which organ?',
+    q: 'The \'islets of Langerhans\' are found in which organ?',
     options: ['Liver', 'Pancreas', 'Kidney', 'Adrenal gland'],
     answer: 1,
     cat: 'endocrine'
@@ -4516,7 +4516,7 @@ const QUESTIONS = [
     cat: 'cardiovascular'
   },
   {
-    q: 'What does \\\'systole\\\' refer to?',
+    q: 'What does \'systole\' refer to?',
     options: ['Relaxation of the heart', 'Contraction of the heart', 'Closing of the valves', 'Heart failure'],
     answer: 1,
     cat: 'cardiovascular'
@@ -4528,7 +4528,7 @@ const QUESTIONS = [
     cat: 'cardiovascular'
   },
   {
-    q: 'What is the name of the \\\'pacemaker\\\' of the heart?',
+    q: 'What is the name of the \'pacemaker\' of the heart?',
     options: ['AV node', 'SA node', 'Bundle of His', 'Purkinje fibres'],
     answer: 1,
     cat: 'cardiovascular'
@@ -4708,7 +4708,7 @@ const QUESTIONS = [
     cat: 'nervous'
   },
   {
-    q: 'Parkinson\\\'s disease is caused by:',
+    q: 'Parkinson\'s disease is caused by:',
     options: ['Damage to nerve endings', 'Damage to the myelin sheath', 'Damage to basal ganglia of the brain', 'Damage to the facial nerve'],
     answer: 2,
     cat: 'nervous'
@@ -5116,7 +5116,7 @@ const QUESTIONS = [
     cat: 'endocrine'
   },
   {
-    q: 'Which one of the following is not an effect of cushing\\\'s syndrome?',
+    q: 'Which one of the following is not an effect of cushing\'s syndrome?',
     options: ['Moon shaped face', 'Low blood pressure', 'Muscle atrophy', 'Mental illness'],
     answer: 1,
     cat: 'cardiovascular'
@@ -5734,7 +5734,7 @@ const QUESTIONS = [
     cat: 'cardiovascular'
   },
   {
-    q: 'The heart\\\'s action is controlled by:',
+    q: 'The heart\'s action is controlled by:',
     options: ['The central nervous system', 'The autonomic nervous system', 'The spinal cord', 'The peripheral nervous system'],
     answer: 1,
     cat: 'nervous'
@@ -6155,7 +6155,7 @@ const QUESTIONS = [
   },
   {
     q: 'Which of the following are muscles of the lower arm and hand?',
-    options: ['Tibialis anterior', 'Soleus', 'Peroneus longus', 'Flexor carpi digitorum'],
+    options: ['Tibialis anterior', 'Soleus', 'Peroneus longus', 'Flexor digitorum superficialis'],
     answer: 3,
     cat: 'muscular'
   },
