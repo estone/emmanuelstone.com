@@ -507,14 +507,48 @@
     // Per-category question pools (shuffled independently, refilled when exhausted)
     const pools = {};
 
-    function getPool(cat) {
+    // ── Seen-question tracking (persists across sessions via localStorage) ──────
+    const SEEN_KEY = 'ap-quiz-seen';
+
+    function loadSeen() {
+      try { return JSON.parse(localStorage.getItem(SEEN_KEY) || '{}'); }
+      catch(e) { return {}; }
+    }
+
+    function markSeen(questions) {
+      const seen = loadSeen();
+      const now = Date.now();
+      questions.forEach(q => { seen[q.q] = now; });
+      try { localStorage.setItem(SEEN_KEY, JSON.stringify(seen)); }
+      catch(e) {}
+    }
+
+    // Returns pool sorted so oldest/unseen questions are at the end (popped first).
+    // Adds up to 10-min random jitter so equal-priority questions aren't always
+    // in the same order.
+    function buildPool(cat, seen) {
+      const qs = QUESTIONS.filter(q => q.cat === cat);
+      const jittered = {};
+      qs.forEach(q => {
+        jittered[q.q] = (seen[q.q] || 0) + Math.random() * 600000;
+      });
+      // Sort descending → oldest/unseen land at the end for pop()
+      qs.sort((a, b) => jittered[b.q] - jittered[a.q]);
+      return qs;
+    }
+
+    function getPool(cat, seen) {
       if (!pools[cat] || pools[cat].length === 0) {
-        pools[cat] = shuffle(QUESTIONS.filter(q => q.cat === cat));
+        pools[cat] = buildPool(cat, seen);
       }
       return pools[cat];
     }
 
     function buildSession() {
+      // Rebuild pools fresh each session so priority order is current
+      Object.keys(pools).forEach(k => delete pools[k]);
+      const seen = loadSeen();
+
       // Calculate how many questions to draw from each category
       const alloc = {};
       let allocated = 0;
@@ -539,10 +573,10 @@
       // Draw questions from each category pool
       session = [];
       cats.forEach(cat => {
-        const pool = getPool(cat);
+        const pool = getPool(cat, seen);
         for (let i = 0; i < alloc[cat]; i++) {
           if (pool.length === 0) {
-            pools[cat] = shuffle(QUESTIONS.filter(q => q.cat === cat));
+            pools[cat] = buildPool(cat, seen);
           }
           session.push(pools[cat].pop());
         }
@@ -550,6 +584,9 @@
 
       // Shuffle the final session so categories aren't grouped
       session = shuffle(session);
+
+      // Mark selected questions as seen now so they deprioritise next session
+      markSeen(session);
     }
 
     function startQuiz() {
