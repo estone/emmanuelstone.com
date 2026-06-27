@@ -6141,4 +6141,118 @@ const QUESTIONS = [
     answer: 3,
     cat: 'cardiovascular'
   },
+  {
+    q: 'How many types of muscles are there?',
+    options: ['Two', 'Three (cardiac, smooth and skeletal)', 'Four', 'Five'],
+    answer: 1,
+    cat: 'muscular'
+  },
+  {
+    q: 'What muscle lifts the trunk after sitting?',
+    options: ['Gluteus maximus', 'Gluteus minimus', 'Gluteus medius', 'Biceps femoris'],
+    answer: 0,
+    cat: 'muscular'
+  },
+  {
+    q: 'Which of the following are muscles of the lower arm and hand?',
+    options: ['Tibialis anterior', 'Soleus', 'Peroneus longus', 'Flexor carpi digitorum'],
+    answer: 3,
+    cat: 'muscular'
+  },
+  {
+    q: 'The muscular system is controlled by which system?',
+    options: ['The cardiovascular system', 'The integumentary system', 'The nervous system', 'The endocrine system'],
+    answer: 2,
+    cat: 'muscular'
+  },
+  {
+    q: 'What is the definition of plantarflexion?',
+    options: ['Point toes up', 'Point toes down', 'Turn palm down', 'Turn palm up'],
+    answer: 1,
+    cat: 'muscular'
+  },
+  {
+    q: 'What is an example of smooth muscle?',
+    options: ['Masseter', 'Bladder', 'Heart', 'Pronator teres'],
+    answer: 1,
+    cat: 'muscular'
+  },
+  {
+    q: 'Which type of muscle cell is multinucleated?',
+    options: ['Cardiac', 'Smooth', 'Skeletal', 'All of the above'],
+    answer: 2,
+    cat: 'muscular'
+  },
+  {
+    q: 'Each myosin filament is surrounded by how many actin filaments?',
+    options: ['Two', 'Four', 'Six', 'Eight'],
+    answer: 2,
+    cat: 'muscular'
+  },
+  {
+    q: 'Which of the following diseases causes multiple cysts to form on the ovaries?',
+    options: ['Polycystic ovarian syndrome', 'Amenorrhoea', 'Dysmenorrhoea', 'Ectopic pregnancy'],
+    answer: 0,
+    cat: 'reproductive'
+  },
+  {
+    q: 'Which part of the reproductive system does mastitis affect?',
+    options: ['The fallopian tubes', 'The uterus', 'The breasts', 'The ovaries'],
+    answer: 2,
+    cat: 'reproductive'
+  },
+  {
+    q: 'Where does fertilization take place in the female reproductive system?',
+    options: ['Uterus', 'Fallopian tubes', 'Cervix', 'Ovaries'],
+    answer: 1,
+    cat: 'reproductive'
+  },
+  {
+    q: 'Which vein does the thoracic duct drain into?',
+    options: ['The left subclavian vein', 'The right subclavian vein', 'The superior vena cava', 'The inferior vena cava'],
+    answer: 0,
+    cat: 'lymphatic'
+  },
+  {
+    q: 'How many layers do lymphatic vessels have?',
+    options: ['One', 'Two', 'Three', 'Four'],
+    answer: 2,
+    cat: 'lymphatic'
+  },
+  {
+    q: 'Where would the lymph from the left arm and shoulder drain into?',
+    options: ['The left subclavian vein', 'The thoracic duct', 'The right lymphatic duct', 'The left jugular vein'],
+    answer: 1,
+    cat: 'lymphatic'
+  },
+  {
+    q: 'An afferent vessel transports lymph:',
+    options: ['To the lymphatic ducts', 'Back to the bloodstream', 'To the lymphatic nodes', 'To the lymphatic capillaries'],
+    answer: 2,
+    cat: 'lymphatic'
+  },
+  {
+    q: 'Saliva contains which enzyme that breaks down carbohydrate (starch)?',
+    options: ['Gastrin', 'Pepsin', 'Amylase', 'Lipase'],
+    answer: 2,
+    cat: 'digestive'
+  },
+  {
+    q: 'How does massage help the digestive system?',
+    options: ['By reducing stiffness and mobility', 'By reducing swelling', 'By speeding up desquamation', 'By improving circulation and delivery of nutrients'],
+    answer: 3,
+    cat: 'digestive'
+  },
+  {
+    q: 'What does lipase digest?',
+    options: ['Starch', 'Proteins', 'Fats', 'Carbohydrates'],
+    answer: 2,
+    cat: 'digestive'
+  },
+  {
+    q: 'Which digested foods are absorbed by the lacteals?',
+    options: ['Amino acids', 'Fatty acids and glycerol', 'Sugars', 'Polysaccharides'],
+    answer: 1,
+    cat: 'digestive'
+  },
 ];
