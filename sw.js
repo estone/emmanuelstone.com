@@ -1,5 +1,5 @@
 // Service Worker — caches all app files for full offline use
-const CACHE = 'ap-quiz-v3';
+const CACHE = 'ap-quiz-v4';
 
 const ASSETS = [
   '/anatomy.html',
